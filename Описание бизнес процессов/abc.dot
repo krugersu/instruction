@@ -1,0 +1,2 @@
+digraph abc {rankdir=LR; a->b->c
+a [label=<foo<SUP>bar</SUP>>];}

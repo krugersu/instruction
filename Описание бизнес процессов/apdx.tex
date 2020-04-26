@@ -1,0 +1,560 @@
+% !TeX root = Описание бизнес процессов.tex
+% !TeX encoding = UTF-8
+% !TeX spellcheck = russian_english
+\appendix
+\titleformat{\section}[display]
+{\normalfont\Large\bfseries}
+{\centering Приложение\ \thesection\\(справочное)}
+{0pt}{\Large\centering}
+\renewcommand{\thesection}{\Asbuk{section}}
+
+\section{Приложение: Константы и их описание}
+ Список констант добавленных в конфигурацию с типом и  описанием  их назначения:\par
+\begin{enumerate}[label=(\arabic*)]
+
+\vspace{\baselineskip}
+\item \textbf{\textit{крюДатаЗапретаПроведенияДокументовБезТранспортнойТары}}
+\begin{description}
+	\item[Тип] : Дата
+	\item[Использование] : Дата начала запрета проведения документов без транспортной тары
+\end{description}
+\vspace{\baselineskip}
+\item \textbf{\textit{крюДополнительныеЗначенияМагазинКПП}}
+\begin{description}
+	\item[Тип] : ПланВидовХарактеристик
+	\item[Использование] : Использование в конфигурации и расширениях не обнаружено
+\end{description}
+\vspace{\baselineskip}
+\item \textbf{\textit{крюГраницаПоследовательностиУстановкиСебестоимости}}
+\begin{description}
+	\item[Тип] : Дата
+	\item[Использование]: Использование в конфигурации и расширениях не обнаружено
+\end{description}
+
+\vspace{\baselineskip}
+\item \textbf{\textit{крюИспользоватьАвтонумерациюАртикула}}
+\begin{description}
+	\item[Тип] : Число
+	\item[Использование]: Включает использование собственного нумератора
+\end{description}
+
+\vspace{\baselineskip}
+\item \textbf{\textit{крюБлокироватьАртикул}}
+\begin{description}
+	\item[Тип] : Булево
+	\item[Использование]: Отвечает за блокировку артикула
+\end{description}
+
+\vspace{\baselineskip}
+\item \textbf{\textit{крюИспользоватьБлокировкуНоменклатуры}}
+\begin{description}
+	\item[Тип] : Булево
+	\item[Использование]: Отвечает за блокировку справочника <<Номенклатура>>
+\end{description}
+
+\vspace{\baselineskip}
+\item \textbf{\textit{крюИспользоватьБлокировкуВводаНовогоНоментклатуры}}
+\begin{description}
+	\item[Тип] : Булево
+	\item[Использование]: Использование в конфигурации и расширениях не обнаружено
+\end{description}
+
+
+\vspace{\baselineskip}
+\item \textbf{\textit{крюПроверятьЦеныПоставщика}}
+\begin{description}
+	\item[Тип] : Булево
+	\item[Использование]: Использование в конфигурации и расширениях не обнаружено
+\end{description}
+
+\vspace{\baselineskip}
+\item \textbf{\textit{крюПогрешность}}
+\begin{description}
+	\item[Тип] : Число
+	\item[Использование]: Использование в конфигурации и расширениях не обнаружено
+\end{description}
+
+\vspace{\baselineskip}
+\item \textbf{\textit{крюКонтролироватьДисконтКарты}}
+\begin{description}
+	\item[Тип] : Булево
+	\item[Использование]: Устанавливает контроль за созданием дисконтных карт
+\end{description}
+
+\vspace{\baselineskip}
+\item \textbf{\textit{крюДисконтКартаДляВыбора}}
+\begin{description}
+	\item[Тип] : СправочникСсылка.ВидыДисконтныхКарт
+	\item[Использование]: Устанавливает разрешенный для создания вид дисконтных карт
+\end{description}
+
+\vspace{\baselineskip}
+\item \textbf{\textit{крюКонролироватьПроведениеОРП}}
+\begin{description}
+	\item[Тип] : Булево
+	\item[Использование]: Контролировать или нет при проведении ОРП в узле проводят документ или в ЦУ
+\end{description}
+
+
+\vspace{\baselineskip}
+\item \textbf{\textit{крюИнфоТекстДляМагазина}}
+\begin{description}
+	\item[Тип] : Строка
+	\item[Использование]: Информация для печати в чеке
+\end{description}
+
+\vspace{\baselineskip}
+\item \textbf{\textit{крюИнфоТекстДляКассира}}
+\begin{description}
+	\item[Тип] : Строка
+	\item[Использование]: Содержит информацию, которая показывается кассиру перед запуском рабочего места (перед началом продаж)
+\end{description}
+
+
+\vspace{\baselineskip}
+\item \textbf{\textit{крюВыполнятьПроверкуМинимальныхОстатков}}
+\begin{description}
+	\item[Тип] : Булево
+	\item[Использование]: Запускать или нет обработку по проверке минимальных остатков ключевых позиций при старте системы
+\end{description}
+
+
+\vspace{\baselineskip}
+\item \textbf{\textit{крюКонтролироватьВозвратнуюТару}}
+\begin{description}
+	\item[Тип] : Булево
+	\item[Использование]: Определяет выполнять ли контроль на наличие возвратной тары в документе
+\end{description}
+
+
+\vspace{\baselineskip}
+\item \textbf{\textit{крюПроводитьТару}}
+\begin{description}
+	\item[Тип] : Булево
+	\item[Использование]: Отвечает за движения по регистру <<ТараНаСкладах>>
+\end{description}
+
+\vspace{\baselineskip}
+\item \textbf{\textit{крюДатаНачалаУчетаКег}}
+\begin{description}
+    \item[Тип] : Дата
+    \item[Использование]: Дата с которой начинаем учитывать движение тары
+\end{description}
+
+\vspace{\baselineskip}
+\item \textbf{\textit{крюПроверятьОбработкуЧековККМ}}
+\begin{description}
+    \item[Тип] : Булево
+    \item[Использование]: Проверять ли наличие не проведенных чеков
+\end{description}
+
+\vspace{\baselineskip}
+\item \textbf{\textit{крюПроверятьОбъемПиваИБутылокВЧеке}}
+\begin{description}
+    \item[Тип] : Булево
+    \item[Использование]: Проверять ли в чеке соответствие объема разливных напитков и объема тары
+\end{description}
+
+\vspace{\baselineskip}
+\item \textbf{\textit{крюОтправлятьАктыЕГАИСПриЗакрытииСмены}}
+\begin{description}
+    \item[Тип] : Булево
+    \item[Использование]: Выполнять отправку Актов списания ЕГАИС срразу при закрытии смены или нет
+\end{description}
+
+\vspace{\baselineskip}
+\item \textbf{\textit{крюДопПроверкаОстатковНоменклатурыПриПроведенииОРП}}
+\begin{description}
+    \item[Тип] : Булево
+    \item[Использование]: Если константа установлена в <<Ложь>>, то при проверке отрицательных остатков при проведении ОРП, берется только номенклатура с реквизитом <<ОтпускатьВМинус>> = <<Ложь>>. Т.е. контроль только номенклатуры, которую запрещено продавать в минус.
+\end{description}
+
+\vspace{\baselineskip}
+\item \textbf{\textit{крюПомещатьНепробитыйЧекВПеременную}}
+\begin{description}
+    \item[Тип] : Булево
+    \item[Использование]: Разрешает фиксировать ссылку на не пробитый чек в реквизите формы РМК
+\end{description}
+
+
+\vspace{\baselineskip}
+\item \textbf{\textit{крюСинхронизацияТолькоМонопольно}}
+\begin{description}
+    \item[Тип] : Булево
+    \item[Использование]: Устанавливает режим монопольной синхронизации
+\end{description}
+
+\vspace{\baselineskip}
+\item \textbf{\textit{крюЧасЗапретаСинхронизации}}
+\begin{description}
+    \item[Тип] : Число
+    \item[Использование]: Устанавливает время с котрого запрещена синхронизация
+\end{description}
+
+
+\vspace{\baselineskip}
+\item \textbf{\textit{крюДокументыЗакрытияСменыРавныДатеНачалаСмены}}
+\begin{description}
+    \item[Тип] : Булево
+    \item[Использование]: Будут ли у документов закрытия смены устанавливаться дата началом смены
+\end{description}
+
+
+
+\vspace{\baselineskip}
+\item \textbf{\textit{крюТекстБлокировкаПродаж}}
+\begin{description}
+    \item[Тип] : Строка
+    \item[Использование]: Механизм не работал. Был переписан. Включается константой <<крюЗакрытияКассовойСмены\_Монопольно>>
+\end{description}
+
+
+\vspace{\baselineskip}
+\item \textbf{\textit{крюБлокировкаПродаж}}
+\begin{description}
+    \item[Тип] : Булево
+    \item[Использование]: Механизм не работал. Был переписан. Включается константой <<крюЗакрытияКассовойСмены\_Монопольно>>
+\end{description}
+
+\vspace{\baselineskip}
+\item \textbf{\textit{крюПопыткиПроводитьПробитыйЧек}}
+\begin{description}
+    \item[Тип] : Булево
+    \item[Использование]: Делать или нет попытки многократного проведения чека (для чего?)
+\end{description}
+
+
+\vspace{\baselineskip}
+\item \textbf{\textit{крюОтчетБезГашенияПоЭквайрингу}}
+\begin{description}
+    \item[Тип] : Булево
+    \item[Использование]: Разрешить выводить отчет без гашения по эквайрингу
+\end{description}
+
+
+
+\vspace{\baselineskip}
+\item \textbf{\textit{крюРазделениеПоСобственнойТаре}}
+\begin{description}
+    \item[Тип] : Булево
+    \item[Использование]: Указывать или нет в чеке собственную тару, если да то в чек добавляется строчка <<Налито в собственную потребительскую тару>>
+\end{description}
+
+\vspace{\baselineskip}
+\item \textbf{\textit{крюУбратьАвтоСкидкиВПервомЧеке}}
+\begin{description}
+    \item[Тип] : Булево
+    \item[Использование]: Очищать или нет поля <<СуммаАвтоматическойСкидки>> и <<ПроцентАвтоматическойСкидки>> в чеке
+\end{description}
+
+
+\vspace{\baselineskip}
+\item \textbf{\textit{крюБлокировкаПродажПослеДвенадцати}}
+\begin{description}
+    \item[Тип] : Булево
+    \item[Использование]: Регулирует запрет продаж после 00-00
+\end{description}
+
+\vspace{\baselineskip}
+\item \textbf{\textit{крюКонтролироватьСубконто}}
+\begin{description}
+    \item[Тип] : Булево
+    \item[Использование]: Если контролировать, то проверяется наличие статьи ДДС в табличной части <<РасшифровкаПлатежа>> документа <<РасходныйКассовыйОрдер>> и соответствие этой статьи определенному списку
+\end{description}
+
+\vspace{\baselineskip}
+\item \textbf{\textit{крюБлокироватьДДС}}
+\begin{description}
+    \item[Тип] : Булево
+    \item[Использование]: Если блокировка включена, то при попытке записи элемента справочника <<СтатьиДвиженияДенежныхСредств>> происходит отказ от записи
+\end{description}
+
+
+\vspace{\baselineskip}
+\item \textbf{\textit{крюЗапретВозвратаНаДругойКассе}}
+\begin{description}
+    \item[Тип] : Булево
+    \item[Использование]: Запрещает возврат по другой кассе
+\end{description}
+
+
+\vspace{\baselineskip}
+\item \textbf{\textit{крюВозвратВПределахСмены}}
+\begin{description}
+    \item[Тип] : Булево
+    \item[Использование]: Разрешает проводить возврат, только в пределах смены в которой был пробит чек
+\end{description}
+
+
+\vspace{\baselineskip}
+\item \textbf{\textit{крюОчищатьНДСВВозвратеПоставщику}}
+\begin{description}
+    \item[Тип] : Булево
+    \item[Использование]: При установленной константе очищает устанавливает в <<Ложь>> реквизиты <<УчитыватьНДС>> и <<ЦенаВключаетНДС>> в документе <<ВозвратТоваровПоставщику>>
+    \begin{myquote}
+        Проверить как это соотносится с механизмом НДС с КХН
+    \end{myquote}
+\end{description}
+
+
+
+\vspace{\baselineskip}
+\item \textbf{\textit{крюРазделительТиреВПКО}}
+\begin{description}
+    \item[Тип] : Булево
+    \item[Использование]: При установленной константе в макете инкассации в РКО в сумме цифрами, запятая заменяется на тире
+\end{description}
+
+
+\vspace{\baselineskip}
+\item \textbf{\textit{крюПечатьРКОСразуНаПринтер}}
+\begin{description}
+    \item[Тип] : Булево
+    \item[Использование]: При установленной константе печатный формы инкассации в РКО отправляются на принтер без предварительного просмотра
+\end{description}
+
+\vspace{\baselineskip}
+\item \textbf{\textit{крюПодотчетПКОНаОсновании}}
+\begin{description}
+    \item[Тип] : Булево
+    \item[Использование]: Для создания ПКО для возврата подотчета
+\end{description}
+
+
+\vspace{\baselineskip}
+\item \textbf{\textit{крюКонтролироватьПКОПодотчет}}
+\begin{description}
+    \item[Тип] : Булево
+    \item[Использование]: Если ПКО подотчет (возврат из подотчета), то без документа основания не проводить
+\end{description}
+
+
+\vspace{\baselineskip}
+\item \textbf{\textit{крюПроверятьГТД}}
+\begin{description}
+    \item[Тип] : Булево
+    \item[Использование]: Включает проверку ГТД (Не используется в текущий момент)
+\end{description}
+
+\vspace{\baselineskip}
+\item \textbf{\textit{крюДатаНачалаПроверкиГТД}}
+\begin{description}
+    \item[Тип] : Дата
+    \item[Использование]: Дата начала проверки ГТД (Не используется в текущий момент)
+\end{description}
+
+\vspace{\baselineskip}
+\item \textbf{\textit{крюКоличествоСимволовГТД}}
+\begin{description}
+    \item[Тип] : Дата
+    \item[Использование]: Количество символо при проверке ГТД (Не используется в текущий момент)
+\end{description}
+
+\vspace{\baselineskip}
+\item \textbf{\textit{крюВерсияПротоколоЕГАИС}}
+\begin{description}
+    \item[Тип] : Дата
+    \item[Использование]: Содержит версию протокола ЕГАИС для обмена с УТМ (Не используется в текущий момент)
+\end{description}
+
+\vspace{\baselineskip}
+\item \textbf{\textit{крюВерсияПротоколоЕГАИС}}
+\begin{description}
+    \item[Тип] : Число
+    \item[Использование]: Содержит версию протокола ЕГАИС для обмена с УТМ (Не используется в текущий момент?)
+\end{description}
+
+\vspace{\baselineskip}
+\item \textbf{\textit{крюШаблонНетГТД}}
+\begin{description}
+    \item[Тип] : Строка
+    \item[Использование]: Содержит строку шаблона для проверки ГТД (Не используется в текущий момент)
+\end{description}
+
+\vspace{\baselineskip}
+\item \textbf{\textit{крюРазделениеПоКулинарии}}
+\begin{description}
+    \item[Тип] : Булево
+    \item[Использование]: Управляет разделением на два чека кулинария и все остальное
+\end{description}
+
+\vspace{\baselineskip}
+\item \textbf{\textit{КрюРазрешитьНесколькоККМ}}
+\begin{description}
+    \item[Тип] : Булево
+    \item[Использование]: Разрешает использование виртуальных касс
+\end{description}
+
+\vspace{\baselineskip}
+\item \textbf{\textit{крюТекущийМагазин}}
+\begin{description}
+    \item[Тип] : СправочникСсылка.Магазины
+    \item[Использование]: Сохраняет текущий магазин для различных обработок
+\end{description}
+
+\vspace{\baselineskip}
+\item \textbf{\textit{КрюОпросКассираПриОкончанииСмены}}
+\begin{description}
+    \item[Тип] : Булево
+    \item[Использование]: Выполнять или нет опрос кассиров при закрытии смены (внесение чисел с чека для контроля)
+\end{description}
+
+\vspace{\baselineskip}
+\item \textbf{\textit{КрюОпросКассировСравниватьБезнал}}
+\begin{description}
+    \item[Тип] : Булево
+    \item[Использование]: Выполнять или нет сравнение данных по безналу при закрытии смены
+\end{description}
+
+\vspace{\baselineskip}
+\item \textbf{\textit{КрюОпросКассировСравниватьОРП}}
+\begin{description}
+    \item[Тип] : Булево
+    \item[Использование]: Выполнять или нет сравнение данных по налу при закрытии смены
+\end{description}
+
+\vspace{\baselineskip}
+\item \textbf{\textit{КрюДопПроведениеОРП}}
+\begin{description}
+    \item[Тип] : Булево
+    \item[Использование]: Выполнять или нет доп проведение ОРП (не очень ясно)
+\end{description}
+
+\vspace{\baselineskip}
+\item \textbf{\textit{крюВключитьБлокировкуПараллельнойОплатыЭквайринг}}
+\begin{description}
+    \item[Тип] : Булево
+    \item[Использование]: При установленной константе блокируется одновременная оплата по безналу на разных кассах
+\end{description}
+
+\vspace{\baselineskip}
+\item \textbf{\textit{крюБлокировкаПараллельнойОплатыЭквайринг}}
+\begin{description}
+    \item[Тип] : Булево
+    \item[Использование]: Связана с константой <<крюВключитьБлокировкуПараллельнойОплатыЭквайринг>>
+\end{description}
+
+
+\vspace{\baselineskip}
+\item \textbf{\textit{крюКопироватьФайлТерминала}}
+\begin{description}
+    \item[Тип] : Булево
+    \item[Использование]: При установленной константе <<p-файл>> с текстом текущего чека, копируется в служебный каталог
+\end{description}
+
+\vspace{\baselineskip}
+\item \textbf{\textit{крюЗаменитьНедопустимыеСимволыСбербанк}}
+\begin{description}
+    \item[Тип] : Булево
+    \item[Использование]: При установленной константе заменяет недопустимые символы в XML при печати чека
+\end{description}
+
+\vspace{\baselineskip}
+\item \textbf{\textit{крюОплатаБезСложнойФорсы}}
+\begin{description}
+    \item[Тип] : Булево
+    \item[Использование]: Константа включает доработку в обработке <<РМКУправляемыйРежим>>.
+    Изменения касаются оплаты. Отключена сложная оплаты. Из основного интерфейса спрятаны кнопки нал, базнал оплат.
+\end{description}
+
+\vspace{\baselineskip}
+\item \textbf{\textit{крюПроверкаФормированияЧековККМ\_РМКУправляемыйРежим}}
+\begin{description}
+    \item[Тип] : Булево
+    \item[Использование]: Управляет процедурой проверки чеков (???)
+\end{description}
+
+\vspace{\baselineskip}
+\item \textbf{\textit{крюИспользоватьНовыйМеханизмДеленияЧековККМ}}
+\begin{description}
+    \item[Тип] : Булево
+    \item[Использование]:  По данной константе запускается переписанный механизм дробления чеков. Чтоб чеки в любом случае записывалась. Если все работает хорошо процедуру <<ПробитьЧекККМСложныйСлучайЗавершение>> можно будет удалить полностью.
+\end{description}
+
+\vspace{\baselineskip}
+\item \textbf{\textit{крюСебестоимостьВПеремещении}}
+\begin{description}
+    \item[Тип] : Булево
+    \item[Использование]: Управляет механизмом выбора вида цен для заполнения в <<ПеремещениеТоваров>>
+\end{description}
+
+\vspace{\baselineskip}
+\item \textbf{\textit{крюСверкаИтоговСЗакрытиемЭквайрингаДоОпросаКассира}}
+\begin{description}
+    \item[Тип] : Булево
+    \item[Использование]: Участвует в механизме опроса кассиров
+\end{description}
+
+
+\vspace{\baselineskip}
+\item \textbf{\textit{крюЗакрытияКассовойСмены\_Монопольно}}
+\begin{description}
+    \item[Тип] : Булево
+    \item[Использование]: Включает механизм, разделяющий продажу и закрытия смены.
+    Если идет продажа закрытия смены ожидает и наоборот
+\end{description}
+
+\vspace{\baselineskip}
+\item \textbf{\textit{крюКонтрольСвоевременногоЗакрытияКассовойСмены}}
+\begin{description}
+    \item[Тип] : Булево
+    \item[Использование]: Включает механизм контроля оставшегося времени на открытой кассе (не должно превышать 24ч). За 30 мин. до истечения включается оповещения кассира. За 10 мин. до истечения блокируется возможность продажи
+\end{description}
+
+\vspace{\baselineskip}
+\item \textbf{\textit{КрюЗапретВозвратаПоЭквайрингуРазбитыхЧеков\_Кулинария}}
+\begin{description}
+    \item[Тип] : Булево
+    \item[Использование]: Блокировка возврата если чек был разбит по кулинарии, и вид оплаты безнал
+\end{description}
+
+
+\vspace{\baselineskip}
+\item \textbf{\textit{крюПроверятьПомеченнуюНаУдалениеВДокументах}}
+\begin{description}
+    \item[Тип] : Булево
+    \item[Использование]: Проверять или нет помеченную на удаление номенклатуру в документа в ТЧ Товары
+\end{description}
+
+
+\vspace{\baselineskip}
+\item \textbf{\textit{КрюКоличествоОбрабатываемыхЗаписей\_РегламентнаяСверткаБонусныеБаллы}}
+\begin{description}
+    \item[Тип] : Булево
+    \item[Использование]: Регламентное задание отключено при константе равной 0.
+    Указывается количество обрабатываемых дисконтных карт за один цикл регламентного задания
+\end{description}
+
+\vspace{\baselineskip}
+\item \textbf{\textit{КрюДисконтныйСервер\_ВключитьПроверкуСоединения}}
+\begin{description}
+    \item[Тип] : Булево
+    \item[Использование]: Включает проверку доступности дисконтного сервера раз в 10 мин
+\end{description}
+
+\vspace{\baselineskip}
+\item \textbf{\textit{КрюДисконтныйСервер\_Адрес}}
+\begin{description}
+    \item[Тип] : Строка
+    \item[Использование]: Адрес дисконтного сервера который будет пинговаться
+\end{description}
+
+\vspace{\baselineskip}
+\item \textbf{\textit{КрюДисконтныйСервер\_ИнтервалОпросаДисконта}}
+\begin{description}
+    \item[Тип] : Число
+    \item[Использование]: Интервал опроса дисконтного сервера
+\end{description}
+
+
+
+
+
+\end{enumerate}
+
+%\begin{dot2tex}[neato,mathmode]
+%    digraph G {
+%        node [shape="circle"];
+%        a\_1 -> a\_2 -> a\_3 -> a\_4 -> a\_1;
+%    }
+%\end{dot2tex}
