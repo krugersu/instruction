@@ -1,0 +1,79 @@
+\input{preambula.tex}
+
+\begin{document}
+%	 \begin{landscape}
+%	 	\begin{center}
+\newcommand{\PK}{Pashkov}
+% Расшифровка сокращений для обозначения авторов 
+\renewcommand{\vhhistoryname}{Журнал изменений} 
+\renewcommand{\vhversionname}{Версия} 
+\renewcommand{\vhdatename}{Дата} 
+\renewcommand{\vhauthorname}{Автор(ы)} 
+\renewcommand{\vhchangename}{Изменения} 
+
+%\layout
+\input{title}	
+%\newpage	
+\setcounter{tocdepth}{3}% Include \subsubsection in ToC 
+%## убрали номер страницы с содержания
+\let\cleardoublepage\clearpage
+\pagenumbering{gobble}
+
+%\shorttableofcontents {Краткое оглавление }{1}% Краткое оглавление
+\tableofcontents
+
+\addtocontents{toc}{~\hfill\textbf{Стр}\par}
+\cleardoublepage
+\pagenumbering{arabic}
+%#############################
+%\newpage	
+%\input{begin}
+%\newpage	
+\input{m1}% Закупки
+\newpage	
+\input{m2}% Продажи
+\newpage
+\input{m3}% Склад	
+
+\newpage
+\input{m4}% Финансы
+
+%\newpage
+%\input{m5}
+%\newpage
+%\input{m6}% ЕГАИС
+%\newpage
+%\input{m12}% РМК	
+%\newpage
+%\input{m7}% Табак	
+%\newpage
+%\input{m8}% Сервис
+%\newpage
+%\input{m11}
+%\newpage
+%\input{m9}
+%\newpage
+%\input{m10} % Справочники
+%\newpage
+%\input{r001}% Дополнительные описания
+
+%\newpage
+%\input{other_changes} % Описание прочих изменений
+%\newpage
+
+%\listoffigures	
+%\newpage
+
+%\addcontentsline{toc}{chapter}{Index}	
+
+%\newpage
+\input{revs}
+%\vhListAllAuthorsLong % Список авторов
+%\newpage
+%\listoftodos
+%\printindex
+%\listoftodos[Необходимые правки]
+%\printindex % печать предметного указателя здесь
+%\end{center}
+%\end{landscape}
+\end{document}

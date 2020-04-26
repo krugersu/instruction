@@ -1,0 +1,63 @@
+\input{preambula.tex}
+\begin{document}
+\newcommand{\PK}{Pashkov}
+% Расшифровка сокращений для обозначения авторов 
+\renewcommand{\vhhistoryname}{Журнал изменений} 
+\renewcommand{\vhversionname}{Версия} 
+\renewcommand{\vhdatename}{Дата} 
+\renewcommand{\vhauthorname}{Автор(ы)} 
+\renewcommand{\vhchangename}{Изменения} 
+
+%\layout
+\input{title}	
+%\newpage	
+\setcounter{tocdepth}{3}% Include \subsubsection in ToC 
+%## убрали номер страницы с содержания
+\cleardoublepage
+\pagenumbering{gobble}
+
+%\shorttableofcontents {Краткое оглавление }{1}% Краткое оглавление
+\tableofcontents
+
+\addtocontents{toc}{~\hfill\textbf{Стр}\par}
+\cleardoublepage
+\pagenumbering{arabic}
+%#############################
+%\newpage	
+%\input{begin}
+%\newpage	
+\input{m1}
+\newpage	
+%\input{m2}
+%\newpage
+%\input{m6}
+%\newpage
+\input{m3}	
+\newpage
+\input{m9}
+\newpage
+\input{m4}
+\newpage
+%\input{m7}	
+%\newpage
+\input{m5}
+\newpage
+
+%\input{m10} % Обработка по контролю минимальных остатков ключевых позиций
+%\newpage
+%\input{other_changes} % Описание прочих изменений
+%\newpage
+
+\listoffigures	
+%\newpage
+
+%\addcontentsline{toc}{chapter}{Index}	
+
+\newpage
+\input{revs}
+%\vhListAllAuthorsLong % Список авторов
+%\newpage
+%\listoftodos
+%\printindex
+%\listoftodos[Необходимые правки]
+\end{document}
