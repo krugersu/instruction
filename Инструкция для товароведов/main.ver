@@ -1,0 +1,30 @@
+\begin {longtable}{@{}ll>{\hsize =\vhAuthorColWidth }X>{\hsize =\vhChangeColWidth }X@{}}
+\textbf {\vhversionname }
+ & \textbf {\vhdatename }
+ & \textbf {\vhauthorname }
+ & \textbf {\vhchangename }\\[1ex]
+0.01
+ & 15.07.18
+ & \listset {PK}
+ & Начало работы\\
+0.05
+ & 19.07.18
+ & \listset {PK}
+ & Описание ошибок\\
+1.00
+ & 23.07.18
+ & \listset {PK}
+ & Первая версия\\
+1.10
+ & 26.07.18
+ & \listset {PK}
+ & Первая версия\\
+1.20
+ & 26.07.18
+ & \listset {PK}
+ & Версия без пересборки ОРП\\
+1.30
+ & 01.08.18
+ & \listset {PK}
+ & Корректировка главы "Сумма по экв. меньше суммы б/н"\\
+\end {longtable}
