@@ -1,0 +1,30 @@
+\begin {longtable}{@{}ll>{\hsize =\vhAuthorColWidth }X>{\hsize =\vhChangeColWidth }X@{}}
+\textbf {\vhversionname }
+ & \textbf {\vhdatename }
+ & \textbf {\vhauthorname }
+ & \textbf {\vhchangename }\\[1ex]
+0.01
+ & 12.01.18
+ & \listset {PK}
+ & Начало работы\\
+0.02
+ & 12.01.18
+ & \listset {PK}
+ & Добавлена Проверка Розницы\\
+0.05
+ & 12.01.18
+ & \listset {PK}
+ & Добавлена выгрузка Розницы\\
+0.5
+ & 12.01.18
+ & \listset {PK}
+ & Добавлена загрузка данных\\
+0.9
+ & 12.01.18
+ & \listset {PK}
+ & Добавлена проверка корректности загруженных данных\\
+0.95
+ & 13.08.18
+ & \listset {PK}
+ & Дополнен порядок загрузки перемещений товара\\
+\end {longtable}
