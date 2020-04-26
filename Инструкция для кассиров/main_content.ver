@@ -1,0 +1,14 @@
+\begin {longtable}{@{}ll>{\hsize =\vhAuthorColWidth }X>{\hsize =\vhChangeColWidth }X@{}}
+\textbf {\vhversionname }
+ & \textbf {\vhdatename }
+ & \textbf {\vhauthorname }
+ & \textbf {\vhchangename }\\[1ex]
+0.01
+ & 15.08.18
+ & \listset {PK}
+ & Начало работы\\
+0.05
+ & 19.08.18
+ & \listset {PK}
+ & Описание ошибок\\
+\end {longtable}

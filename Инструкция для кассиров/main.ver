@@ -1,0 +1,22 @@
+\begin {longtable}{@{}ll>{\hsize =\vhAuthorColWidth }X>{\hsize =\vhChangeColWidth }X@{}}
+\textbf {\vhversionname }
+ & \textbf {\vhdatename }
+ & \textbf {\vhauthorname }
+ & \textbf {\vhchangename }\\[1ex]
+0.01
+ & 31.08.18
+ & \listset {PK}
+ & Начало работы\\
+0.10
+ & 31.08.18
+ & \listset {PK}
+ & Два раздела\\
+1.00
+ & 31.08.18
+ & \listset {PK}
+ & Итог\\
+1.50
+ & 28.08.18
+ & \listset {PK}
+ & Изменение порядка заполнения формы при закрытии смены\\
+\end {longtable}
