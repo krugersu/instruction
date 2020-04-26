@@ -1,0 +1,342 @@
+%http://texblog.org/2011/09/09/10-ways-to-customize-tocloflot/
+
+%Автоматически вписывать картинки в ширину страницы:
+%\includegraphics[maxwidth=\linewidth]{foobar}
+
+\if 0
+Так можно сделать многострочный комментарий.
+Это маленький хак. Его надо использовать.
+\fi
+
+\documentclass[11pt,a4paper,notitlepage]{report}
+\makeatletter
+\newcommand*{\toccontents}{\@starttoc{toc}}
+%\makeatother
+%\usepackage{pscyr}
+\usepackage[T2A]{fontenc}
+\usepackage[utf8]{inputenc}
+%\renewcommand{\rmdefault}{ftm}
+\renewcommand{\rmdefault}{CMR}
+\usepackage[russian]{babel}
+
+
+\usepackage{listings}      % для кусков программ 
+% (понимает синтаксис некоторых языков, чума просто)
+\usepackage{alltt}         % для того же
+\usepackage{amssymb}       % прикольно для формул
+
+\pagestyle{plain} % нумерация страниц вкл.
+
+%\setmainfont{Имя шрифта}
+%http://tex.stackexchange.com/questions/181183/combine-usepackagetimes-and-fontspec-setmainfont
+%http://andreyolegovich.ru/PC/LaTeX.php#base
+\usepackage{amsmath}
+
+%\usepackage{blindtext}
+\usepackage{titlesec}
+%\titleformat*{\subsection}{\normalfont\large\itshape\titlerule}
+
+\usepackage{csquotes} % ещё одна штука для цитат
+
+\usepackage{sectsty}
+\subsectionfont{\Large\underline}
+
+\usepackage{graphicx}
+\usepackage{sidecap}
+\usepackage{xcolor}
+%\usepackage{fontogr}
+\usepackage{pdfpages}
+\usepackage{comment}
+\usepackage{textcomp}
+\usepackage{wrapfig}
+\usepackage{sectsty}
+\usepackage{lipsum}
+\usepackage{fancyhdr}
+\usepackage{datetime}
+%\allsectionsfont{\centering}
+\chapterfont{\centering}
+
+\usepackage{caption}
+\usepackage{subcaption}
+
+\usepackage[T2A]{fontenc}
+\usepackage{lscape}
+\usepackage{makecell}
+\usepackage{multicol}
+\usepackage{floatrow}
+\usepackage{float}
+\usepackage{caption}
+
+
+\usepackage{lastpage} % Allows referencing of the last page to allow footer to read: "Page [Current page] of [Total number of pages]."
+
+\renewcommand{\familydefault}{\sfdefault} %Изменит стандартный шрифт документа на сансерифный.
+
+\definecolor{MSBlue}{rgb}{.204,.353,.541}
+\definecolor{MSLightBlue}{rgb}{.31,.506,.741}
+%\titleformat*{\section}{\Large\bfseries\sffamily\color{MSBlue}}
+%\titleformat*{\subsection}{\large\bfseries\sffamily\color{MSLightBlue}}
+%\titleformat*{\subsubsection}{\itshape\subsubsectionfont}
+
+\titleformat
+{\chapter} % command
+[display] % shape
+{\bfseries\Large\itshape} % format
+{Story No. \ \thechapter} % label
+{0.5ex} % sep
+{
+	\rule{\textwidth}{1pt}
+	\vspace{1ex}
+	\centering
+} % before-code
+[
+\vspace{-0.5ex}%
+\rule{\textwidth}{0.3pt}
+] % after-code
+
+
+\titleformat{\section}[wrap]
+{\normalfont\bfseries}
+{\thesection.}{0.5em}{}
+
+\titlespacing{\section}{12pc}{1.5ex plus .1ex minus .2ex}{1pc}
+
+%*****************************************************
+% Часто требуется, чтобы номер рисунка содержал в себе номер главы (вроде Рис. 1.1). Чтобы была сделана нумерация по главам, достаточно изменить счётчик рисунков в преамбуле документа вот так:
+\renewcommand{\thefigure}{\thesection.\arabic{figure}}
+%*****************************************************
+
+%*****************************************************
+%Если вас не устраивает вид подрисуночной подписи (например, вместо "Рис. 1:" необходимо "Рис. 1 --- "), используйте пакет caption. В частности, для установки тире в качестве разделителя, вставьте в преамбулу документа следующий код: 
+\RequirePackage{caption}
+\DeclareCaptionLabelSeparator{defffis}{ --- }
+\captionsetup{justification=centering,labelsep=defffis}
+%*****************************************************
+
+%\usepackage[colorlinks=true,linkcolor=blue]{hyperref}
+
+%*****************************************************
+%Как сделать, чтобы уравнения нумеровались независимо по главам в LaTeX?
+%В преамбуле
+\makeatletter \@addtoreset{equation}{section} \makeatother 
+\makeatletter \@addtoreset{figure}{section} \makeatother 
+%*****************************************************
+
+\addto\captionsrussian{
+	\def\figurename{Рисунок}
+}
+
+
+\usepackage[hypcap]{caption}
+
+%*****************************************************
+% Начинать секции с новой страницы
+\usepackage{titlesec}
+\newcommand{\sectionbreak}{\clearpage}
+%*****************************************************
+
+
+%*****************************************************
+%Чтобы в генерированном PDF работали гиперссылки, то надо подключить модуль hyperref (и если хотите их разрисовать, то модуль по работе с цветами xcolor):
+\usepackage{hyperref}
+% Цвета для гиперссылок
+\definecolor{linkcolor}{HTML}{012b37} % цвет ссылок
+\definecolor{urlcolor}{HTML}{012b37} % цвет гиперссылок
+\hypersetup{pdfstartview=FitH,  linkcolor=linkcolor,urlcolor=urlcolor, colorlinks=true}
+%*****************************************************
+
+%***************************************************** 
+%Для удаления номеров страниц из \listoffigures
+\makeatletter
+\newcommand{\emptypage}[1]{%
+	\cleardoublepage
+	\begingroup
+	\let\ps@plain\ps@empty
+	\pagestyle{empty}
+	#1
+	\cleardoublepage}
+\makeatletter
+%*****************************************************
+
+
+\setcounter{secnumdepth}{3}
+%\usepackage{enumitem}
+\usepackage[shortlabels]{enumitem}
+\setlist[enumerate]{leftmargin=*,align=left,label=\thesubsection.\arabic*.}
+%\usepackage{enumerate}
+\usepackage{longtable}
+
+%\renewcommand{\rmdefault}{ftm}
+\renewcommand{\rmdefault}{cmr}
+\renewcommand{\thesection}{\arabic{section}}
+%\usepackage{enumitem}
+%%% Страница
+%\usepackage{extsizes} % Возможность сделать 14-й шрифт
+\usepackage{geometry} % Простой способ задавать поля
+\geometry{top=15mm}
+\geometry{bottom=10mm}
+\geometry{left=10mm}
+\geometry{right=10mm}
+
+%*****************************************************
+%Here is how you can increase the space between the number and the caption in your \listoffigures. Add the following two lines before your \begin{document}:
+\usepackage{tocloft}
+\setlength{\cftfignumwidth}{3em}
+%With the tocloft-package you can control the design of table of contents, figures and tables.
+%*****************************************************
+
+% раскомментировать, чтобы увидеть забавную картинку размещения текста
+%\usepackage{layout}
+% увидеть, что не сработало и раскомментировать \layout внизу
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%
+%%% мелочи жизни (переопределение буллетов для списков)
+%%%
+\renewcommand{\labelitemii}{{$\mathbf{+}$}}
+\renewcommand{\labelitemiii}{{$\mathbf{++}$}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%
+%%% Моя любимая настройка параметров страницы. По умолчанию колонка узковатая
+%%%
+\voffset=-10mm
+\topmargin=0mm
+\headheight=5mm
+\headsep=10mm
+
+\textheight=237mm
+\footskip=10mm
+
+\oddsidemargin=0mm
+\evensidemargin=-15mm
+\hoffset=0mm
+\textwidth=175mm
+\marginparsep=10mm
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+\usepackage{svn}
+
+
+\pagestyle{fancy}
+%\fancyfoot[]{вер. 1.05}
+
+%\fancyhead[C]{Страница \thepage \; из \pageref{LastPage}}
+%\fancyhead[RE]{\slshape\nouppercase{\rightmark}}
+%\fancyhead[LO]{\slshape\nouppercase{\leftmark}}
+%\fancyfoot[C]{Страница \thepage \; из \pageref{LastPage}}
+%\renewcommand{\headrulewidth}{0pt}
+%\renewcommand{\footrulewidth}{0pt}
+%\lhead{\footnotesize \parbox{11cm}{Draft 1} }
+
+% Allows calling chapter and section names in headers and footers.
+%\renewcommand{\chaptermark}[1]{%
+%	\markboth{\chaptername\ \thechapter}
+%	{\noexpand\firstsubsectiontitle}}
+%\renewcommand{\sectionmark}[1]{}
+%\renewcommand{\subsectionmark}[1]{%
+%	\markright{#1}\gdef\firstsubsectiontitle{#1}}
+%\newcommand\firstsubsectiontitle{}
+
+
+
+\lhead{\footnotesize \parbox{11cm}}
+%\lfoot{\footnotesize \parbox{11cm}{\textit{2}}}
+%\cfoot{}
+\rhead{\footnotesize  \chaptername \ - \rightmark}
+%\rfoot{\footnotesize Page \thepage\ of \pageref{LastPage}}
+%\fancyfoot[C]{Страница \thepage \; из \pageref{LastPage}}
+\fancyfoot{} % Clear all footer fields
+\fancyfoot[RO,R]{Страница \thepage \; из \pageref{LastPage}} % Page number on right in footer
+
+%\renewcommand{\headheight}{24pt}
+\setlength{\headheight}{4pt}
+\renewcommand{\footrulewidth}{0pt}
+%\setlength\headheight{80.0pt}
+%\addtolength{\textheight}{-80.0pt}
+%\chead{\includegraphics[width=\textwidth]{img/log1o.png}}
+%\cfoot{\includegraphics[width=\textwidth]{img/foot.png}}
+
+\graphicspath{{images/}}
+
+
+
+%*****************************************************
+%Номера страниц, включающие номер главы
+\usepackage[auto]{chappg} %%% this is to set the page numbers as Chapter-Page.
+%*****************************************************
+
+
+
+\newdate{date}{28}{01}{2016}
+\date{\displaydate{date}}
+%Increase the value of tocdepth and secnumdepth. The tocdepth value determines to which level the sectioning commands are printed in the ToC (they are always included in the .toc file but ignored otherwise). The secnumdepth value determines up to what level the sectioning titles are numbered. They are LaTeX counters and you can set them using 
+\setcounter{tocdepth}{1}
+\setcounter{secnumdepth}{4}
+
+\renewcommand{\theenumi}{\arabic{enumi}}
+\renewcommand{\labelenumi}{\arabic{enumi}}
+\renewcommand{\theenumii}{.\arabic{enumii}}
+\renewcommand{\labelenumii}{\arabic{enumi}.\arabic{enumii}.}
+\renewcommand{\theenumiii}{.\arabic{enumiii}}
+\renewcommand{\labelenumiii}{\arabic{enumi}.\arabic{enumii}.\arabic{enumiii}.}
+
+
+\usepackage{titlepic}
+
+
+
+%\titlespacing\section{0pt}{12pt plus 4pt minus 2pt}{0pt plus 2pt minus 2pt}
+%\titlespacing{\subsection}{0pt}{\parskip}{-\parskip}
+
+\def\capfigure{figure}
+
+\def\captable{table}
+
+\long\def\@makecaption#1#2{%
+	
+	\vskip\abovecaptionskip
+	
+	\ifx\@captype\capfigure
+	
+	\centering #1~--~#2 \par
+	
+	\else
+	
+	#1~--~#2 \par
+	
+	\fi
+	
+	\vskip\belowcaptionskip}
+
+\setlength\abovecaptionskip{2\p@}
+
+\setlength\belowcaptionskip{1\p@}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%
+%%% маленький хак, новое окружение 'algorithm' (см. использование ниже)
+%%%
+\newlength{\algboxsp}
+\setlength{\algboxsp}{2mm}
+\newsavebox{\algbox}
+\newenvironment{basealgorithm}
+{\begin{lrbox}{\algbox}\begin{minipage}{\textwidth}\begin{alltt}}
+			{\end{alltt}\end{minipage}\end{lrbox}
+	\fbox{
+		\parbox{0.95\textwidth}{
+			\makebox[0mm]{}
+			\\[\algboxsp]
+			\mbox{\hspace{\algboxsp}}
+			\usebox{\algbox}
+			\\[\algboxsp] } }}
+
+\newenvironment{algorithm}[1]
+{\begin{figure}[btp]\def\algcptn{\caption{#1}}\begin{basealgorithm}}
+		{\end{basealgorithm}\algcptn\end{figure}}
