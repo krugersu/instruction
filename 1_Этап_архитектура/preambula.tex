@@ -1,0 +1,468 @@
+%http://texblog.org/2011/09/09/10-ways-to-customize-tocloflot/
+
+%Автоматически вписывать картинки в ширину страницы:
+%\includegraphics[maxwidth=\linewidth]{foobar}
+
+\if 0
+Так можно сделать многострочный комментарий.
+Это маленький хак. Его надо использовать.
+\fi
+
+\documentclass[11pt,a4paper,notitlepage]{report}
+\makeatletter
+\newcommand*{\toccontents}{\@starttoc{toc}}
+%\makeatother
+%\usepackage{pscyr}
+\usepackage[T2A]{fontenc}
+\usepackage[utf8]{inputenc}
+%\renewcommand{\rmdefault}{ftm}
+\renewcommand{\rmdefault}{CMR}
+\usepackage[russian]{babel}
+
+
+
+\usepackage{listings}      % для кусков программ 
+% (понимает синтаксис некоторых языков, чума просто)
+\usepackage{alltt}         % для того же
+\usepackage{amssymb}       % прикольно для формул
+
+\pagestyle{plain} % нумерация страниц вкл.
+\usepackage{geometry}
+\usepackage{marginnote}
+
+
+
+%\setmainfont{Имя шрифта}
+%http://tex.stackexchange.com/questions/181183/combine-usepackagetimes-and-fontspec-setmainfont
+%http://andreyolegovich.ru/PC/LaTeX.php#base
+\usepackage{amsmath}
+
+%\usepackage{blindtext}
+\usepackage{titlesec}
+%\titleformat*{\subsection}{\normalfont\large\itshape\titlerule}
+
+\usepackage{csquotes} % ещё одна штука для цитат
+
+\usepackage{sectsty}
+\subsectionfont{\Large\underline}
+
+\usepackage{graphicx}
+\usepackage{sidecap}
+\usepackage{xcolor}
+%\usepackage{fontogr}
+\usepackage{pdfpages}
+\usepackage{comment}
+\usepackage{textcomp}
+\usepackage{wrapfig}
+\usepackage{sectsty}
+\usepackage{lipsum}
+\usepackage{fancyhdr}
+\usepackage{datetime}
+%\allsectionsfont{\centering}
+\chapterfont{\centering}
+
+\usepackage{caption}
+\usepackage{subcaption}
+
+\usepackage[T2A]{fontenc}
+\usepackage{lscape}
+\usepackage{makecell}
+\usepackage{multicol}
+\usepackage{floatrow}
+\usepackage{float}
+\usepackage{caption}
+
+%**********************************
+% Todo notes - example from http://www.texample.net/tikz/examples/todo-notes/
+\usepackage[colorlinks]{hyperref}
+\usepackage{verbatim}
+\usepackage[colorinlistoftodos]{todonotes}
+%**********************************
+
+\usepackage{sidenotes}
+
+\usepackage{lastpage} % Allows referencing of the last page to allow footer to read: "Page [Current page] of [Total number of pages]."
+
+\renewcommand{\familydefault}{\sfdefault} %Изменит стандартный шрифт документа на сансерифный.
+
+\definecolor{MSBlue}{rgb}{.204,.353,.541}
+\definecolor{MSLightBlue}{rgb}{.31,.506,.741}
+%\titleformat*{\section}{\Large\bfseries\sffamily\color{MSBlue}}
+%\titleformat*{\subsection}{\large\bfseries\sffamily\color{MSLightBlue}}
+%\titleformat*{\subsubsection}{\itshape\subsubsectionfont}
+
+\titleformat
+{\chapter} % command
+[display] % shape
+{\bfseries\Large\itshape} % format
+{Story No. \ \thechapter} % label
+{0.5ex} % sep
+{
+	\rule{\textwidth}{1pt}
+	\vspace{1ex}
+	\centering
+} % before-code
+[
+\vspace{-0.5ex}%
+\rule{\textwidth}{0.3pt}
+] % after-code
+
+
+\titleformat{\section}[wrap]
+{\normalfont\bfseries}
+{\thesection.}{0.5em}{}
+
+\titlespacing{\section}{12pc}{1.5ex plus .1ex minus .2ex}{1pc}
+
+%*****************************************************
+% Часто требуется, чтобы номер рисунка содержал в себе номер главы (вроде Рис. 1.1). Чтобы была сделана нумерация по главам, достаточно изменить счётчик рисунков в преамбуле документа вот так:
+\renewcommand{\thefigure}{\thesection.\arabic{figure}}
+%*****************************************************
+
+%*****************************************************
+%Если вас не устраивает вид подрисуночной подписи (например, вместо "Рис. 1:" необходимо "Рис. 1 --- "), используйте пакет caption. В частности, для установки тире в качестве разделителя, вставьте в преамбулу документа следующий код: 
+\RequirePackage{caption}
+\DeclareCaptionLabelSeparator{defffis}{ --- }
+\captionsetup{justification=centering,labelsep=defffis}
+%*****************************************************
+
+%\usepackage[colorlinks=true,linkcolor=blue]{hyperref}
+
+%*****************************************************
+%Как сделать, чтобы уравнения нумеровались независимо по главам в LaTeX?
+%В преамбуле
+\makeatletter \@addtoreset{equation}{section} \makeatother 
+\makeatletter \@addtoreset{figure}{section} \makeatother 
+%*****************************************************
+
+\addto\captionsrussian{
+	\def\figurename{Рисунок}
+}
+
+
+\usepackage[hypcap]{caption}
+
+%*****************************************************
+% Начинать секции с новой страницы
+\usepackage{titlesec}
+\newcommand{\sectionbreak}{\clearpage}
+%*****************************************************
+
+
+%*****************************************************
+%Чтобы в генерированном PDF работали гиперссылки, то надо подключить модуль hyperref (и если хотите их разрисовать, то модуль по работе с цветами xcolor):
+\usepackage{hyperref}
+% Цвета для гиперссылок
+\definecolor{linkcolor}{HTML}{012b37} % цвет ссылок
+\definecolor{urlcolor}{HTML}{012b37} % цвет гиперссылок
+\hypersetup{pdfstartview=FitH,  linkcolor=linkcolor,urlcolor=urlcolor, colorlinks=true}
+%*****************************************************
+
+%***************************************************** 
+%Для удаления номеров страниц из \listoffigures
+\makeatletter
+\newcommand{\emptypage}[1]{%
+	\cleardoublepage
+	\begingroup
+	\let\ps@plain\ps@empty
+	\pagestyle{empty}
+	#1
+	\cleardoublepage}
+\makeatletter
+%*****************************************************
+
+
+\setcounter{secnumdepth}{3}
+%\usepackage{enumitem}
+\usepackage[shortlabels]{enumitem}
+\setlist[enumerate]{leftmargin=*,align=left,label=\thesubsection.\arabic*.}
+%\usepackage{enumerate}
+\usepackage{longtable}
+
+%\renewcommand{\rmdefault}{ftm}
+\renewcommand{\rmdefault}{cmr}
+\renewcommand{\thesection}{\arabic{section}}
+%\usepackage{enumitem}
+%%% Страница
+%\usepackage{extsizes} % Возможность сделать 14-й шрифт
+\usepackage{geometry} % Простой способ задавать поля
+\geometry{top=15mm}
+\geometry{bottom=10mm}
+\geometry{left=10mm}
+\geometry{right=10mm}
+
+%*****************************************************
+%Here is how you can increase the space between the number and the caption in your \listoffigures. Add the following two lines before your \begin{document}:
+\usepackage{tocloft}
+\setlength{\cftfignumwidth}{3em}
+%With the tocloft-package you can control the design of table of contents, figures and tables.
+%*****************************************************
+
+% раскомментировать, чтобы увидеть забавную картинку размещения текста
+%\usepackage{layout}
+% увидеть, что не сработало и раскомментировать \layout внизу
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%
+%%% мелочи жизни (переопределение буллетов для списков)
+%%%
+\renewcommand{\labelitemii}{{$\mathbf{+}$}}
+\renewcommand{\labelitemiii}{{$\mathbf{++}$}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%
+%%% Моя любимая настройка параметров страницы. По умолчанию колонка узковатая
+%%%
+\voffset=-10mm
+\topmargin=0mm
+\headheight=5mm
+\headsep=10mm
+
+\textheight=237mm
+\footskip=10mm
+
+\oddsidemargin=0mm
+\evensidemargin=-15mm
+\hoffset=5mm
+\textwidth=175mm
+\marginparsep=10mm
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+\usepackage{svn}
+
+
+\pagestyle{fancy}
+%\fancyfoot[]{вер. 1.05}
+
+%\fancyhead[C]{Страница \thepage \; из \pageref{LastPage}}
+%\fancyhead[RE]{\slshape\nouppercase{\rightmark}}
+%\fancyhead[LO]{\slshape\nouppercase{\leftmark}}
+%\fancyfoot[C]{Страница \thepage \; из \pageref{LastPage}}
+%\renewcommand{\headrulewidth}{0pt}
+%\renewcommand{\footrulewidth}{0pt}
+%\lhead{\footnotesize \parbox{11cm}{Draft 1} }
+
+% Allows calling chapter and section names in headers and footers.
+%\renewcommand{\chaptermark}[1]{%
+%	\markboth{\chaptername\ \thechapter}
+%	{\noexpand\firstsubsectiontitle}}
+%\renewcommand{\sectionmark}[1]{}
+%\renewcommand{\subsectionmark}[1]{%
+%	\markright{#1}\gdef\firstsubsectiontitle{#1}}
+%\newcommand\firstsubsectiontitle{}
+
+
+
+\lhead{\footnotesize \parbox{11cm}}
+%\lfoot{\footnotesize \parbox{11cm}{\textit{2}}}
+%\cfoot{}
+\rhead{\footnotesize  \chaptername \ - \rightmark}
+%\rfoot{\footnotesize Page \thepage\ of \pageref{LastPage}}
+%\fancyfoot[C]{Страница \thepage \; из \pageref{LastPage}}
+\fancyfoot{} % Clear all footer fields
+\fancyfoot[RO,R]{Страница \thepage \; из \pageref{LastPage}} % Page number on right in footer
+
+%\renewcommand{\headheight}{24pt}
+\setlength{\headheight}{4pt}
+\renewcommand{\footrulewidth}{0pt}
+%\setlength\headheight{80.0pt}
+%\addtolength{\textheight}{-80.0pt}
+%\chead{\includegraphics[width=\textwidth]{img/log1o.png}}
+%\cfoot{\includegraphics[width=\textwidth]{img/foot.png}}
+
+\graphicspath{{images/}}
+
+
+
+%*****************************************************
+%Номера страниц, включающие номер главы
+\usepackage[auto]{chappg} %%% this is to set the page numbers as Chapter-Page.
+%*****************************************************
+
+
+
+\newdate{date}{28}{01}{2016}
+\date{\displaydate{date}}
+%Increase the value of tocdepth and secnumdepth. The tocdepth value determines to which level the sectioning commands are printed in the ToC (they are always included in the .toc file but ignored otherwise). The secnumdepth value determines up to what level the sectioning titles are numbered. They are LaTeX counters and you can set them using 
+\setcounter{tocdepth}{1}
+\setcounter{secnumdepth}{4}
+
+\renewcommand{\theenumi}{\arabic{enumi}}
+\renewcommand{\labelenumi}{\arabic{enumi}}
+\renewcommand{\theenumii}{.\arabic{enumii}}
+\renewcommand{\labelenumii}{\arabic{enumi}.\arabic{enumii}.}
+\renewcommand{\theenumiii}{.\arabic{enumiii}}
+\renewcommand{\labelenumiii}{\arabic{enumi}.\arabic{enumii}.\arabic{enumiii}.}
+
+ 
+\usepackage{caption}
+\usepackage{titlepic}
+
+
+
+%\titlespacing\section{0pt}{12pt plus 4pt minus 2pt}{0pt plus 2pt minus 2pt}
+%\titlespacing{\subsection}{0pt}{\parskip}{-\parskip}
+
+\def\capfigure{figure}
+
+\def\captable{table}
+
+\long\def\@makecaption#1#2{%
+	
+	\vskip\abovecaptionskip
+	
+	\ifx\@captype\capfigure
+	
+	\centering #1~--~#2 \par
+	
+	\else
+	
+	#1~--~#2 \par
+	
+	\fi
+	
+	\vskip\belowcaptionskip}
+
+\setlength\abovecaptionskip{2\p@}
+
+\setlength\belowcaptionskip{1\p@}
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%
+%%% маленький хак, новое окружение 'algorithm' (см. использование ниже)
+%%%
+\newlength{\algboxsp}
+\setlength{\algboxsp}{2mm}
+\newsavebox{\algbox}
+\newenvironment{basealgorithm}
+{\begin{lrbox}{\algbox}\begin{minipage}{\textwidth}\begin{alltt}}
+			{\end{alltt}\end{minipage}\end{lrbox}
+	\fbox{
+		\parbox{0.95\textwidth}{
+			\makebox[0mm]{}
+			\\[\algboxsp]
+			\mbox{\hspace{\algboxsp}}
+			\usebox{\algbox}
+			\\[\algboxsp] } }}
+
+\newenvironment{algorithm}[1]
+{\begin{figure}[btp]\def\algcptn{\caption{#1}}\begin{basealgorithm}}
+		{\end{basealgorithm}\algcptn\end{figure}}
+	
+%How can I put real notes in the margin?
+%**********************************************************	
+	
+\usepackage{xparse}
+\usepackage{tikz}
+\usetikzlibrary{calc,fit, decorations.pathmorphing}
+
+\makeatletter
+% http://tex.stackexchange.com/questions/39296/simulating-hand-drawn-lines
+\pgfdeclaredecoration{penciline}{initial}{
+	\state{initial}[width=+\pgfdecoratedinputsegmentremainingdistance,auto corner on length=1mm,]{
+		\pgfpathcurveto%
+		{% From
+			\pgfqpoint{\pgfdecoratedinputsegmentremainingdistance}
+			{\pgfdecorationsegmentamplitude}
+		}
+		{%  Control 1
+			\pgfmathrand
+			\pgfpointadd{\pgfqpoint{\pgfdecoratedinputsegmentremainingdistance}{0pt}}
+			{\pgfqpoint{-\pgfdecorationsegmentaspect\pgfdecoratedinputsegmentremainingdistance}%
+				{\pgfmathresult\pgfdecorationsegmentamplitude}
+			}
+		}
+		{%TO 
+			\pgfpointadd{\pgfpointdecoratedinputsegmentlast}{\pgfpoint{1pt}{1pt}}
+		}
+	}
+	\state{final}{}
+}
+\makeatother
+
+\newcommand{\tikzmark}[1]{\tikz[overlay,remember picture] \node (#1) {};}
+
+\newcommand{\CommentText}[3]{\tikzmark{#1}#3\tikzmark{#2}}
+
+\NewDocumentCommand{\CommentPar}{%
+	O{}% #1 = draw options for the referenced word
+	O{}% #2 = draw options for the comment
+	O{}% #3 = draw options for the connecting line
+	m  % #4 = left \tikzmark name
+	m  % #5 = left \tikzmark name
+	m  % #6 = comment
+}{%
+	\begin{tikzpicture}[overlay,remember picture,decoration=penciline, thick]
+	\node [shape=rectangle,inner sep=0, draw=blue, ,rounded corners=2pt, fit={(#4.south) ($(#5.north)+(0,0.75ex)$)}, decorate, #1] (Source) {};
+	\node at ($(#4)!0.5!(#5)$) [blue, font=\itshape, rounded corners=5pt, decorate, #2] (Label) {#6};
+	\draw [draw=red, decorate, #3] (Label) to (Source);
+	\end{tikzpicture}
+}
+
+%**********************************************************
+
+% Vertically aligning a marginnote and a section title
+%**********************************************************
+\usepackage{lipsum}
+
+\usepackage{marginnote}
+\reversemarginpar % To put the margin pars on the left
+\renewcommand*{\marginfont}{\normalfont\normalsize}
+
+\usepackage{tikz}
+\usetikzlibrary{calc}
+\usetikzlibrary{backgrounds}
+
+\newcommand*{\Date}[4]{%
+	\begin{tikzpicture}[show background rectangle,inner frame sep=0pt,text width=1cm,align=center]
+	\node [fill=orange] at (0,0)                                (dayofweek)  {#1};
+	\node [fill=white ] at ($(dayofweek)  +(0,-\baselineskip)$) (dayofmonth) {#2};
+	\node [fill=white ] at ($(dayofmonth) +(0,-\baselineskip)$) (month)      {#3};
+	\node [fill=orange] at ($(month)      +(0,-\baselineskip)$) (dayofmonth) {#4};
+	\end{tikzpicture}
+}
+
+%**********************************************************
+
+
+%-output-directory tmp
+
+\usepackage{eso-pic}
+
+%Для длинных документов нумерация может стать громоздкой, так как числа попадают в двойные и тройные цифры. Чтобы сбросить счетчики в начале каждого раздела и префикс номера по номеру раздела, включите в преамбулу следующее.
+
+%\usepackage{amsmath}
+%\numberwithin{equation}{section}
+%\numberwithin{figure}{section}
+
+
+
+\usepackage{recycle}
+
+%Windows
+
+\usepackage[os=win]{menukeys}
+%Tidy and compact table of contents with multitoc
+%\usepackage{blindtext}
+%\usepackage[tocloft]{multitoc}
+%\renewcommand*{\multicolumntoc}{2}
+%\setlength{\columnseprule}{1pt}
+
+\renewmenumacro{\menu}{roundedmenus} % default: menus
+\renewmenumacro{\directory}{pathswithfolder} % default: paths
+%\renewmenumacro{\keys}{shadowedroundedkeys} % default: roundedkeys
+%%%
+
+%
+\renewcommand{\cftchapfont}{\scshape}
+\renewcommand{\cftsecfont}{\bfseries}
+\renewcommand{\cftfigfont}{Figure }
+\renewcommand{\cfttabfont}{Table }
+
