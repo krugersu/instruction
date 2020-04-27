@@ -1,355 +1,46 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6100 64-bit) (preloaded format=pdflatex 2017.3.1)  26 APR 2020 18:16
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7380 64-bit) (preloaded format=pdflatex 2020.4.17)  27 APR 2020 16:03
 entering extended mode
 **"./–û–ø–∏—Å–∞–Ω–∏–µ –±–∏–∑–Ω–µ—Å –ø—Ä–æ—Ü–µ—Å—Å–æ–≤.tex"
 ("–û–ø–∏—Å–∞–Ω–∏–µ –±–∏–∑–Ω–µ—Å –ø—Ä–æ—Ü–µ—Å—Å–æ–≤.tex"
-LaTeX2e <2016/03/31> patch level 3
-Babel <3.9r> and hyphenation patterns for 75 language(s) loaded.
-(preambula.tex ("D:\Program Files\MiKTeX 2.9\tex\latex\base\report.cls"
-Document Class: report 2014/09/29 v1.4h Standard LaTeX document class
-("D:\Program Files\MiKTeX 2.9\tex\latex\base\size11.clo"
-File: size11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+LaTeX2e <2020-02-02> patch level 5
+L3 programming layer <2020-04-06> (preambula.tex
+("C:\Program Files\MiKTeX 2.9\tex/latex/base\report.cls"
+Document Class: report 2019/12/20 v1.4l Standard LaTeX document class
+("C:\Program Files\MiKTeX 2.9\tex/latex/base\size11.clo"
+File: size11.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
 )
-\c@part=\count79
-\c@chapter=\count80
-\c@section=\count81
-\c@subsection=\count82
-\c@subsubsection=\count83
-\c@paragraph=\count84
-\c@subparagraph=\count85
-\c@figure=\count86
-\c@table=\count87
-\abovecaptionskip=\skip41
-\belowcaptionskip=\skip42
-\bibindent=\dimen102
+\c@part=\count167
+\c@chapter=\count168
+\c@section=\count169
+\c@subsection=\count170
+\c@subsubsection=\count171
+\c@paragraph=\count172
+\c@subparagraph=\count173
+\c@figure=\count174
+\c@table=\count175
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen134
 )
-("D:\Program Files\MiKTeX 2.9\tex\latex\pscyr\pscyr.sty"
+("C:\Program Files\MiKTeX 2.9\tex/latex/pscyr\pscyr.sty"
 Package: pscyr 2002/07/04 v0.4d Cyrillic Type1 fonts as default
 )
-("D:\Program Files\MiKTeX 2.9\tex\latex\base\fontenc.sty"
-Package: fontenc 2016/06/19 v1.99m Standard LaTeX package
+("C:\Program Files\MiKTeX 2.9\tex/latex/base\fontenc.sty"
+Package: fontenc 2020/02/11 v2.0o Standard LaTeX package
 
-("D:\Program Files\MiKTeX 2.9\tex\latex\cyrillic\t2aenc.def"
+("C:\Program Files\MiKTeX 2.9\tex/latex/cyrillic\t2aenc.def"
 File: t2aenc.def 2005/09/27 v1.0i Cyrillic encoding definition file
-)
-LaTeX Font Info:    Try loading font information for T2A+cmr on input line 105.
-
-
-("D:\Program Files\MiKTeX 2.9\tex\latex\cyrillic\t2acmr.fd"
-File: t2acmr.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
-))
-("D:\Program Files\MiKTeX 2.9\tex\latex\base\inputenc.sty"
-Package: inputenc 2015/03/17 v1.2c Input encoding file
-\inpenc@prehook=\toks14
-\inpenc@posthook=\toks15
-
-("D:\Program Files\MiKTeX 2.9\tex\latex\base\utf8.def"
-File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
-Now handling font encoding OML ...
-... no UTF-8 mapping file for font encoding OML
-Now handling font encoding T1 ...
-... processing UTF-8 mapping file for font encoding T1
-
-("D:\Program Files\MiKTeX 2.9\tex\latex\base\t1enc.dfu"
-File: t1enc.dfu 2016/02/28 v1.1s UTF-8 support for inputenc
-   defining Unicode char U+00A0 (decimal 160)
-   defining Unicode char U+00A1 (decimal 161)
-   defining Unicode char U+00A3 (decimal 163)
-   defining Unicode char U+00AB (decimal 171)
-   defining Unicode char U+00AD (decimal 173)
-   defining Unicode char U+00BB (decimal 187)
-   defining Unicode char U+00BF (decimal 191)
-   defining Unicode char U+00C0 (decimal 192)
-   defining Unicode char U+00C1 (decimal 193)
-   defining Unicode char U+00C2 (decimal 194)
-   defining Unicode char U+00C3 (decimal 195)
-   defining Unicode char U+00C4 (decimal 196)
-   defining Unicode char U+00C5 (decimal 197)
-   defining Unicode char U+00C6 (decimal 198)
-   defining Unicode char U+00C7 (decimal 199)
-   defining Unicode char U+00C8 (decimal 200)
-   defining Unicode char U+00C9 (decimal 201)
-   defining Unicode char U+00CA (decimal 202)
-   defining Unicode char U+00CB (decimal 203)
-   defining Unicode char U+00CC (decimal 204)
-   defining Unicode char U+00CD (decimal 205)
-   defining Unicode char U+00CE (decimal 206)
-   defining Unicode char U+00CF (decimal 207)
-   defining Unicode char U+00D0 (decimal 208)
-   defining Unicode char U+00D1 (decimal 209)
-   defining Unicode char U+00D2 (decimal 210)
-   defining Unicode char U+00D3 (decimal 211)
-   defining Unicode char U+00D4 (decimal 212)
-   defining Unicode char U+00D5 (decimal 213)
-   defining Unicode char U+00D6 (decimal 214)
-   defining Unicode char U+00D8 (decimal 216)
-   defining Unicode char U+00D9 (decimal 217)
-   defining Unicode char U+00DA (decimal 218)
-   defining Unicode char U+00DB (decimal 219)
-   defining Unicode char U+00DC (decimal 220)
-   defining Unicode char U+00DD (decimal 221)
-   defining Unicode char U+00DE (decimal 222)
-   defining Unicode char U+00DF (decimal 223)
-   defining Unicode char U+00E0 (decimal 224)
-   defining Unicode char U+00E1 (decimal 225)
-   defining Unicode char U+00E2 (decimal 226)
-   defining Unicode char U+00E3 (decimal 227)
-   defining Unicode char U+00E4 (decimal 228)
-   defining Unicode char U+00E5 (decimal 229)
-   defining Unicode char U+00E6 (decimal 230)
-   defining Unicode char U+00E7 (decimal 231)
-   defining Unicode char U+00E8 (decimal 232)
-   defining Unicode char U+00E9 (decimal 233)
-   defining Unicode char U+00EA (decimal 234)
-   defining Unicode char U+00EB (decimal 235)
-   defining Unicode char U+00EC (decimal 236)
-   defining Unicode char U+00ED (decimal 237)
-   defining Unicode char U+00EE (decimal 238)
-   defining Unicode char U+00EF (decimal 239)
-   defining Unicode char U+00F0 (decimal 240)
-   defining Unicode char U+00F1 (decimal 241)
-   defining Unicode char U+00F2 (decimal 242)
-   defining Unicode char U+00F3 (decimal 243)
-   defining Unicode char U+00F4 (decimal 244)
-   defining Unicode char U+00F5 (decimal 245)
-   defining Unicode char U+00F6 (decimal 246)
-   defining Unicode char U+00F8 (decimal 248)
-   defining Unicode char U+00F9 (decimal 249)
-   defining Unicode char U+00FA (decimal 250)
-   defining Unicode char U+00FB (decimal 251)
-   defining Unicode char U+00FC (decimal 252)
-   defining Unicode char U+00FD (decimal 253)
-   defining Unicode char U+00FE (decimal 254)
-   defining Unicode char U+00FF (decimal 255)
-   defining Unicode char U+0100 (decimal 256)
-   defining Unicode char U+0101 (decimal 257)
-   defining Unicode char U+0102 (decimal 258)
-   defining Unicode char U+0103 (decimal 259)
-   defining Unicode char U+0104 (decimal 260)
-   defining Unicode char U+0105 (decimal 261)
-   defining Unicode char U+0106 (decimal 262)
-   defining Unicode char U+0107 (decimal 263)
-   defining Unicode char U+0108 (decimal 264)
-   defining Unicode char U+0109 (decimal 265)
-   defining Unicode char U+010A (decimal 266)
-   defining Unicode char U+010B (decimal 267)
-   defining Unicode char U+010C (decimal 268)
-   defining Unicode char U+010D (decimal 269)
-   defining Unicode char U+010E (decimal 270)
-   defining Unicode char U+010F (decimal 271)
-   defining Unicode char U+0110 (decimal 272)
-   defining Unicode char U+0111 (decimal 273)
-   defining Unicode char U+0112 (decimal 274)
-   defining Unicode char U+0113 (decimal 275)
-   defining Unicode char U+0114 (decimal 276)
-   defining Unicode char U+0115 (decimal 277)
-   defining Unicode char U+0116 (decimal 278)
-   defining Unicode char U+0117 (decimal 279)
-   defining Unicode char U+0118 (decimal 280)
-   defining Unicode char U+0119 (decimal 281)
-   defining Unicode char U+011A (decimal 282)
-   defining Unicode char U+011B (decimal 283)
-   defining Unicode char U+011C (decimal 284)
-   defining Unicode char U+011D (decimal 285)
-   defining Unicode char U+011E (decimal 286)
-   defining Unicode char U+011F (decimal 287)
-   defining Unicode char U+0120 (decimal 288)
-   defining Unicode char U+0121 (decimal 289)
-   defining Unicode char U+0122 (decimal 290)
-   defining Unicode char U+0123 (decimal 291)
-   defining Unicode char U+0124 (decimal 292)
-   defining Unicode char U+0125 (decimal 293)
-   defining Unicode char U+0128 (decimal 296)
-   defining Unicode char U+0129 (decimal 297)
-   defining Unicode char U+012A (decimal 298)
-   defining Unicode char U+012B (decimal 299)
-   defining Unicode char U+012C (decimal 300)
-   defining Unicode char U+012D (decimal 301)
-   defining Unicode char U+012E (decimal 302)
-   defining Unicode char U+012F (decimal 303)
-   defining Unicode char U+0130 (decimal 304)
-   defining Unicode char U+0131 (decimal 305)
-   defining Unicode char U+0132 (decimal 306)
-   defining Unicode char U+0133 (decimal 307)
-   defining Unicode char U+0134 (decimal 308)
-   defining Unicode char U+0135 (decimal 309)
-   defining Unicode char U+0136 (decimal 310)
-   defining Unicode char U+0137 (decimal 311)
-   defining Unicode char U+0139 (decimal 313)
-   defining Unicode char U+013A (decimal 314)
-   defining Unicode char U+013B (decimal 315)
-   defining Unicode char U+013C (decimal 316)
-   defining Unicode char U+013D (decimal 317)
-   defining Unicode char U+013E (decimal 318)
-   defining Unicode char U+0141 (decimal 321)
-   defining Unicode char U+0142 (decimal 322)
-   defining Unicode char U+0143 (decimal 323)
-   defining Unicode char U+0144 (decimal 324)
-   defining Unicode char U+0145 (decimal 325)
-   defining Unicode char U+0146 (decimal 326)
-   defining Unicode char U+0147 (decimal 327)
-   defining Unicode char U+0148 (decimal 328)
-   defining Unicode char U+014A (decimal 330)
-   defining Unicode char U+014B (decimal 331)
-   defining Unicode char U+014C (decimal 332)
-   defining Unicode char U+014D (decimal 333)
-   defining Unicode char U+014E (decimal 334)
-   defining Unicode char U+014F (decimal 335)
-   defining Unicode char U+0150 (decimal 336)
-   defining Unicode char U+0151 (decimal 337)
-   defining Unicode char U+0152 (decimal 338)
-   defining Unicode char U+0153 (decimal 339)
-   defining Unicode char U+0154 (decimal 340)
-   defining Unicode char U+0155 (decimal 341)
-   defining Unicode char U+0156 (decimal 342)
-   defining Unicode char U+0157 (decimal 343)
-   defining Unicode char U+0158 (decimal 344)
-   defining Unicode char U+0159 (decimal 345)
-   defining Unicode char U+015A (decimal 346)
-   defining Unicode char U+015B (decimal 347)
-   defining Unicode char U+015C (decimal 348)
-   defining Unicode char U+015D (decimal 349)
-   defining Unicode char U+015E (decimal 350)
-   defining Unicode char U+015F (decimal 351)
-   defining Unicode char U+0160 (decimal 352)
-   defining Unicode char U+0161 (decimal 353)
-   defining Unicode char U+0162 (decimal 354)
-   defining Unicode char U+0163 (decimal 355)
-   defining Unicode char U+0164 (decimal 356)
-   defining Unicode char U+0165 (decimal 357)
-   defining Unicode char U+0168 (decimal 360)
-   defining Unicode char U+0169 (decimal 361)
-   defining Unicode char U+016A (decimal 362)
-   defining Unicode char U+016B (decimal 363)
-   defining Unicode char U+016C (decimal 364)
-   defining Unicode char U+016D (decimal 365)
-   defining Unicode char U+016E (decimal 366)
-   defining Unicode char U+016F (decimal 367)
-   defining Unicode char U+0170 (decimal 368)
-   defining Unicode char U+0171 (decimal 369)
-   defining Unicode char U+0172 (decimal 370)
-   defining Unicode char U+0173 (decimal 371)
-   defining Unicode char U+0174 (decimal 372)
-   defining Unicode char U+0175 (decimal 373)
-   defining Unicode char U+0176 (decimal 374)
-   defining Unicode char U+0177 (decimal 375)
-   defining Unicode char U+0178 (decimal 376)
-   defining Unicode char U+0179 (decimal 377)
-   defining Unicode char U+017A (decimal 378)
-   defining Unicode char U+017B (decimal 379)
-   defining Unicode char U+017C (decimal 380)
-   defining Unicode char U+017D (decimal 381)
-   defining Unicode char U+017E (decimal 382)
-   defining Unicode char U+01CD (decimal 461)
-   defining Unicode char U+01CE (decimal 462)
-   defining Unicode char U+01CF (decimal 463)
-   defining Unicode char U+01D0 (decimal 464)
-   defining Unicode char U+01D1 (decimal 465)
-   defining Unicode char U+01D2 (decimal 466)
-   defining Unicode char U+01D3 (decimal 467)
-   defining Unicode char U+01D4 (decimal 468)
-   defining Unicode char U+01E2 (decimal 482)
-   defining Unicode char U+01E3 (decimal 483)
-   defining Unicode char U+01E6 (decimal 486)
-   defining Unicode char U+01E7 (decimal 487)
-   defining Unicode char U+01E8 (decimal 488)
-   defining Unicode char U+01E9 (decimal 489)
-   defining Unicode char U+01EA (decimal 490)
-   defining Unicode char U+01EB (decimal 491)
-   defining Unicode char U+01F0 (decimal 496)
-   defining Unicode char U+01F4 (decimal 500)
-   defining Unicode char U+01F5 (decimal 501)
-   defining Unicode char U+0218 (decimal 536)
-   defining Unicode char U+0219 (decimal 537)
-   defining Unicode char U+021A (decimal 538)
-   defining Unicode char U+021B (decimal 539)
-   defining Unicode char U+1E02 (decimal 7682)
-   defining Unicode char U+1E03 (decimal 7683)
-   defining Unicode char U+200C (decimal 8204)
-   defining Unicode char U+2010 (decimal 8208)
-   defining Unicode char U+2011 (decimal 8209)
-   defining Unicode char U+2012 (decimal 8210)
-   defining Unicode char U+2013 (decimal 8211)
-   defining Unicode char U+2014 (decimal 8212)
-   defining Unicode char U+2015 (decimal 8213)
-   defining Unicode char U+2018 (decimal 8216)
-   defining Unicode char U+2019 (decimal 8217)
-   defining Unicode char U+201A (decimal 8218)
-   defining Unicode char U+201C (decimal 8220)
-   defining Unicode char U+201D (decimal 8221)
-   defining Unicode char U+201E (decimal 8222)
-   defining Unicode char U+2030 (decimal 8240)
-   defining Unicode char U+2031 (decimal 8241)
-   defining Unicode char U+2039 (decimal 8249)
-   defining Unicode char U+203A (decimal 8250)
-   defining Unicode char U+2423 (decimal 9251)
-)
-Now handling font encoding OT1 ...
-... processing UTF-8 mapping file for font encoding OT1
-
-("D:\Program Files\MiKTeX 2.9\tex\latex\base\ot1enc.dfu"
-File: ot1enc.dfu 2016/02/28 v1.1s UTF-8 support for inputenc
-   defining Unicode char U+00A0 (decimal 160)
-   defining Unicode char U+00A1 (decimal 161)
-   defining Unicode char U+00A3 (decimal 163)
-   defining Unicode char U+00AD (decimal 173)
-   defining Unicode char U+00B8 (decimal 184)
-   defining Unicode char U+00BF (decimal 191)
-   defining Unicode char U+00C5 (decimal 197)
-   defining Unicode char U+00C6 (decimal 198)
-   defining Unicode char U+00D8 (decimal 216)
-   defining Unicode char U+00DF (decimal 223)
-   defining Unicode char U+00E6 (decimal 230)
-   defining Unicode char U+00EC (decimal 236)
-   defining Unicode char U+00ED (decimal 237)
-   defining Unicode char U+00EE (decimal 238)
-   defining Unicode char U+00EF (decimal 239)
-   defining Unicode char U+00F8 (decimal 248)
-   defining Unicode char U+0131 (decimal 305)
-   defining Unicode char U+0141 (decimal 321)
-   defining Unicode char U+0142 (decimal 322)
-   defining Unicode char U+0152 (decimal 338)
-   defining Unicode char U+0153 (decimal 339)
-   defining Unicode char U+0174 (decimal 372)
-   defining Unicode char U+0175 (decimal 373)
-   defining Unicode char U+0176 (decimal 374)
-   defining Unicode char U+0177 (decimal 375)
-   defining Unicode char U+0218 (decimal 536)
-   defining Unicode char U+0219 (decimal 537)
-   defining Unicode char U+021A (decimal 538)
-   defining Unicode char U+021B (decimal 539)
-   defining Unicode char U+2013 (decimal 8211)
-   defining Unicode char U+2014 (decimal 8212)
-   defining Unicode char U+2018 (decimal 8216)
-   defining Unicode char U+2019 (decimal 8217)
-   defining Unicode char U+201C (decimal 8220)
-   defining Unicode char U+201D (decimal 8221)
-)
-Now handling font encoding OMS ...
-... processing UTF-8 mapping file for font encoding OMS
-
-("D:\Program Files\MiKTeX 2.9\tex\latex\base\omsenc.dfu"
-File: omsenc.dfu 2016/02/28 v1.1s UTF-8 support for inputenc
-   defining Unicode char U+00A7 (decimal 167)
-   defining Unicode char U+00B6 (decimal 182)
-   defining Unicode char U+00B7 (decimal 183)
-   defining Unicode char U+2020 (decimal 8224)
-   defining Unicode char U+2021 (decimal 8225)
-   defining Unicode char U+2022 (decimal 8226)
-)
-Now handling font encoding OMX ...
-... no UTF-8 mapping file for font encoding OMX
-Now handling font encoding U ...
-... no UTF-8 mapping file for font encoding U
 Now handling font encoding T2A ...
 ... processing UTF-8 mapping file for font encoding T2A
 
-("D:\Program Files\MiKTeX 2.9\tex\latex\base\t2aenc.dfu"
-File: t2aenc.dfu 2016/02/28 v1.1s UTF-8 support for inputenc
+("C:\Program Files\MiKTeX 2.9\tex/latex/base\t2aenc.dfu"
+File: t2aenc.dfu 2019/11/14 v1.2k UTF-8 support for inputenc
    defining Unicode char U+00A4 (decimal 164)
    defining Unicode char U+00A7 (decimal 167)
    defining Unicode char U+00AB (decimal 171)
    defining Unicode char U+00BB (decimal 187)
    defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0237 (decimal 567)
    defining Unicode char U+0400 (decimal 1024)
    defining Unicode char U+0401 (decimal 1025)
    defining Unicode char U+0402 (decimal 1026)
@@ -531,56 +222,65 @@ File: t2aenc.dfu 2016/02/28 v1.1s UTF-8 support for inputenc
    defining Unicode char U+2329 (decimal 9001)
    defining Unicode char U+232A (decimal 9002)
    defining Unicode char U+2423 (decimal 9251)
-)
-   defining Unicode char U+00A9 (decimal 169)
-   defining Unicode char U+00AA (decimal 170)
-   defining Unicode char U+00AE (decimal 174)
-   defining Unicode char U+00BA (decimal 186)
-   defining Unicode char U+02C6 (decimal 710)
-   defining Unicode char U+02DC (decimal 732)
-   defining Unicode char U+200C (decimal 8204)
-   defining Unicode char U+2026 (decimal 8230)
-   defining Unicode char U+2122 (decimal 8482)
-   defining Unicode char U+2423 (decimal 9251)
+   defining Unicode char U+27E8 (decimal 10216)
+   defining Unicode char U+27E9 (decimal 10217)
+   defining Unicode char U+FB00 (decimal 64256)
+   defining Unicode char U+FB01 (decimal 64257)
+   defining Unicode char U+FB02 (decimal 64258)
+   defining Unicode char U+FB03 (decimal 64259)
+   defining Unicode char U+FB04 (decimal 64260)
+   defining Unicode char U+FB05 (decimal 64261)
+   defining Unicode char U+FB06 (decimal 64262)
 ))
-("D:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.sty"
-Package: babel 2016/04/23 3.9r The Babel package
+LaTeX Font Info:    Trying to load font information for T2A+faq on input line 1
+12.
 
+("C:\Program Files\MiKTeX 2.9\tex/latex/pscyr\t2afaq.fd"
+File: t2afaq.fd 2004/09/23 Fontinst v1.914 font definitions for T2A/faq.
+))
+("C:\Program Files\MiKTeX 2.9\tex/latex/base\inputenc.sty"
+Package: inputenc 2018/08/11 v1.3c Input encoding file
+\inpenc@prehook=\toks15
+\inpenc@posthook=\toks16
+)
+("C:\Program Files\MiKTeX 2.9\tex/generic/babel\babel.sty"
+Package: babel 2020/03/22 3.42 The Babel package
+
+("C:\Program Files\MiKTeX 2.9\tex/generic/babel\switch.def"
+File: switch.def 2020/03/22 3.42 Babel switching mechanism
+)
 *************************************
 * Local config file bblopts.cfg used
 *
-("D:\Program Files\MiKTeX 2.9\tex\latex\arabi\bblopts.cfg"
+("C:\Program Files\MiKTeX 2.9\tex/latex/arabi\bblopts.cfg"
 File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
  babel
 )
-("D:\Program Files\MiKTeX 2.9\tex\latex\babel-russian\russianb.ldf"
-Language: russianb 2017/01/12 1.3i Russian support for the Babel system
+("C:\Program Files\MiKTeX 2.9\tex/latex/babel-russian\russianb.ldf"
+Language: russian 2017/08/12 1.3j Russian support for the Babel system
 
-("D:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.def"
-File: babel.def 2016/04/23 3.9r Babel common definitions
-\babel@savecnt=\count88
-\U@D=\dimen103
+("C:\Program Files\MiKTeX 2.9\tex/generic/babel\babel.def"
+File: babel.def 2020/03/22 3.42 Babel common definitions
+\babel@savecnt=\count176
+\U@D=\dimen135
+
+("C:\Program Files\MiKTeX 2.9\tex/generic/babel\txtbabel.def")
+\bbl@readstream=\read2
+\bbl@dirlevel=\count177
 )
-Package babel Info: Making " an active character on input line 111.
+Package babel Info: Making " an active character on input line 120.
+Package babel Info: Default for \cyrdash is provided on input line 157.
 ))
-("D:\Program Files\MiKTeX 2.9\tex\latex\xcolor\xcolor.sty"
+("C:\Program Files\MiKTeX 2.9\tex/latex/xcolor\xcolor.sty"
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
 
-("D:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\color.cfg"
+("C:\Program Files\MiKTeX 2.9\tex/latex/graphics-cfg\color.cfg"
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 225.
 
-("D:\Program Files\MiKTeX 2.9\tex\latex\graphics-def\pdftex.def"
-File: pdftex.def 2016/07/10 v0.06j Graphics/color for pdfTeX
-
-("D:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
-Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
-)
-("D:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
-Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
-)
-\Gread@gobject=\count89
+("C:\Program Files\MiKTeX 2.9\tex/latex/graphics-def\pdftex.def"
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 )
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
 Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
@@ -592,671 +292,577 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 
-("D:\Program Files\MiKTeX 2.9\tex\latex\graphics\dvipsnam.def"
+("C:\Program Files\MiKTeX 2.9\tex/latex/graphics\dvipsnam.def"
 File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
 ))
-("D:\Program Files\MiKTeX 2.9\tex\latex\listings\listings.sty"
-("D:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+("C:\Program Files\MiKTeX 2.9\tex/latex/listings\listings.sty"
+("C:\Program Files\MiKTeX 2.9\tex/latex/graphics\keyval.sty"
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
-\KV@toks@=\toks16
+\KV@toks@=\toks17
 )
-\lst@mode=\count90
-\lst@gtempboxa=\box26
-\lst@token=\toks17
-\lst@length=\count91
-\lst@currlwidth=\dimen104
-\lst@column=\count92
-\lst@pos=\count93
-\lst@lostspace=\dimen105
-\lst@width=\dimen106
-\lst@newlines=\count94
-\lst@lineno=\count95
-\lst@maxwidth=\dimen107
+\lst@mode=\count178
+\lst@gtempboxa=\box45
+\lst@token=\toks18
+\lst@length=\count179
+\lst@currlwidth=\dimen136
+\lst@column=\count180
+\lst@pos=\count181
+\lst@lostspace=\dimen137
+\lst@width=\dimen138
+\lst@newlines=\count182
+\lst@lineno=\count183
+\lst@maxwidth=\dimen139
 
-("D:\Program Files\MiKTeX 2.9\tex\latex\listings\lstmisc.sty"
-File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
-\c@lstnumber=\count96
-\lst@skipnumbers=\count97
-\lst@framebox=\box27
+("C:\Program Files\MiKTeX 2.9\tex/latex/listings\lstmisc.sty"
+File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
+\c@lstnumber=\count184
+\lst@skipnumbers=\count185
+\lst@framebox=\box46
 )
-("D:\Program Files\MiKTeX 2.9\tex\latex\listings\listings.cfg"
-File: listings.cfg 2015/06/04 1.6 listings configuration
+("C:\Program Files\MiKTeX 2.9\tex/latex/listings\listings.cfg"
+File: listings.cfg 2020/03/24 1.8d listings configuration
 ))
-Package: listings 2015/06/04 1.6 (Carsten Heinz)
+Package: listings 2020/03/24 1.8d (Carsten Heinz)
 
-("D:\Program Files\MiKTeX 2.9\tex\latex\vhistory\vhistory.sty"
+("C:\Program Files\MiKTeX 2.9\tex/latex/vhistory\vhistory.sty"
 Package: vhistory 
 
-("D:\Program Files\MiKTeX 2.9\tex\latex\carlisle\ltxtable.sty"
+("C:\Program Files\MiKTeX 2.9\tex/latex/carlisle\ltxtable.sty"
 Package: ltxtable 1995/12/11 v0.2 longtable/tabularx merge (DPC)
 
-("D:\Program Files\MiKTeX 2.9\tex\latex\tools\tabularx.sty"
-Package: tabularx 2016/02/03 v2.11 `tabularx' package (DPC)
+("C:\Program Files\MiKTeX 2.9\tex/latex/tools\tabularx.sty"
+Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
 
-("D:\Program Files\MiKTeX 2.9\tex\latex\tools\array.sty"
-Package: array 2014/10/28 v2.4c Tabular extension package (FMi)
-\col@sep=\dimen108
-\extrarowheight=\dimen109
-\NC@list=\toks18
-\extratabsurround=\skip43
-\backup@length=\skip44
+("C:\Program Files\MiKTeX 2.9\tex/latex/tools\array.sty"
+Package: array 2019/08/31 v2.4l Tabular extension package (FMi)
+\col@sep=\dimen140
+\ar@mcellbox=\box47
+\extrarowheight=\dimen141
+\NC@list=\toks19
+\extratabsurround=\skip49
+\backup@length=\skip50
+\ar@cellbox=\box48
 )
-\TX@col@width=\dimen110
-\TX@old@table=\dimen111
-\TX@old@col=\dimen112
-\TX@target=\dimen113
-\TX@delta=\dimen114
-\TX@cols=\count98
-\TX@ftn=\toks19
+\TX@col@width=\dimen142
+\TX@old@table=\dimen143
+\TX@old@col=\dimen144
+\TX@target=\dimen145
+\TX@delta=\dimen146
+\TX@cols=\count186
+\TX@ftn=\toks20
 )
-("D:\Program Files\MiKTeX 2.9\tex\latex\tools\longtable.sty"
-Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
-\LTleft=\skip45
-\LTright=\skip46
-\LTpre=\skip47
-\LTpost=\skip48
-\LTchunksize=\count99
-\LTcapwidth=\dimen115
-\LT@head=\box28
-\LT@firsthead=\box29
-\LT@foot=\box30
-\LT@lastfoot=\box31
-\LT@cols=\count100
-\LT@rows=\count101
-\c@LT@tables=\count102
-\c@LT@chunks=\count103
-\LT@p@ftn=\toks20
+("C:\Program Files\MiKTeX 2.9\tex/latex/tools\longtable.sty"
+Package: longtable 2020/01/07 v4.13 Multi-page Table package (DPC)
+\LTleft=\skip51
+\LTright=\skip52
+\LTpre=\skip53
+\LTpost=\skip54
+\LTchunksize=\count187
+\LTcapwidth=\dimen147
+\LT@head=\box49
+\LT@firsthead=\box50
+\LT@foot=\box51
+\LT@lastfoot=\box52
+\LT@cols=\count188
+\LT@rows=\count189
+\c@LT@tables=\count190
+\c@LT@chunks=\count191
+\LT@p@ftn=\toks21
 ))
-("D:\Program Files\MiKTeX 2.9\tex\latex\vhistory\sets.sty"
+("C:\Program Files\MiKTeX 2.9\tex/latex/vhistory\sets.sty"
 Package: sets 
-\c@s@tlength=\count104
+\c@s@tlength=\count192
 )
 Reading file "–û–ø–∏—Å–∞–Ω–∏–µ –±–∏–∑–Ω–µ—Å –ø—Ä–æ—Ü–µ—Å—Å–æ–≤".hst...
 ("–û–ø–∏—Å–∞–Ω–∏–µ –±–∏–∑–Ω–µ—Å –ø—Ä–æ—Ü–µ—Å—Å–æ–≤.hst")
 \vh@verfile=\write3
 )
-("D:\Program Files\MiKTeX 2.9\tex\latex\tcolorbox\tcolorbox.sty"
-Package: tcolorbox 2018/03/22 version 4.13 text color boxes
+("C:\Program Files\MiKTeX 2.9\tex/latex/tcolorbox\tcolorbox.sty"
+Package: tcolorbox 2019/11/15 version 4.22 text color boxes
 
-("D:\Program Files\MiKTeX 2.9\tex\latex\pgf\basiclayer\pgf.sty"
-("D:\Program Files\MiKTeX 2.9\tex\latex\pgf\utilities\pgfrcs.sty"
-("D:\Program Files\MiKTeX 2.9\tex\generic\pgf\utilities\pgfutil-common.tex"
-\pgfutil@everybye=\toks21
-\pgfutil@tempdima=\dimen116
-\pgfutil@tempdimb=\dimen117
+("C:\Program Files\MiKTeX 2.9\tex/latex/pgf/basiclayer\pgf.sty"
+("C:\Program Files\MiKTeX 2.9\tex/latex/pgf/utilities\pgfrcs.sty"
+("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/utilities\pgfutil-common.tex"
+\pgfutil@everybye=\toks22
+\pgfutil@tempdima=\dimen148
+\pgfutil@tempdimb=\dimen149
 
-("D:\Program Files\MiKTeX 2.9\tex\generic\pgf\utilities\pgfutil-common-lists.te
-x")) ("D:\Program Files\MiKTeX 2.9\tex\generic\pgf\utilities\pgfutil-latex.def"
-\pgfutil@abb=\box32
-("D:\Program Files\MiKTeX 2.9\tex\latex\ms\everyshi.sty"
+("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/utilities\pgfutil-common-lists.te
+x")) ("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/utilities\pgfutil-latex.def"
+\pgfutil@abb=\box53
+("C:\Program Files\MiKTeX 2.9\tex/latex/ms\everyshi.sty"
 Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
 ))
-("D:\Program Files\MiKTeX 2.9\tex\generic\pgf\utilities\pgfrcs.code.tex"
-Package: pgfrcs 2015/08/07 v3.0.1a (rcs-revision 1.31)
+("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/utilities\pgfrcs.code.tex"
+("C:\Program Files\MiKTeX 2.9\tex/generic/pgf\pgf.revision.tex")
+Package: pgfrcs 2020/01/08 v3.1.5b (3.1.5b)
 ))
-Package: pgf 2015/08/07 v3.0.1a (rcs-revision 1.15)
+Package: pgf 2020/01/08 v3.1.5b (3.1.5b)
 
-("D:\Program Files\MiKTeX 2.9\tex\latex\pgf\basiclayer\pgfcore.sty"
-("D:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
-Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+("C:\Program Files\MiKTeX 2.9\tex/latex/pgf/basiclayer\pgfcore.sty"
+("C:\Program Files\MiKTeX 2.9\tex/latex/graphics\graphicx.sty"
+Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
 
-("D:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
-Package: graphics 2016/07/10 v1.0t Standard LaTeX Graphics (DPC,SPQR)
+("C:\Program Files\MiKTeX 2.9\tex/latex/graphics\graphics.sty"
+Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
 
-("D:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+("C:\Program Files\MiKTeX 2.9\tex/latex/graphics\trig.sty"
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-("D:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\graphics.cfg"
+("C:\Program Files\MiKTeX 2.9\tex/latex/graphics-cfg\graphics.cfg"
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
-Package graphics Info: Driver file: pdftex.def on input line 99.
+Package graphics Info: Driver file: pdftex.def on input line 105.
 )
-\Gin@req@height=\dimen118
-\Gin@req@width=\dimen119
+\Gin@req@height=\dimen150
+\Gin@req@width=\dimen151
 )
-("D:\Program Files\MiKTeX 2.9\tex\latex\pgf\systemlayer\pgfsys.sty"
-("D:\Program Files\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsys.code.tex"
-Package: pgfsys 2014/07/09 v3.0.1a (rcs-revision 1.48)
+("C:\Program Files\MiKTeX 2.9\tex/latex/pgf/systemlayer\pgfsys.sty"
+("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/systemlayer\pgfsys.code.tex"
+Package: pgfsys 2020/01/08 v3.1.5b (3.1.5b)
 
-("D:\Program Files\MiKTeX 2.9\tex\generic\pgf\utilities\pgfkeys.code.tex"
-\pgfkeys@pathtoks=\toks22
-\pgfkeys@temptoks=\toks23
+("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/utilities\pgfkeys.code.tex"
+\pgfkeys@pathtoks=\toks23
+\pgfkeys@temptoks=\toks24
 
-("D:\Program Files\MiKTeX 2.9\tex\generic\pgf\utilities\pgfkeysfiltered.code.te
+("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/utilities\pgfkeysfiltered.code.te
 x"
-\pgfkeys@tmptoks=\toks24
+\pgfkeys@tmptoks=\toks25
 ))
-\pgf@x=\dimen120
-\pgf@y=\dimen121
-\pgf@xa=\dimen122
-\pgf@ya=\dimen123
-\pgf@xb=\dimen124
-\pgf@yb=\dimen125
-\pgf@xc=\dimen126
-\pgf@yc=\dimen127
+\pgf@x=\dimen152
+\pgf@y=\dimen153
+\pgf@xa=\dimen154
+\pgf@ya=\dimen155
+\pgf@xb=\dimen156
+\pgf@yb=\dimen157
+\pgf@xc=\dimen158
+\pgf@yc=\dimen159
+\pgf@xd=\dimen160
+\pgf@yd=\dimen161
 \w@pgf@writea=\write4
-\r@pgf@reada=\read1
-\c@pgf@counta=\count105
-\c@pgf@countb=\count106
-\c@pgf@countc=\count107
-\c@pgf@countd=\count108
-\t@pgf@toka=\toks25
-\t@pgf@tokb=\toks26
-\t@pgf@tokc=\toks27
- ("D:\Program Files\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgf.cfg"
-File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
+\r@pgf@reada=\read3
+\c@pgf@counta=\count193
+\c@pgf@countb=\count194
+\c@pgf@countc=\count195
+\c@pgf@countd=\count196
+\t@pgf@toka=\toks26
+\t@pgf@tokb=\toks27
+\t@pgf@tokc=\toks28
+\pgf@sys@id@count=\count197
+ ("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/systemlayer\pgf.cfg"
+File: pgf.cfg 2020/01/08 v3.1.5b (3.1.5b)
 )
 Driver file for pgf: pgfsys-pdftex.def
 
-("D:\Program Files\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsys-pdftex.def"
-File: pgfsys-pdftex.def 2014/10/11  (rcs-revision 1.35)
+("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/systemlayer\pgfsys-pdftex.def"
+File: pgfsys-pdftex.def 2020/01/08 v3.1.5b (3.1.5b)
 
-("D:\Program Files\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsys-common-pdf.def
+("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/systemlayer\pgfsys-common-pdf.def
 "
-File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
+File: pgfsys-common-pdf.def 2020/01/08 v3.1.5b (3.1.5b)
 )))
-("D:\Program Files\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsyssoftpath.code.t
+("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/systemlayer\pgfsyssoftpath.code.t
 ex"
-File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
-\pgfsyssoftpath@smallbuffer@items=\count109
-\pgfsyssoftpath@bigbuffer@items=\count110
+File: pgfsyssoftpath.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfsyssoftpath@smallbuffer@items=\count198
+\pgfsyssoftpath@bigbuffer@items=\count199
 )
-("D:\Program Files\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsysprotocol.code.t
+("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/systemlayer\pgfsysprotocol.code.t
 ex"
-File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
-)) ("D:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcore.code.tex"
-Package: pgfcore 2010/04/11 v3.0.1a (rcs-revision 1.7)
- ("D:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmath.code.tex"
-("D:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathcalc.code.tex"
-("D:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathutil.code.tex")
-("D:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathparser.code.tex"
-\pgfmath@dimen=\dimen128
-\pgfmath@count=\count111
-\pgfmath@box=\box33
-\pgfmath@toks=\toks28
-\pgfmath@stack@operand=\toks29
-\pgfmath@stack@operation=\toks30
+File: pgfsysprotocol.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)) ("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/basiclayer\pgfcore.code.tex"
+Package: pgfcore 2020/01/08 v3.1.5b (3.1.5b)
+ ("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/math\pgfmath.code.tex"
+("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/math\pgfmathcalc.code.tex"
+("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/math\pgfmathutil.code.tex")
+("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/math\pgfmathparser.code.tex"
+\pgfmath@dimen=\dimen162
+\pgfmath@count=\count266
+\pgfmath@box=\box54
+\pgfmath@toks=\toks29
+\pgfmath@stack@operand=\toks30
+\pgfmath@stack@operation=\toks31
 )
-("D:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.code.tex"
-("D:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.basic.code.
+("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/math\pgfmathfunctions.code.tex"
+("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/math\pgfmathfunctions.basic.code.
 tex")
-("D:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.trigonometr
+("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/math\pgfmathfunctions.trigonometr
 ic.code.tex")
-("D:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.random.code
+("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/math\pgfmathfunctions.random.code
 .tex")
-("D:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.comparison.
+("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/math\pgfmathfunctions.comparison.
 code.tex")
-("D:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.base.code.t
+("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/math\pgfmathfunctions.base.code.t
 ex")
-("D:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.round.code.
+("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/math\pgfmathfunctions.round.code.
 tex")
-("D:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.misc.code.t
+("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/math\pgfmathfunctions.misc.code.t
 ex")
-("D:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfunctions.integerarit
+("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/math\pgfmathfunctions.integerarit
 hmetics.code.tex")))
-("D:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathfloat.code.tex"
-\c@pgfmathroundto@lastzeros=\count112
+("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/math\pgfmathfloat.code.tex"
+\c@pgfmathroundto@lastzeros=\count267
 ))
-("D:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepoints.code.tex
+("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/math\pgfint.code.tex")
+("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/basiclayer\pgfcorepoints.code.tex
 "
-File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
-\pgf@picminx=\dimen129
-\pgf@picmaxx=\dimen130
-\pgf@picminy=\dimen131
-\pgf@picmaxy=\dimen132
-\pgf@pathminx=\dimen133
-\pgf@pathmaxx=\dimen134
-\pgf@pathminy=\dimen135
-\pgf@pathmaxy=\dimen136
-\pgf@xx=\dimen137
-\pgf@xy=\dimen138
-\pgf@yx=\dimen139
-\pgf@yy=\dimen140
-\pgf@zx=\dimen141
-\pgf@zy=\dimen142
+File: pgfcorepoints.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@picminx=\dimen163
+\pgf@picmaxx=\dimen164
+\pgf@picminy=\dimen165
+\pgf@picmaxy=\dimen166
+\pgf@pathminx=\dimen167
+\pgf@pathmaxx=\dimen168
+\pgf@pathminy=\dimen169
+\pgf@pathmaxy=\dimen170
+\pgf@xx=\dimen171
+\pgf@xy=\dimen172
+\pgf@yx=\dimen173
+\pgf@yy=\dimen174
+\pgf@zx=\dimen175
+\pgf@zy=\dimen176
 )
-("D:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepathconstruct.c
+("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/basiclayer\pgfcorepathconstruct.c
 ode.tex"
-File: pgfcorepathconstruct.code.tex 2013/10/07  (rcs-revision 1.29)
-\pgf@path@lastx=\dimen143
-\pgf@path@lasty=\dimen144
+File: pgfcorepathconstruct.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@path@lastx=\dimen177
+\pgf@path@lasty=\dimen178
 )
-("D:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepathusage.code.
+("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/basiclayer\pgfcorepathusage.code.
 tex"
-File: pgfcorepathusage.code.tex 2014/11/02  (rcs-revision 1.24)
-\pgf@shorten@end@additional=\dimen145
-\pgf@shorten@start@additional=\dimen146
+File: pgfcorepathusage.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@shorten@end@additional=\dimen179
+\pgf@shorten@start@additional=\dimen180
 )
-("D:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorescopes.code.tex
+("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/basiclayer\pgfcorescopes.code.tex
 "
-File: pgfcorescopes.code.tex 2015/05/08  (rcs-revision 1.46)
-\pgfpic=\box34
-\pgf@hbox=\box35
-\pgf@layerbox@main=\box36
-\pgf@picture@serial@count=\count113
+File: pgfcorescopes.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfpic=\box55
+\pgf@hbox=\box56
+\pgf@layerbox@main=\box57
+\pgf@picture@serial@count=\count268
 )
-("D:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoregraphicstate.co
+("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/basiclayer\pgfcoregraphicstate.co
 de.tex"
-File: pgfcoregraphicstate.code.tex 2014/11/02  (rcs-revision 1.12)
-\pgflinewidth=\dimen147
+File: pgfcoregraphicstate.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgflinewidth=\dimen181
 )
-("D:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoretransformations
+("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/basiclayer\pgfcoretransformations
 .code.tex"
-File: pgfcoretransformations.code.tex 2015/08/07  (rcs-revision 1.20)
-\pgf@pt@x=\dimen148
-\pgf@pt@y=\dimen149
-\pgf@pt@temp=\dimen150
+File: pgfcoretransformations.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@pt@x=\dimen182
+\pgf@pt@y=\dimen183
+\pgf@pt@temp=\dimen184
 )
-("D:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorequick.code.tex"
-File: pgfcorequick.code.tex 2008/10/09  (rcs-revision 1.3)
+("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/basiclayer\pgfcorequick.code.tex"
+File: pgfcorequick.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 )
-("D:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoreobjects.code.te
+("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/basiclayer\pgfcoreobjects.code.te
 x"
-File: pgfcoreobjects.code.tex 2006/10/11  (rcs-revision 1.2)
+File: pgfcoreobjects.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 )
-("D:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepathprocessing.
+("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/basiclayer\pgfcorepathprocessing.
 code.tex"
-File: pgfcorepathprocessing.code.tex 2013/09/09  (rcs-revision 1.9)
+File: pgfcorepathprocessing.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 )
-("D:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorearrows.code.tex
+("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/basiclayer\pgfcorearrows.code.tex
 "
-File: pgfcorearrows.code.tex 2015/05/14  (rcs-revision 1.43)
-\pgfarrowsep=\dimen151
+File: pgfcorearrows.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfarrowsep=\dimen185
 )
-("D:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoreshade.code.tex"
-File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
-\pgf@max=\dimen152
-\pgf@sys@shading@range@num=\count114
-) ("D:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoreimage.code.te
+("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/basiclayer\pgfcoreshade.code.tex"
+File: pgfcoreshade.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@max=\dimen186
+\pgf@sys@shading@range@num=\count269
+\pgf@shadingcount=\count270
+) ("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/basiclayer\pgfcoreimage.code.te
 x"
-File: pgfcoreimage.code.tex 2013/07/15  (rcs-revision 1.18)
+File: pgfcoreimage.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 
-("D:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoreexternal.code.t
+("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/basiclayer\pgfcoreexternal.code.t
 ex"
-File: pgfcoreexternal.code.tex 2014/07/09  (rcs-revision 1.21)
-\pgfexternal@startupbox=\box37
+File: pgfcoreexternal.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfexternal@startupbox=\box58
 ))
-("D:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorelayers.code.tex
+("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/basiclayer\pgfcorelayers.code.tex
 "
-File: pgfcorelayers.code.tex 2013/07/18  (rcs-revision 1.7)
+File: pgfcorelayers.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 )
-("D:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoretransparency.co
+("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/basiclayer\pgfcoretransparency.co
 de.tex"
-File: pgfcoretransparency.code.tex 2013/09/30  (rcs-revision 1.5)
+File: pgfcoretransparency.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 )
-("D:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepatterns.code.t
+("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/basiclayer\pgfcorepatterns.code.t
 ex"
-File: pgfcorepatterns.code.tex 2013/11/07  (rcs-revision 1.5)
-)))
-("D:\Program Files\MiKTeX 2.9\tex\generic\pgf\modules\pgfmoduleshapes.code.tex"
-File: pgfmoduleshapes.code.tex 2014/03/21  (rcs-revision 1.35)
-\pgfnodeparttextbox=\box38
-) ("D:\Program Files\MiKTeX 2.9\tex\generic\pgf\modules\pgfmoduleplot.code.tex"
-File: pgfmoduleplot.code.tex 2015/08/03  (rcs-revision 1.13)
+File: pgfcorepatterns.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 )
-("D:\Program Files\MiKTeX 2.9\tex\latex\pgf\compatibility\pgfcomp-version-0-65.
+("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/basiclayer\pgfcorerdf.code.tex"
+File: pgfcorerdf.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+))) ("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/modules\pgfmoduleshapes.code.
+tex"
+File: pgfmoduleshapes.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfnodeparttextbox=\box59
+) ("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/modules\pgfmoduleplot.code.tex"
+File: pgfmoduleplot.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)
+("C:\Program Files\MiKTeX 2.9\tex/latex/pgf/compatibility\pgfcomp-version-0-65.
 sty"
-Package: pgfcomp-version-0-65 2007/07/03 v3.0.1a (rcs-revision 1.7)
-\pgf@nodesepstart=\dimen153
-\pgf@nodesepend=\dimen154
+Package: pgfcomp-version-0-65 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@nodesepstart=\dimen187
+\pgf@nodesepend=\dimen188
 )
-("D:\Program Files\MiKTeX 2.9\tex\latex\pgf\compatibility\pgfcomp-version-1-18.
+("C:\Program Files\MiKTeX 2.9\tex/latex/pgf/compatibility\pgfcomp-version-1-18.
 sty"
-Package: pgfcomp-version-1-18 2007/07/23 v3.0.1a (rcs-revision 1.1)
-)) ("D:\Program Files\MiKTeX 2.9\tex\latex\tools\verbatim.sty"
-Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
-\every@verbatim=\toks31
-\verbatim@line=\toks32
-\verbatim@in@stream=\read2
+Package: pgfcomp-version-1-18 2020/01/08 v3.1.5b (3.1.5b)
+)) ("C:\Program Files\MiKTeX 2.9\tex/latex/tools\verbatim.sty"
+Package: verbatim 2019/11/10 v1.5r LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks32
+\verbatim@line=\toks33
+\verbatim@in@stream=\read4
 )
-("D:\Program Files\MiKTeX 2.9\tex\latex\environ\environ.sty"
+("C:\Program Files\MiKTeX 2.9\tex/latex/environ\environ.sty"
 Package: environ 2014/05/04 v0.3 A new way to define environments
 
-("D:\Program Files\MiKTeX 2.9\tex\latex\trimspaces\trimspaces.sty"
+("C:\Program Files\MiKTeX 2.9\tex/latex/trimspaces\trimspaces.sty"
 Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 )
-\@envbody=\toks33
+\@envbody=\toks34
 )
-("D:\Program Files\MiKTeX 2.9\tex\latex\etoolbox\etoolbox.sty"
-Package: etoolbox 2017/01/02 v2.4 e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count115
+("C:\Program Files\MiKTeX 2.9\tex/latex/etoolbox\etoolbox.sty"
+Package: etoolbox 2019/09/21 v2.5h e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count271
 )
-\tcb@titlebox=\box39
-\tcb@upperbox=\box40
-\tcb@lowerbox=\box41
-\tcb@phantombox=\box42
-\c@tcbbreakpart=\count116
-\c@tcblayer=\count117
-\tcolorbox@number=\count118
-\tcb@temp=\box43
-\tcb@temp=\box44
-\tcb@temp=\box45
-\tcb@temp=\box46
+\tcb@titlebox=\box60
+\tcb@upperbox=\box61
+\tcb@lowerbox=\box62
+\tcb@phantombox=\box63
+\c@tcbbreakpart=\count272
+\c@tcblayer=\count273
+\tcolorbox@number=\count274
+\tcb@temp=\box64
+\tcb@temp=\box65
+\tcb@temp=\box66
+\tcb@temp=\box67
 \tcb@out=\write5
 \tcb@record@out=\write6
 
-("D:\Program Files\MiKTeX 2.9\tex\latex\tcolorbox\tcbraster.code.tex"
-Library (tcolorbox): 'tcbraster.code.tex' version '4.13'
-\c@tcbrastercolumn=\count119
-\c@tcbrasterrow=\count120
-\c@tcbraster=\count121
-) ("D:\Program Files\MiKTeX 2.9\tex\latex\tcolorbox\tcbskins.code.tex"
-Library (tcolorbox): 'tcbskins.code.tex' version '4.13'
-("D:\Program Files\MiKTeX 2.9\tex\latex\pgf\frontendlayer\tikz.sty"
-("D:\Program Files\MiKTeX 2.9\tex\latex\pgf\utilities\pgffor.sty"
-("D:\Program Files\MiKTeX 2.9\tex\latex\pgf\utilities\pgfkeys.sty"
-("D:\Program Files\MiKTeX 2.9\tex\generic\pgf\utilities\pgfkeys.code.tex"))
-("D:\Program Files\MiKTeX 2.9\tex\latex\pgf\math\pgfmath.sty"
-("D:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmath.code.tex"))
-("D:\Program Files\MiKTeX 2.9\tex\generic\pgf\utilities\pgffor.code.tex"
-Package: pgffor 2013/12/13 v3.0.1a (rcs-revision 1.25)
+("C:\Program Files\MiKTeX 2.9\tex/latex/tcolorbox\tcbraster.code.tex"
+Library (tcolorbox): 'tcbraster.code.tex' version '4.22'
+\c@tcbrastercolumn=\count275
+\c@tcbrasterrow=\count276
+\c@tcbraster=\count277
+) ("C:\Program Files\MiKTeX 2.9\tex/latex/tcolorbox\tcbskins.code.tex"
+Library (tcolorbox): 'tcbskins.code.tex' version '4.22'
+("C:\Program Files\MiKTeX 2.9\tex/latex/pgf/frontendlayer\tikz.sty"
+("C:\Program Files\MiKTeX 2.9\tex/latex/pgf/utilities\pgffor.sty"
+("C:\Program Files\MiKTeX 2.9\tex/latex/pgf/utilities\pgfkeys.sty"
+("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/utilities\pgfkeys.code.tex"))
+("C:\Program Files\MiKTeX 2.9\tex/latex/pgf/math\pgfmath.sty"
+("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/math\pgfmath.code.tex"))
+("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/utilities\pgffor.code.tex"
+Package: pgffor 2020/01/08 v3.1.5b (3.1.5b)
 
-("D:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmath.code.tex")
-\pgffor@iter=\dimen155
-\pgffor@skip=\dimen156
-\pgffor@stack=\toks34
-\pgffor@toks=\toks35
+("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/math\pgfmath.code.tex")
+\pgffor@iter=\dimen189
+\pgffor@skip=\dimen190
+\pgffor@stack=\toks35
+\pgffor@toks=\toks36
 ))
-("D:\Program Files\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\tikz.code.tex"
-Package: tikz 2015/08/07 v3.0.1a (rcs-revision 1.151)
+("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/frontendlayer/tikz\tikz.code.tex"
+Package: tikz 2020/01/08 v3.1.5b (3.1.5b)
 
-("D:\Program Files\MiKTeX 2.9\tex\generic\pgf\libraries\pgflibraryplothandlers.
+("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/libraries\pgflibraryplothandlers.
 code.tex"
-File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
-\pgf@plot@mark@count=\count122
-\pgfplotmarksize=\dimen157
+File: pgflibraryplothandlers.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@plot@mark@count=\count278
+\pgfplotmarksize=\dimen191
 )
-\tikz@lastx=\dimen158
-\tikz@lasty=\dimen159
-\tikz@lastxsaved=\dimen160
-\tikz@lastysaved=\dimen161
-\tikzleveldistance=\dimen162
-\tikzsiblingdistance=\dimen163
-\tikz@figbox=\box47
-\tikz@figbox@bg=\box48
-\tikz@tempbox=\box49
-\tikz@tempbox@bg=\box50
-\tikztreelevel=\count123
-\tikznumberofchildren=\count124
-\tikznumberofcurrentchild=\count125
-\tikz@fig@count=\count126
+\tikz@lastx=\dimen192
+\tikz@lasty=\dimen193
+\tikz@lastxsaved=\dimen194
+\tikz@lastysaved=\dimen195
+\tikz@lastmovetox=\dimen196
+\tikz@lastmovetoy=\dimen197
+\tikzleveldistance=\dimen198
+\tikzsiblingdistance=\dimen199
+\tikz@figbox=\box68
+\tikz@figbox@bg=\box69
+\tikz@tempbox=\box70
+\tikz@tempbox@bg=\box71
+\tikztreelevel=\count279
+\tikznumberofchildren=\count280
+\tikznumberofcurrentchild=\count281
+\tikz@fig@count=\count282
 
-("D:\Program Files\MiKTeX 2.9\tex\generic\pgf\modules\pgfmodulematrix.code.tex"
-File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
-\pgfmatrixcurrentrow=\count127
-\pgfmatrixcurrentcolumn=\count128
-\pgf@matrix@numberofcolumns=\count129
+("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/modules\pgfmodulematrix.code.tex"
+File: pgfmodulematrix.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfmatrixcurrentrow=\count283
+\pgfmatrixcurrentcolumn=\count284
+\pgf@matrix@numberofcolumns=\count285
 )
-\tikz@expandcount=\count130
+\tikz@expandcount=\count286
 
-("D:\Program Files\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikz
+("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/frontendlayer/tikz/libraries\tikz
 librarytopaths.code.tex"
-File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.1a (rcs-revision 1.2)
+File: tikzlibrarytopaths.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 )))
-\tcb@waterbox=\box51
+\tcb@waterbox=\box72
 
-("D:\Program Files\MiKTeX 2.9\tex\latex\tcolorbox\tcbskinsjigsaw.code.tex"
-Library (tcolorbox): 'tcbskinsjigsaw.code.tex' version '4.13'
-)) ("D:\Program Files\MiKTeX 2.9\tex\latex\tcolorbox\tcbbreakable.code.tex"
-Library (tcolorbox): 'tcbbreakable.code.tex' version '4.13'
-\tcb@testbox=\box52
-\tcb@totalupperbox=\box53
-\tcb@totallowerbox=\box54
-) ("D:\Program Files\MiKTeX 2.9\tex\latex\tcolorbox\tcbhooks.code.tex"
-Library (tcolorbox): 'tcbhooks.code.tex' version '4.13'
-) ("D:\Program Files\MiKTeX 2.9\tex\latex\tcolorbox\tcbtheorems.code.tex"
-Library (tcolorbox): 'tcbtheorems.code.tex' version '4.13'
-("D:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
-Package: amsmath 2016/06/28 v2.15d AMS math features
-\@mathmargin=\skip49
+("C:\Program Files\MiKTeX 2.9\tex/latex/tcolorbox\tcbskinsjigsaw.code.tex"
+Library (tcolorbox): 'tcbskinsjigsaw.code.tex' version '4.22'
+)) ("C:\Program Files\MiKTeX 2.9\tex/latex/tcolorbox\tcbbreakable.code.tex"
+Library (tcolorbox): 'tcbbreakable.code.tex' version '4.22'
+\tcb@testbox=\box73
+\tcb@totalupperbox=\box74
+\tcb@totallowerbox=\box75
+) ("C:\Program Files\MiKTeX 2.9\tex/latex/tcolorbox\tcbhooks.code.tex"
+Library (tcolorbox): 'tcbhooks.code.tex' version '4.22'
+) ("C:\Program Files\MiKTeX 2.9\tex/latex/tcolorbox\tcbtheorems.code.tex"
+Library (tcolorbox): 'tcbtheorems.code.tex' version '4.22'
+("C:\Program Files\MiKTeX 2.9\tex/latex/amsmath\amsmath.sty"
+Package: amsmath 2020/01/20 v2.17e AMS math features
+\@mathmargin=\skip55
 
 For additional information on amsmath, use the `?' option.
-("D:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
+("C:\Program Files\MiKTeX 2.9\tex/latex/amsmath\amstext.sty"
 Package: amstext 2000/06/29 v2.01 AMS text
 
-("D:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
+("C:\Program Files\MiKTeX 2.9\tex/latex/amsmath\amsgen.sty"
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks36
-\ex@=\dimen164
+\@emptytoks=\toks37
+\ex@=\dimen256
 ))
-("D:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
+("C:\Program Files\MiKTeX 2.9\tex/latex/amsmath\amsbsy.sty"
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen165
+\pmbraise@=\dimen257
 )
-("D:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
+("C:\Program Files\MiKTeX 2.9\tex/latex/amsmath\amsopn.sty"
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count131
-LaTeX Info: Redefining \frac on input line 199.
-\uproot@=\count132
-\leftroot@=\count133
-LaTeX Info: Redefining \overline on input line 297.
-\classnum@=\count134
-\DOTSCASE@=\count135
-LaTeX Info: Redefining \ldots on input line 394.
-LaTeX Info: Redefining \dots on input line 397.
-LaTeX Info: Redefining \cdots on input line 518.
-\Mathstrutbox@=\box55
-\strutbox@=\box56
-\big@size=\dimen166
-LaTeX Font Info:    Redeclaring font encoding OML on input line 634.
-LaTeX Font Info:    Redeclaring font encoding OMS on input line 635.
-\macc@depth=\count136
-\c@MaxMatrixCols=\count137
-\dotsspace@=\muskip10
-\c@parentequation=\count138
-\dspbrk@lvl=\count139
-\tag@help=\toks37
-\row@=\count140
-\column@=\count141
-\maxfields@=\count142
-\andhelp@=\toks38
-\eqnshift@=\dimen167
-\alignsep@=\dimen168
-\tagshift@=\dimen169
-\tagwidth@=\dimen170
-\totwidth@=\dimen171
-\lineht@=\dimen172
-\@envbody=\toks39
-\multlinegap=\skip50
-\multlinetaggap=\skip51
-\mathdisplay@stack=\toks40
-LaTeX Info: Redefining \[ on input line 2739.
-LaTeX Info: Redefining \] on input line 2740.
+\inf@bad=\count287
+LaTeX Info: Redefining \frac on input line 227.
+\uproot@=\count288
+\leftroot@=\count289
+LaTeX Info: Redefining \overline on input line 389.
+\classnum@=\count290
+\DOTSCASE@=\count291
+LaTeX Info: Redefining \ldots on input line 486.
+LaTeX Info: Redefining \dots on input line 489.
+LaTeX Info: Redefining \cdots on input line 610.
+\Mathstrutbox@=\box76
+\strutbox@=\box77
+\big@size=\dimen258
+LaTeX Font Info:    Redeclaring font encoding OML on input line 733.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
+\macc@depth=\count292
+\c@MaxMatrixCols=\count293
+\dotsspace@=\muskip16
+\c@parentequation=\count294
+\dspbrk@lvl=\count295
+\tag@help=\toks38
+\row@=\count296
+\column@=\count297
+\maxfields@=\count298
+\andhelp@=\toks39
+\eqnshift@=\dimen259
+\alignsep@=\dimen260
+\tagshift@=\dimen261
+\tagwidth@=\dimen262
+\totwidth@=\dimen263
+\lineht@=\dimen264
+\@envbody=\toks40
+\multlinegap=\skip56
+\multlinetaggap=\skip57
+\mathdisplay@stack=\toks41
+LaTeX Info: Redefining \[ on input line 2859.
+LaTeX Info: Redefining \] on input line 2860.
 ))
-("D:\Program Files\MiKTeX 2.9\tex\latex\tcolorbox\tcbfitting.code.tex"
-Library (tcolorbox): 'tcbfitting.code.tex' version '4.13'
-\tcbfitdim=\dimen173
-\tcb@lowerfitdim=\dimen174
-\tcb@upperfitdim=\dimen175
-\tcb@cur@hbadness=\count143
-) ("D:\Program Files\MiKTeX 2.9\tex\latex\tcolorbox\tcbxparse.code.tex"
-Library (tcolorbox): 'tcbxparse.code.tex' version '4.13'
-("D:\Program Files\MiKTeX 2.9\tex\latex\l3packages\xparse\xparse.sty"
-("D:\Program Files\MiKTeX 2.9\tex\latex\l3kernel\expl3.sty"
-Package: expl3 2017/04/01 L3 programming layer (loader) 
+("C:\Program Files\MiKTeX 2.9\tex/latex/tcolorbox\tcbfitting.code.tex"
+Library (tcolorbox): 'tcbfitting.code.tex' version '4.22'
+\tcbfitdim=\dimen265
+\tcb@lowerfitdim=\dimen266
+\tcb@upperfitdim=\dimen267
+\tcb@cur@hbadness=\count299
+) ("C:\Program Files\MiKTeX 2.9\tex/latex/tcolorbox\tcbxparse.code.tex"
+Library (tcolorbox): 'tcbxparse.code.tex' version '4.22'
+("C:\Program Files\MiKTeX 2.9\tex/latex/l3packages/xparse\xparse.sty"
+("C:\Program Files\MiKTeX 2.9\tex/latex/l3kernel\expl3.sty"
+Package: expl3 2020-04-06 L3 programming layer (loader) 
 
-("D:\Program Files\MiKTeX 2.9\tex\latex\l3kernel\expl3-code.tex"
-Package: expl3 2017/04/01 L3 programming layer (code)
-\c_max_int=\count144
-\l_tmpa_int=\count145
-\l_tmpb_int=\count146
-\g_tmpa_int=\count147
-\g_tmpb_int=\count148
-\g__prg_map_int=\count149
-\c_log_iow=\count150
-\l_iow_line_count_int=\count151
-\l__iow_line_target_int=\count152
-\l__iow_one_indent_int=\count153
-\l__iow_indent_int=\count154
-\c_zero_dim=\dimen176
-\c_max_dim=\dimen177
-\l_tmpa_dim=\dimen178
-\l_tmpb_dim=\dimen179
-\g_tmpa_dim=\dimen180
-\g_tmpb_dim=\dimen181
-\c_zero_skip=\skip52
-\c_max_skip=\skip53
-\l_tmpa_skip=\skip54
-\l_tmpb_skip=\skip55
-\g_tmpa_skip=\skip56
-\g_tmpb_skip=\skip57
-\c_zero_muskip=\muskip11
-\c_max_muskip=\muskip12
-\l_tmpa_muskip=\muskip13
-\l_tmpb_muskip=\muskip14
-\g_tmpa_muskip=\muskip15
-\g_tmpb_muskip=\muskip16
-\l_keys_choice_int=\count155
-\c__fp_leading_shift_int=\count156
-\c__fp_middle_shift_int=\count157
-\c__fp_trailing_shift_int=\count158
-\c__fp_big_leading_shift_int=\count159
-\c__fp_big_middle_shift_int=\count160
-\c__fp_big_trailing_shift_int=\count161
-\c__fp_Bigg_leading_shift_int=\count162
-\c__fp_Bigg_middle_shift_int=\count163
-\c__fp_Bigg_trailing_shift_int=\count164
-\c__fp_rand_size_int=\count165
-\c__fp_rand_four_int=\count166
-\c__fp_rand_eight_int=\count167
-\l__sort_length_int=\count168
-\l__sort_min_int=\count169
-\l__sort_top_int=\count170
-\l__sort_max_int=\count171
-\l__sort_true_max_int=\count172
-\l__sort_block_int=\count173
-\l__sort_begin_int=\count174
-\l__sort_end_int=\count175
-\l__sort_A_int=\count176
-\l__sort_B_int=\count177
-\l__sort_C_int=\count178
-\c_empty_box=\box57
-\l_tmpa_box=\box58
-\l_tmpb_box=\box59
-\g_tmpa_box=\box60
-\g_tmpb_box=\box61
-\l__coffin_internal_box=\box62
-\l__coffin_internal_dim=\dimen182
-\l__coffin_offset_x_dim=\dimen183
-\l__coffin_offset_y_dim=\dimen184
-\l__coffin_x_dim=\dimen185
-\l__coffin_y_dim=\dimen186
-\l__coffin_x_prime_dim=\dimen187
-\l__coffin_y_prime_dim=\dimen188
-\c_empty_coffin=\box63
-\l__coffin_aligned_coffin=\box64
-\l__coffin_aligned_internal_coffin=\box65
-\l_tmpa_coffin=\box66
-\l_tmpb_coffin=\box67
-\l__coffin_display_coffin=\box68
-\l__coffin_display_coord_coffin=\box69
-\l__coffin_display_pole_coffin=\box70
-\l__coffin_display_offset_dim=\dimen189
-\l__coffin_display_x_dim=\dimen190
-\l__coffin_display_y_dim=\dimen191
-\l__box_top_dim=\dimen192
-\l__box_bottom_dim=\dimen193
-\l__box_left_dim=\dimen194
-\l__box_right_dim=\dimen195
-\l__box_top_new_dim=\dimen196
-\l__box_bottom_new_dim=\dimen197
-\l__box_left_new_dim=\dimen198
-\l__box_right_new_dim=\dimen199
-\l__box_internal_box=\box71
-\l__coffin_bounding_shift_dim=\dimen256
-\l__coffin_left_corner_dim=\dimen257
-\l__coffin_right_corner_dim=\dimen258
-\l__coffin_bottom_corner_dim=\dimen259
-\l__coffin_top_corner_dim=\dimen260
-\l__coffin_scaled_total_height_dim=\dimen261
-\l__coffin_scaled_width_dim=\dimen262
-)
-("D:\Program Files\MiKTeX 2.9\tex\latex\l3kernel\l3pdfmode.def"
-File: l3pdfmode.def 2017/03/18 v L3 Experimental driver: PDF mode
-\l__driver_color_stack_int=\count179
-\l__driver_tmp_box=\box72
+("C:\Program Files\MiKTeX 2.9\tex/latex/l3backend\l3backend-pdfmode.def"
+File: l3backend-pdfmode.def 2020-03-12 L3 backend support: PDF mode
+\l__kernel_color_stack_int=\count300
+\l__pdf_internal_box=\box78
 ))
-Package: xparse 2017/04/01 L3 Experimental document command parser
-\l__xparse_current_arg_int=\count180
-\g__xparse_grabber_int=\count181
-\l__xparse_m_args_int=\count182
-\l__xparse_mandatory_args_int=\count183
-\l__xparse_v_nesting_int=\count184
-)
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \tcboxverb with sig. ' O{} v ' on line 128.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \tcbsidebyside with sig. ' +O{} +m +m ' on line 280.
-.................................................
-)
-("D:\Program Files\MiKTeX 2.9\tex\latex\tcolorbox\tcblistingsutf8.code.tex"
-Library (tcolorbox): 'tcblistingsutf8.code.tex' version '4.13'
-("D:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\listingsutf8.sty"
-Package: listingsutf8 2016/05/16 v1.3 Allow UTF-8 in listings input (HO)
+Package: xparse 2020-03-06 L3 Experimental document command parser
+\l__xparse_current_arg_int=\count301
+\g__xparse_grabber_int=\count302
+\l__xparse_m_args_int=\count303
+\l__xparse_v_nesting_int=\count304
+))
+("C:\Program Files\MiKTeX 2.9\tex/latex/tcolorbox\tcblistingsutf8.code.tex"
+Library (tcolorbox): 'tcblistingsutf8.code.tex' version '4.22'
+("C:\Program Files\MiKTeX 2.9\tex/latex/listingsutf8\listingsutf8.sty"
+Package: listingsutf8 2019-12-10 v1.5 Allow UTF-8 in listings input (HO)
 
-("D:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\pdftexcmds.sty"
-Package: pdftexcmds 2016/05/21 v0.22 Utility functions of pdfTeX for LuaTeX (HO
+("C:\Program Files\MiKTeX 2.9\tex/latex/pdftexcmds\pdftexcmds.sty"
+Package: pdftexcmds 2019/11/24 v0.31 Utility functions of pdfTeX for LuaTeX (HO
 )
 
-("D:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifluatex.sty"
-Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
-Package ifluatex Info: LuaTeX not detected.
+("C:\Program Files\MiKTeX 2.9\tex/generic/infwarerr\infwarerr.sty"
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
 )
-("D:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
-Package: ifpdf 2016/05/14 v3.1 Provides the ifpdf switch
+("C:\Program Files\MiKTeX 2.9\tex/generic/iftex\iftex.sty"
+Package: iftex 2020/03/06 v1.0d TeX engine tests
 )
-Package pdftexcmds Info: LuaTeX not detected.
+("C:\Program Files\MiKTeX 2.9\tex/generic/ltxcmds\ltxcmds.sty"
+Package: ltxcmds 2019/12/15 v1.24 LaTeX kernel commands for general use (HO)
+)
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
 )
-("D:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\stringenc.sty"
-Package: stringenc 2016/05/16 v1.11 Convert strings between diff. encodings (HO
+("C:\Program Files\MiKTeX 2.9\tex/generic/stringenc\stringenc.sty"
+Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
 )
 
-("D:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\pdfescape.sty"
-Package: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
+("C:\Program Files\MiKTeX 2.9\tex/generic/pdfescape\pdfescape.sty"
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
 )))
-("D:\Program Files\MiKTeX 2.9\tex\latex\tcolorbox\tcblistings.code.tex"
-Library (tcolorbox): 'tcblistings.code.tex' version '4.13'
-("D:\Program Files\MiKTeX 2.9\tex\latex\tcolorbox\tcblistingscore.code.tex"
-Library (tcolorbox): 'tcblistingscore.code.tex' version '4.13'
-("D:\Program Files\MiKTeX 2.9\tex\latex\tcolorbox\tcbprocessing.code.tex"
-Library (tcolorbox): 'tcbprocessing.code.tex' version '4.13'
-("D:\Program Files\MiKTeX 2.9\tex\latex\tools\shellesc.sty"
-Package: shellesc 2016/06/07 v0.02a unified shell escape interface for LaTeX
-Package shellesc Info: Restricted shell escape enabled on input line 69.
+("C:\Program Files\MiKTeX 2.9\tex/latex/tcolorbox\tcblistings.code.tex"
+Library (tcolorbox): 'tcblistings.code.tex' version '4.22'
+("C:\Program Files\MiKTeX 2.9\tex/latex/tcolorbox\tcblistingscore.code.tex"
+Library (tcolorbox): 'tcblistingscore.code.tex' version '4.22'
+("C:\Program Files\MiKTeX 2.9\tex/latex/tcolorbox\tcbprocessing.code.tex"
+Library (tcolorbox): 'tcbprocessing.code.tex' version '4.22'
+("C:\Program Files\MiKTeX 2.9\tex/latex/tools\shellesc.sty"
+Package: shellesc 2019/11/08 v1.0c unified shell escape interface for LaTeX
+Package shellesc Info: Restricted shell escape enabled on input line 77.
 ))
-\c@tcblisting=\count185
+\c@tcblisting=\count305
 )))
-("D:\Program Files\MiKTeX 2.9\tex\latex\tcolorbox\tcbexternal.code.tex"
-Library (tcolorbox): 'tcbexternal.code.tex' version '4.13'
-) ("D:\Program Files\MiKTeX 2.9\tex\latex\tcolorbox\tcbmagazine.code.tex"
-Library (tcolorbox): 'tcbmagazine.code.tex' version '4.13'
-) ("D:\Program Files\MiKTeX 2.9\tex\latex\tcolorbox\tcbvignette.code.tex"
-Library (tcolorbox): 'tcbvignette.code.tex' version '4.13'
+("C:\Program Files\MiKTeX 2.9\tex/latex/tcolorbox\tcbexternal.code.tex"
+Library (tcolorbox): 'tcbexternal.code.tex' version '4.22'
+) ("C:\Program Files\MiKTeX 2.9\tex/latex/tcolorbox\tcbmagazine.code.tex"
+Library (tcolorbox): 'tcbmagazine.code.tex' version '4.22'
+) ("C:\Program Files\MiKTeX 2.9\tex/latex/tcolorbox\tcbvignette.code.tex"
+Library (tcolorbox): 'tcbvignette.code.tex' version '4.22'
 
-("D:\Program Files\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikz
+("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/frontendlayer/tikz/libraries\tikz
 libraryfadings.code.tex"
-File: tikzlibraryfadings.code.tex 2009/11/15 v3.0.1a (rcs-revision 1.2)
+File: tikzlibraryfadings.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 
-("D:\Program Files\MiKTeX 2.9\tex\generic\pgf\libraries\pgflibraryfadings.code.
+("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/libraries\pgflibraryfadings.code.
 tex"
-File: pgflibraryfadings.code.tex 2008/02/07 v3.0.1a (rcs-revision 1.3)
-))) ("D:\Program Files\MiKTeX 2.9\tex\latex\tcolorbox\tcbposter.code.tex"
-Library (tcolorbox): 'tcbposter.code.tex' version '4.13'
-)) ("D:\Program Files\MiKTeX 2.9\tex\latex\shorttoc\shorttoc.sty"
+File: pgflibraryfadings.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+))) ("C:\Program Files\MiKTeX 2.9\tex/latex/tcolorbox\tcbposter.code.tex"
+Library (tcolorbox): 'tcbposter.code.tex' version '4.22'
+)) ("C:\Program Files\MiKTeX 2.9\tex/latex/shorttoc\shorttoc.sty"
 Package: shorttoc 2002/08/20 v1.3 Short table of contents (JPFD)
 )
-("D:\Program Files\MiKTeX 2.9\tex\latex\tocloft\tocloft.sty"
-Package: tocloft 2013/05/02 v2.3f parameterised ToC, etc., typesetting
-Package tocloft Info: The document has chapter divisions on input line 44.
+("C:\Program Files\MiKTeX 2.9\tex/latex/tocloft\tocloft.sty"
+Package: tocloft 2017/08/31 v2.3i parameterised ToC, etc., typesetting
+Package tocloft Info: The document has chapter divisions on input line 51.
 \cftparskip=\skip58
 \cftbeforetoctitleskip=\skip59
 \cftaftertoctitleskip=\skip60
@@ -1286,433 +892,291 @@ Package tocloft Info: The document has chapter divisions on input line 44.
 \cftbeforefigskip=\skip84
 \cftfigindent=\skip85
 \cftfignumwidth=\skip86
-\c@lofdepth=\count186
-\c@lotdepth=\count187
+\c@lofdepth=\count306
+\c@lotdepth=\count307
 \cftbeforelottitleskip=\skip87
 \cftafterlottitleskip=\skip88
 \cftbeforetabskip=\skip89
 \cfttabindent=\skip90
 \cfttabnumwidth=\skip91
 )
-("D:\Program Files\MiKTeX 2.9\tex\latex\base\alltt.sty"
+("C:\Program Files\MiKTeX 2.9\tex/latex/base\alltt.sty"
 Package: alltt 1997/06/16 v2.0g defines alltt environment
 )
-("D:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty"
+("C:\Program Files\MiKTeX 2.9\tex/latex/amsfonts\amssymb.sty"
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 
-("D:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty"
+("C:\Program Files\MiKTeX 2.9\tex/latex/amsfonts\amsfonts.sty"
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 ))
-("D:\Program Files\MiKTeX 2.9\tex\latex\titlesec\titlesec.sty"
-Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
-\ttl@box=\box73
+("C:\Program Files\MiKTeX 2.9\tex/latex/titlesec\titlesec.sty"
+Package: titlesec 2019/10/16 v2.13 Sectioning titles
+\ttl@box=\box79
 \beforetitleunit=\skip92
 \aftertitleunit=\skip93
-\ttl@plus=\dimen263
-\ttl@minus=\dimen264
-\ttl@toksa=\toks41
-\titlewidth=\dimen265
-\titlewidthlast=\dimen266
-\titlewidthfirst=\dimen267
+\ttl@plus=\dimen268
+\ttl@minus=\dimen269
+\ttl@toksa=\toks42
+\titlewidth=\dimen270
+\titlewidthlast=\dimen271
+\titlewidthfirst=\dimen272
 )
-("D:\Program Files\MiKTeX 2.9\tex\latex\csquotes\csquotes.sty"
-Package: csquotes 2017/03/11 v5.2b context-sensitive quotations (JAW)
-\csq@reset=\count188
-\csq@gtype=\count189
-\csq@glevel=\count190
-\csq@qlevel=\count191
-\csq@maxlvl=\count192
-\csq@tshold=\count193
-\csq@ltx@everypar=\toks42
+("C:\Program Files\MiKTeX 2.9\tex/latex/csquotes\csquotes.sty"
+Package: csquotes 2019-12-06 v5.2j context-sensitive quotations (JAW)
+\csq@reset=\count308
+\csq@gtype=\count309
+\csq@glevel=\count310
+\csq@qlevel=\count311
+\csq@maxlvl=\count312
+\csq@tshold=\count313
+\csq@ltx@everypar=\toks43
 
-("D:\Program Files\MiKTeX 2.9\tex\latex\csquotes\csquotes.def"
-File: csquotes.def 2017/03/11 v5.2b csquotes generic definitions (JAW)
+("C:\Program Files\MiKTeX 2.9\tex/latex/csquotes\csquotes.def"
+File: csquotes.def 2019-12-06 v5.2j csquotes generic definitions (JAW)
 )
 Package csquotes Info: Trying to load configuration file 'csquotes.cfg'...
 Package csquotes Info: ... configuration file loaded successfully.
 
-("D:\Program Files\MiKTeX 2.9\tex\latex\csquotes\csquotes.cfg"
+("C:\Program Files\MiKTeX 2.9\tex/latex/csquotes\csquotes.cfg"
 File: csquotes.cfg 
 ))
-("D:\Program Files\MiKTeX 2.9\tex\latex\sectsty\sectsty.sty"
+("C:\Program Files\MiKTeX 2.9\tex/latex/sectsty\sectsty.sty"
 Package: sectsty 2002/02/25 v2.0.2 Commands to change all sectional heading sty
 les
-)
-("D:\Program Files\MiKTeX 2.9\tex\latex\sidecap\sidecap.sty"
+
+
+LaTeX Warning: Command \underbar  has changed.
+               Check if current package is valid.
+
+
+LaTeX Warning: Command \underline  has changed.
+               Check if current package is valid.
+
+) ("C:\Program Files\MiKTeX 2.9\tex/latex/sidecap\sidecap.sty"
 Package: sidecap 2003/06/06 v1.6f SideCap Package (RN/HjG)
 
-("D:\Program Files\MiKTeX 2.9\tex\latex\base\ifthen.sty"
+("C:\Program Files\MiKTeX 2.9\tex/latex/base\ifthen.sty"
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
-\SC@BOXWD=\dimen268
-\SC@CAPWD=\dimen269
-\SC@tempdima=\dimen270
-\SC@tempdimb=\dimen271
-\c@SC@C=\count194
-\SC@BOX=\box74
+\SC@BOXWD=\dimen273
+\SC@CAPWD=\dimen274
+\SC@tempdima=\dimen275
+\SC@tempdimb=\dimen276
+\c@SC@C=\count314
+\SC@BOX=\box80
 )
-("D:\Program Files\MiKTeX 2.9\tex\latex\pdfpages\pdfpages.sty"
-Package: pdfpages 2017/01/14 v0.5h Insert pages of external PDF documents (AM)
+("C:\Program Files\MiKTeX 2.9\tex/latex/pdfpages\pdfpages.sty"
+Package: pdfpages 2020/01/28 v0.5q Insert pages of external PDF documents (AM)
 
-("D:\Program Files\MiKTeX 2.9\tex\latex\tools\calc.sty"
-Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count195
-\calc@Bcount=\count196
-\calc@Adimen=\dimen272
-\calc@Bdimen=\dimen273
+("C:\Program Files\MiKTeX 2.9\tex/latex/tools\calc.sty"
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count315
+\calc@Bcount=\count316
+\calc@Adimen=\dimen277
+\calc@Bdimen=\dimen278
 \calc@Askip=\skip94
 \calc@Bskip=\skip95
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count197
+\calc@Ccount=\count317
 \calc@Cskip=\skip96
 )
-("D:\Program Files\MiKTeX 2.9\tex\latex\eso-pic\eso-pic.sty"
-Package: eso-pic 2015/07/21 v2.0g eso-pic (RN)
+("C:\Program Files\MiKTeX 2.9\tex/latex/eso-pic\eso-pic.sty"
+Package: eso-pic 2018/04/12 v2.0h eso-pic (RN)
 
-("D:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\atbegshi.sty"
-Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
+("C:\Program Files\MiKTeX 2.9\tex/generic/atbegshi\atbegshi.sty"
+Package: atbegshi 2019/12/05 v1.19 At begin shipout hook (HO)
 ))
-\AM@pagewidth=\dimen274
-\AM@pageheight=\dimen275
+\AM@pagewidth=\dimen279
+\AM@pageheight=\dimen280
 
-("D:\Program Files\MiKTeX 2.9\tex\latex\pdfpages\pppdftex.def"
-File: pppdftex.def 2017/01/14 v0.5h Pdfpages driver for pdfTeX (AM)
+("C:\Program Files\MiKTeX 2.9\tex/latex/pdfpages\pppdftex.def"
+File: pppdftex.def 2020/01/28 v0.5q Pdfpages driver for pdfTeX (AM)
 )
-\AM@pagebox=\box75
-\AM@global@opts=\toks43
-\AM@toc@title=\toks44
-\c@AM@survey=\count198
-\AM@templatesizebox=\box76
+\AM@pagebox=\box81
+\AM@global@opts=\toks44
+\AM@pagecnt=\count318
+\AM@toc@title=\toks45
+\c@AM@survey=\count319
+\AM@templatesizebox=\box82
 )
-("D:\Program Files\MiKTeX 2.9\tex\latex\comment\comment.sty"
+("C:\Program Files\MiKTeX 2.9\tex/latex/comment\comment.sty"
 \CommentStream=\write7
 
 Excluding comment 'comment')
-("D:\Program Files\MiKTeX 2.9\tex\latex\base\textcomp.sty"
-Package: textcomp 2016/06/19 v1.99m Standard LaTeX package
-Package textcomp Info: Sub-encoding information:
-(textcomp)               5 = only ISO-Adobe without \textcurrency
-(textcomp)               4 = 5 + \texteuro
-(textcomp)               3 = 4 + \textohm
-(textcomp)               2 = 3 + \textestimated + \textcurrency
-(textcomp)               1 = TS1 - \textcircled - \t
-(textcomp)               0 = TS1 (full)
-(textcomp)             Font families with sub-encoding setting implement
-(textcomp)             only a restricted character set as indicated.
-(textcomp)             Family '?' is the default used for unknown fonts.
-(textcomp)             See the documentation for details.
-Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 79.
-
-("D:\Program Files\MiKTeX 2.9\tex\latex\base\ts1enc.def"
-File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
-Now handling font encoding TS1 ...
-... processing UTF-8 mapping file for font encoding TS1
-
-("D:\Program Files\MiKTeX 2.9\tex\latex\base\ts1enc.dfu"
-File: ts1enc.dfu 2016/02/28 v1.1s UTF-8 support for inputenc
-   defining Unicode char U+00A2 (decimal 162)
-   defining Unicode char U+00A3 (decimal 163)
-   defining Unicode char U+00A4 (decimal 164)
-   defining Unicode char U+00A5 (decimal 165)
-   defining Unicode char U+00A6 (decimal 166)
-   defining Unicode char U+00A7 (decimal 167)
-   defining Unicode char U+00A8 (decimal 168)
-   defining Unicode char U+00A9 (decimal 169)
-   defining Unicode char U+00AA (decimal 170)
-   defining Unicode char U+00AC (decimal 172)
-   defining Unicode char U+00AE (decimal 174)
-   defining Unicode char U+00AF (decimal 175)
-   defining Unicode char U+00B0 (decimal 176)
-   defining Unicode char U+00B1 (decimal 177)
-   defining Unicode char U+00B2 (decimal 178)
-   defining Unicode char U+00B3 (decimal 179)
-   defining Unicode char U+00B4 (decimal 180)
-   defining Unicode char U+00B5 (decimal 181)
-   defining Unicode char U+00B6 (decimal 182)
-   defining Unicode char U+00B7 (decimal 183)
-   defining Unicode char U+00B9 (decimal 185)
-   defining Unicode char U+00BA (decimal 186)
-   defining Unicode char U+00BC (decimal 188)
-   defining Unicode char U+00BD (decimal 189)
-   defining Unicode char U+00BE (decimal 190)
-   defining Unicode char U+00D7 (decimal 215)
-   defining Unicode char U+00F7 (decimal 247)
-   defining Unicode char U+0192 (decimal 402)
-   defining Unicode char U+02C7 (decimal 711)
-   defining Unicode char U+02D8 (decimal 728)
-   defining Unicode char U+02DD (decimal 733)
-   defining Unicode char U+0E3F (decimal 3647)
-   defining Unicode char U+2016 (decimal 8214)
-   defining Unicode char U+2020 (decimal 8224)
-   defining Unicode char U+2021 (decimal 8225)
-   defining Unicode char U+2022 (decimal 8226)
-   defining Unicode char U+2030 (decimal 8240)
-   defining Unicode char U+2031 (decimal 8241)
-   defining Unicode char U+203B (decimal 8251)
-   defining Unicode char U+203D (decimal 8253)
-   defining Unicode char U+2044 (decimal 8260)
-   defining Unicode char U+204E (decimal 8270)
-   defining Unicode char U+2052 (decimal 8274)
-   defining Unicode char U+20A1 (decimal 8353)
-   defining Unicode char U+20A4 (decimal 8356)
-   defining Unicode char U+20A6 (decimal 8358)
-   defining Unicode char U+20A9 (decimal 8361)
-   defining Unicode char U+20AB (decimal 8363)
-   defining Unicode char U+20AC (decimal 8364)
-   defining Unicode char U+20B1 (decimal 8369)
-   defining Unicode char U+2103 (decimal 8451)
-   defining Unicode char U+2116 (decimal 8470)
-   defining Unicode char U+2117 (decimal 8471)
-   defining Unicode char U+211E (decimal 8478)
-   defining Unicode char U+2120 (decimal 8480)
-   defining Unicode char U+2122 (decimal 8482)
-   defining Unicode char U+2126 (decimal 8486)
-   defining Unicode char U+2127 (decimal 8487)
-   defining Unicode char U+212E (decimal 8494)
-   defining Unicode char U+2190 (decimal 8592)
-   defining Unicode char U+2191 (decimal 8593)
-   defining Unicode char U+2192 (decimal 8594)
-   defining Unicode char U+2193 (decimal 8595)
-   defining Unicode char U+2329 (decimal 9001)
-   defining Unicode char U+232A (decimal 9002)
-   defining Unicode char U+2422 (decimal 9250)
-   defining Unicode char U+25E6 (decimal 9702)
-   defining Unicode char U+25EF (decimal 9711)
-   defining Unicode char U+266A (decimal 9834)
-))
-LaTeX Info: Redefining \oldstylenums on input line 334.
-Package textcomp Info: Setting cmr sub-encoding to TS1/0 on input line 349.
-Package textcomp Info: Setting cmss sub-encoding to TS1/0 on input line 350.
-Package textcomp Info: Setting cmtt sub-encoding to TS1/0 on input line 351.
-Package textcomp Info: Setting cmvtt sub-encoding to TS1/0 on input line 352.
-Package textcomp Info: Setting cmbr sub-encoding to TS1/0 on input line 353.
-Package textcomp Info: Setting cmtl sub-encoding to TS1/0 on input line 354.
-Package textcomp Info: Setting ccr sub-encoding to TS1/0 on input line 355.
-Package textcomp Info: Setting ptm sub-encoding to TS1/4 on input line 356.
-Package textcomp Info: Setting pcr sub-encoding to TS1/4 on input line 357.
-Package textcomp Info: Setting phv sub-encoding to TS1/4 on input line 358.
-Package textcomp Info: Setting ppl sub-encoding to TS1/3 on input line 359.
-Package textcomp Info: Setting pag sub-encoding to TS1/4 on input line 360.
-Package textcomp Info: Setting pbk sub-encoding to TS1/4 on input line 361.
-Package textcomp Info: Setting pnc sub-encoding to TS1/4 on input line 362.
-Package textcomp Info: Setting pzc sub-encoding to TS1/4 on input line 363.
-Package textcomp Info: Setting bch sub-encoding to TS1/4 on input line 364.
-Package textcomp Info: Setting put sub-encoding to TS1/5 on input line 365.
-Package textcomp Info: Setting uag sub-encoding to TS1/5 on input line 366.
-Package textcomp Info: Setting ugq sub-encoding to TS1/5 on input line 367.
-Package textcomp Info: Setting ul8 sub-encoding to TS1/4 on input line 368.
-Package textcomp Info: Setting ul9 sub-encoding to TS1/4 on input line 369.
-Package textcomp Info: Setting augie sub-encoding to TS1/5 on input line 370.
-Package textcomp Info: Setting dayrom sub-encoding to TS1/3 on input line 371.
-Package textcomp Info: Setting dayroms sub-encoding to TS1/3 on input line 372.
-
-Package textcomp Info: Setting pxr sub-encoding to TS1/0 on input line 373.
-Package textcomp Info: Setting pxss sub-encoding to TS1/0 on input line 374.
-Package textcomp Info: Setting pxtt sub-encoding to TS1/0 on input line 375.
-Package textcomp Info: Setting txr sub-encoding to TS1/0 on input line 376.
-Package textcomp Info: Setting txss sub-encoding to TS1/0 on input line 377.
-Package textcomp Info: Setting txtt sub-encoding to TS1/0 on input line 378.
-Package textcomp Info: Setting lmr sub-encoding to TS1/0 on input line 379.
-Package textcomp Info: Setting lmdh sub-encoding to TS1/0 on input line 380.
-Package textcomp Info: Setting lmss sub-encoding to TS1/0 on input line 381.
-Package textcomp Info: Setting lmssq sub-encoding to TS1/0 on input line 382.
-Package textcomp Info: Setting lmvtt sub-encoding to TS1/0 on input line 383.
-Package textcomp Info: Setting lmtt sub-encoding to TS1/0 on input line 384.
-Package textcomp Info: Setting qhv sub-encoding to TS1/0 on input line 385.
-Package textcomp Info: Setting qag sub-encoding to TS1/0 on input line 386.
-Package textcomp Info: Setting qbk sub-encoding to TS1/0 on input line 387.
-Package textcomp Info: Setting qcr sub-encoding to TS1/0 on input line 388.
-Package textcomp Info: Setting qcs sub-encoding to TS1/0 on input line 389.
-Package textcomp Info: Setting qpl sub-encoding to TS1/0 on input line 390.
-Package textcomp Info: Setting qtm sub-encoding to TS1/0 on input line 391.
-Package textcomp Info: Setting qzc sub-encoding to TS1/0 on input line 392.
-Package textcomp Info: Setting qhvc sub-encoding to TS1/0 on input line 393.
-Package textcomp Info: Setting futs sub-encoding to TS1/4 on input line 394.
-Package textcomp Info: Setting futx sub-encoding to TS1/4 on input line 395.
-Package textcomp Info: Setting futj sub-encoding to TS1/4 on input line 396.
-Package textcomp Info: Setting hlh sub-encoding to TS1/3 on input line 397.
-Package textcomp Info: Setting hls sub-encoding to TS1/3 on input line 398.
-Package textcomp Info: Setting hlst sub-encoding to TS1/3 on input line 399.
-Package textcomp Info: Setting hlct sub-encoding to TS1/5 on input line 400.
-Package textcomp Info: Setting hlx sub-encoding to TS1/5 on input line 401.
-Package textcomp Info: Setting hlce sub-encoding to TS1/5 on input line 402.
-Package textcomp Info: Setting hlcn sub-encoding to TS1/5 on input line 403.
-Package textcomp Info: Setting hlcw sub-encoding to TS1/5 on input line 404.
-Package textcomp Info: Setting hlcf sub-encoding to TS1/5 on input line 405.
-Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 406.
-Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 407.
-Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 408.
-Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
+("C:\Program Files\MiKTeX 2.9\tex/latex/base\textcomp.sty"
+Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
 )
-("D:\Program Files\MiKTeX 2.9\tex\latex\wrapfig\wrapfig.sty"
-\wrapoverhang=\dimen276
-\WF@size=\dimen277
-\c@WF@wrappedlines=\count199
-\WF@box=\box77
-\WF@everypar=\toks45
+("C:\Program Files\MiKTeX 2.9\tex/latex/wrapfig\wrapfig.sty"
+\wrapoverhang=\dimen281
+\WF@size=\dimen282
+\c@WF@wrappedlines=\count320
+\WF@box=\box83
+\WF@everypar=\toks46
 Package: wrapfig 2003/01/31  v 3.6
 )
-("D:\Program Files\MiKTeX 2.9\tex\latex\lipsum\lipsum.sty"
-Package: lipsum 2014/07/27 v1.3 150 paragraphs of Lorem Ipsum dummy text
-\c@lips@count=\count266
+("C:\Program Files\MiKTeX 2.9\tex/latex/lipsum\lipsum.sty"
+Package: lipsum 2019/01/02 v2.2 150 paragraphs of Lorem Ipsum dummy text
+
+("C:\Program Files\MiKTeX 2.9\tex/latex/lipsum\lipsum.ltd.tex"
+File: lipsum.ltd.tex 2019/01/02 v2.2 The Lorem ipsum dummy text
+))
+("C:\Program Files\MiKTeX 2.9\tex/latex/fancyhdr\fancyhdr.sty"
+Package: fancyhdr 2019/01/31 v3.10 Extensive control of page headers and footer
+s
+\f@nch@headwidth=\skip97
+\f@nch@O@elh=\skip98
+\f@nch@O@erh=\skip99
+\f@nch@O@olh=\skip100
+\f@nch@O@orh=\skip101
+\f@nch@O@elf=\skip102
+\f@nch@O@erf=\skip103
+\f@nch@O@olf=\skip104
+\f@nch@O@orf=\skip105
 )
-("D:\Program Files\MiKTeX 2.9\tex\latex\fancyhdr\fancyhdr.sty"
-Package: fancyhdr 2016/09/06 3.8 Extensive control of page headers and footers
-\fancy@headwidth=\skip97
-\f@ncyO@elh=\skip98
-\f@ncyO@erh=\skip99
-\f@ncyO@olh=\skip100
-\f@ncyO@orh=\skip101
-\f@ncyO@elf=\skip102
-\f@ncyO@erf=\skip103
-\f@ncyO@olf=\skip104
-\f@ncyO@orf=\skip105
-)
-("D:\Program Files\MiKTeX 2.9\tex\latex\datetime\datetime.sty"
+("C:\Program Files\MiKTeX 2.9\tex/latex/datetime\datetime.sty"
 Package: datetime 2015/03/20 v2.60 Date Time Package
 
-("D:\Program Files\MiKTeX 2.9\tex\latex\fmtcount\fmtcount.sty"
-Package: fmtcount 2015/05/05 v3.01
+("C:\Program Files\MiKTeX 2.9\tex/latex/fmtcount\fmtcount.sty"
+Package: fmtcount 2020/01/30 v3.07
 
-("D:\Program Files\MiKTeX 2.9\tex\latex\xkeyval\xkeyval.sty"
+("C:\Program Files\MiKTeX 2.9\tex/latex/xkeyval\xkeyval.sty"
 Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
 
-("D:\Program Files\MiKTeX 2.9\tex\generic\xkeyval\xkeyval.tex"
-("D:\Program Files\MiKTeX 2.9\tex\generic\xkeyval\xkvutils.tex"
-\XKV@toks=\toks46
-\XKV@tempa@toks=\toks47
+("C:\Program Files\MiKTeX 2.9\tex/generic/xkeyval\xkeyval.tex"
+("C:\Program Files\MiKTeX 2.9\tex/generic/xkeyval\xkvutils.tex"
+\XKV@toks=\toks47
+\XKV@tempa@toks=\toks48
 )
-\XKV@depth=\count267
+\XKV@depth=\count321
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
-("D:\Program Files\MiKTeX 2.9\tex\latex\fmtcount\fcprefix.sty"
+("C:\Program Files\MiKTeX 2.9\tex/latex/fmtcount\fcprefix.sty"
 Package: fcprefix 2012/09/28
 
-("D:\Program Files\MiKTeX 2.9\tex\latex\fmtcount\fcnumparser.sty"
-Package: fcnumparser 2012/09/28
-\fc@digit@counter=\count268
+("C:\Program Files\MiKTeX 2.9\tex/latex/fmtcount\fcnumparser.sty"
+Package: fcnumparser 2017/06/15
+\fc@digit@counter=\count322
 ))
-("D:\Program Files\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
-Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+\c@padzeroesN=\count323
+\fc@tmpcatcode=\count324
+\@DT@modctr=\count325
+\@ordinalctr=\count326
+\@orgargctr=\count327
+\@strctr=\count328
+\@tmpstrctr=\count329
+\@DT@loopN=\count330
+\@DT@X=\count331
 )
-\c@padzeroesN=\count269
-\fc@tmpcatcode=\count270
-\@DT@modctr=\count271
-\@ordinalctr=\count272
-\@orgargctr=\count273
-\@strctr=\count274
-\@tmpstrctr=\count275
-\@DT@loopN=\count276
-\@DT@X=\count277
-)
-("D:\Program Files\MiKTeX 2.9\tex\latex\datetime\datetime-defaults.sty"
+("C:\Program Files\MiKTeX 2.9\tex/latex/datetime\datetime-defaults.sty"
 Package: datetime-defaults 2013/09/10
 )
-\@day=\count278
-\@month=\count279
-\@year=\count280
-\c@HOUR=\count281
-\c@HOURXII=\count282
-\c@MINUTE=\count283
-\c@TOHOUR=\count284
-\c@TOMINUTE=\count285
-\c@SECOND=\count286
-\currenthour=\count287
-\currentminute=\count288
-\currentsecond=\count289
+\@day=\count332
+\@month=\count333
+\@year=\count334
+\c@HOUR=\count335
+\c@HOURXII=\count336
+\c@MINUTE=\count337
+\c@TOHOUR=\count338
+\c@TOMINUTE=\count339
+\c@SECOND=\count340
+\currenthour=\count341
+\currentminute=\count342
+\currentsecond=\count343
 Package datetime Info: No datetime.cfg file found, using default settings on in
 put line 308.
-\@dtctr=\count290
-\dayofyear=\count291
-\dayofweek=\count292
+\@dtctr=\count344
+\dayofyear=\count345
+\dayofweek=\count346
 LaTeX Info: Redefining \today on input line 736.
 
-("D:\Program Files\MiKTeX 2.9\tex\latex\datetime\dt-russian.def"
+("C:\Program Files\MiKTeX 2.9\tex/latex/datetime\dt-russian.def"
 File: dt-russian.def 2013/09/10
 LaTeX Info: Redefining \daterussian on input line 64.
 )
-\dt@a=\toks48
-\dt@b=\toks49
+\dt@a=\toks49
+\dt@b=\toks50
 )
-("D:\Program Files\MiKTeX 2.9\tex\latex\caption\caption.sty"
-Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
+("C:\Program Files\MiKTeX 2.9\tex/latex/caption\caption.sty"
+Package: caption 2020/01/03 v3.4h Customizing captions (AR)
 
-("D:\Program Files\MiKTeX 2.9\tex\latex\caption\caption3.sty"
-Package: caption3 2016/05/22 v1.7-166 caption3 kernel (AR)
-Package caption3 Info: TeX engine: e-TeX on input line 67.
-\captionmargin=\dimen278
-\captionmargin@=\dimen279
-\captionwidth=\dimen280
-\caption@tempdima=\dimen281
-\caption@indent=\dimen282
-\caption@parindent=\dimen283
-\caption@hangindent=\dimen284
+("C:\Program Files\MiKTeX 2.9\tex/latex/caption\caption3.sty"
+Package: caption3 2020/01/03 v1.8h caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 61.
+\captionmargin=\dimen283
+\captionmargin@=\dimen284
+\captionwidth=\dimen285
+\caption@tempdima=\dimen286
+\caption@indent=\dimen287
+\caption@parindent=\dimen288
+\caption@hangindent=\dimen289
+Package caption Info: Standard document class detected.
 )
-\c@ContinuedFloat=\count293
+\c@caption@flags=\count347
+\c@continuedfloat=\count348
 Package caption Info: listings package is loaded.
 Package caption Info: longtable package is loaded.
 
-("D:\Program Files\MiKTeX 2.9\tex\latex\caption\ltcaption.sty"
-Package: ltcaption 2013/06/09 v1.4-94 longtable captions (AR)
+("C:\Program Files\MiKTeX 2.9\tex/latex/caption\ltcaption.sty"
+Package: ltcaption 2018/08/26 v1.4a longtable captions (AR)
 )
 Package caption Info: sidecap package is loaded.
 Package caption Info: wrapfig package is loaded.
 )
-("D:\Program Files\MiKTeX 2.9\tex\latex\caption\subcaption.sty"
-Package: subcaption 2016/05/22 v1.1-161 Sub-captions (AR)
-\c@subfigure=\count294
-\c@subtable=\count295
+("C:\Program Files\MiKTeX 2.9\tex/latex/caption\subcaption.sty"
+Package: subcaption 2020/01/22 v1.3d Sub-captions (AR)
+\c@subfigure=\count349
+\c@subtable=\count350
 )
-("D:\Program Files\MiKTeX 2.9\tex\latex\base\fontenc.sty"
-Package: fontenc 2016/06/19 v1.99m Standard LaTeX package
+("C:\Program Files\MiKTeX 2.9\tex/latex/base\fontenc.sty"
+Package: fontenc 2020/02/11 v2.0o Standard LaTeX package
+LaTeX Font Info:    Trying to load font information for T2A+CMR on input line 1
+12.
 
-("D:\Program Files\MiKTeX 2.9\tex\latex\cyrillic\t2aenc.def"
-File: t2aenc.def 2005/09/27 v1.0i Cyrillic encoding definition file
-LaTeX Font Info:    Redeclaring font encoding T2A on input line 42.
-))
-("D:\Program Files\MiKTeX 2.9\tex\latex\graphics\lscape.sty"
+("C:\Program Files\MiKTeX 2.9\tex/latex/cyrillic\t2acmr.fd"
+File: t2acmr.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
+)
+
+LaTeX Font Warning: Font shape `T2A/CMR/m/n' undefined
+(Font)              using `T2A/cmr/m/n' instead on input line 112.
+
+) ("C:\Program Files\MiKTeX 2.9\tex/latex/graphics\lscape.sty"
 Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
 )
-("D:\Program Files\MiKTeX 2.9\tex\latex\makecell\makecell.sty"
+("C:\Program Files\MiKTeX 2.9\tex/latex/makecell\makecell.sty"
 Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
-\rotheadsize=\dimen285
-\c@nlinenum=\count296
-\TeXr@lab=\toks50
+\rotheadsize=\dimen290
+\c@nlinenum=\count351
+\TeXr@lab=\toks51
 )
-("D:\Program Files\MiKTeX 2.9\tex\latex\tools\multicol.sty"
-Package: multicol 2016/04/07 v1.8p multicolumn formatting (FMi)
-\c@tracingmulticols=\count297
-\mult@box=\box78
-\multicol@leftmargin=\dimen286
-\c@unbalance=\count298
-\c@collectmore=\count299
-\doublecol@number=\count300
-\multicoltolerance=\count301
-\multicolpretolerance=\count302
-\full@width=\dimen287
-\page@free=\dimen288
-\premulticols=\dimen289
-\postmulticols=\dimen290
+("C:\Program Files\MiKTeX 2.9\tex/latex/tools\multicol.sty"
+Package: multicol 2019/12/09 v1.8y multicolumn formatting (FMi)
+\c@tracingmulticols=\count352
+\mult@box=\box84
+\multicol@leftmargin=\dimen291
+\c@unbalance=\count353
+\c@collectmore=\count354
+\doublecol@number=\count355
+\multicoltolerance=\count356
+\multicolpretolerance=\count357
+\full@width=\dimen292
+\page@free=\dimen293
+\premulticols=\dimen294
+\postmulticols=\dimen295
 \multicolsep=\skip106
 \multicolbaselineskip=\skip107
-\partial@page=\box79
-\last@line=\box80
-\maxbalancingoverflow=\dimen291
-\mult@rightbox=\box81
-\mult@grightbox=\box82
-\mult@gfirstbox=\box83
-\mult@firstbox=\box84
-\@tempa=\box85
-\@tempa=\box86
-\@tempa=\box87
-\@tempa=\box88
-\@tempa=\box89
-\@tempa=\box90
+\partial@page=\box85
+\last@line=\box86
+\maxbalancingoverflow=\dimen296
+\mult@rightbox=\box87
+\mult@grightbox=\box88
+\mult@gfirstbox=\box89
+\mult@firstbox=\box90
 \@tempa=\box91
 \@tempa=\box92
 \@tempa=\box93
@@ -1724,534 +1188,446 @@ Package: multicol 2016/04/07 v1.8p multicolumn formatting (FMi)
 \@tempa=\box99
 \@tempa=\box100
 \@tempa=\box101
-\c@columnbadness=\count303
-\c@finalcolumnbadness=\count304
-\last@try=\dimen292
-\multicolovershoot=\dimen293
-\multicolundershoot=\dimen294
-\mult@nat@firstbox=\box102
-\colbreak@box=\box103
-\mc@col@check@num=\count305
+\@tempa=\box102
+\@tempa=\box103
+\@tempa=\box104
+\@tempa=\box105
+\@tempa=\box106
+\@tempa=\box107
+\@tempa=\box108
+\@tempa=\box109
+\@tempa=\box110
+\@tempa=\box111
+\@tempa=\box112
+\@tempa=\box113
+\@tempa=\box114
+\@tempa=\box115
+\@tempa=\box116
+\@tempa=\box117
+\@tempa=\box118
+\@tempa=\box119
+\@tempa=\box120
+\@tempa=\box121
+\@tempa=\box122
+\@tempa=\box123
+\@tempa=\box124
+\@tempa=\box125
+\@tempa=\box126
+\@tempa=\box127
+\c@minrows=\count358
+\c@columnbadness=\count359
+\c@finalcolumnbadness=\count360
+\last@try=\dimen297
+\multicolovershoot=\dimen298
+\multicolundershoot=\dimen299
+\mult@nat@firstbox=\box128
+\colbreak@box=\box129
+\mc@col@check@num=\count361
 )
-("D:\Program Files\MiKTeX 2.9\tex\latex\floatrow\floatrow.sty"
+("C:\Program Files\MiKTeX 2.9\tex/latex/floatrow\floatrow.sty"
 Package: floatrow 2008/08/02 v0.3b floatrow: float package extension
-\c@float@type=\count306
-\float@exts=\toks51
-\float@box=\box104
-\@floatcapt=\box105
+\c@float@type=\count362
+\float@exts=\toks52
+\float@box=\box130
+\@floatcapt=\box131
 Package floatrow Info: Modified float package code loaded on input line 455.
 Package floatrow Info: Modified rotfloat package code loaded on input line 473.
 
-\FR@everyfloat=\toks52
+\FR@everyfloat=\toks53
 \flrow@foot=\insert252
-\FB@wd=\dimen295
-\FBo@wd=\dimen296
-\FBc@wd=\dimen297
+\FB@wd=\dimen300
+\FBo@wd=\dimen301
+\FBc@wd=\dimen302
 \FBo@ht=\skip108
 \FBc@ht=\skip109
 \FBf@ht=\skip110
 \FBo@max=\skip111
 \FBc@max=\skip112
 \FBf@max=\skip113
-\c@FBl@b=\count307
-\floatbox@depth=\count308
-\c@FRobj=\count309
-\c@FRsobj=\count310
+\c@FBl@b=\count363
+\floatbox@depth=\count364
+\c@FRobj=\count365
+\c@FRsobj=\count366
 \Xhsize=\skip114
 \sXhsize=\skip115
 \Zhsize=\skip116
 \sZhsize=\skip117
-\flrow@rowbox=\box106
-\FR@Zunitlength=\dimen298
-\c@FBcnt=\count311
-\FPOScnt=\count312
+\flrow@rowbox=\box132
+\FR@Zunitlength=\dimen303
+\c@FBcnt=\count367
+\FPOScnt=\count368
 \LTleft=\skip118
 \LTright=\skip119
 \LTleft=\skip120
 \LTright=\skip121
-\flrow@types=\toks53
+\flrow@types=\toks54
 )
-("D:\Program Files\MiKTeX 2.9\tex\latex\lastpage\lastpage.sty"
+("C:\Program Files\MiKTeX 2.9\tex/latex/lastpage\lastpage.sty"
 Package: lastpage 2015/03/29 v1.2m Refers to last page's name (HMM; JPG)
 )
-("D:\Program Files\MiKTeX 2.9\tex\latex\titlesec\wrap.tss"
-File: wrap.tss 2016/03/15
-)
-("D:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty"
-Package: hyperref 2016/06/24 v6.83q Hypertext links for LaTeX
+("C:\Program Files\MiKTeX 2.9\tex/latex/hyperref\hyperref.sty"
+Package: hyperref 2020/01/14 v7.00d Hypertext links for LaTeX
 
-("D:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\hobsub-hyperref.sty"
-Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
+("C:\Program Files\MiKTeX 2.9\tex/generic/kvsetkeys\kvsetkeys.sty"
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+)
+("C:\Program Files\MiKTeX 2.9\tex/generic/kvdefinekeys\kvdefinekeys.sty"
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+("C:\Program Files\MiKTeX 2.9\tex/latex/hycolor\hycolor.sty"
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+("C:\Program Files\MiKTeX 2.9\tex/latex/letltxmacro\letltxmacro.sty"
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+)
+("C:\Program Files\MiKTeX 2.9\tex/latex/auxhook\auxhook.sty"
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)
+("C:\Program Files\MiKTeX 2.9\tex/latex/kvoptions\kvoptions.sty"
+Package: kvoptions 2019/11/29 v3.13 Key value format for package options (HO)
+)
+\@linkdim=\dimen304
+\Hy@linkcounter=\count369
+\Hy@pagecounter=\count370
 
-
-("D:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\hobsub-generic.sty"
-Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
-Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
-Package hobsub Info: Skipping package `infwarerr' (already loaded).
-Package hobsub Info: Skipping package `ltxcmds' (already loaded).
-Package hobsub Info: Skipping package `ifluatex' (already loaded).
-Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
-Package ifvtex Info: VTeX not detected.
-Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
-Package hobsub Info: Skipping package `ifpdf' (already loaded).
-Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
-Package etexcmds Info: Could not find \expanded.
-(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
-(etexcmds)             that some package has redefined \expanded.
-(etexcmds)             In the latter case, load this package earlier.
-Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
-Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
-Package hobsub Info: Skipping package `pdftexcmds' (already loaded).
-Package hobsub Info: Skipping package `pdfescape' (already loaded).
-Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO
-)
-Package: bitset 2016/05/16 v1.2 Handle bit-vector datatype (HO)
-Package: uniquecounter 2016/05/16 v1.3 Provide unlimited unique counter (HO)
-)
-Package hobsub Info: Skipping package `hobsub' (already loaded).
-Package: letltxmacro 2016/05/16 v1.5 Let assignment for LaTeX macros (HO)
-Package: hopatch 2016/05/16 v1.3 Wrapper for package hooks (HO)
-Package: xcolor-patch 2016/05/16 xcolor patch
-Package: atveryend 2016/05/16 v1.9 Hooks at the very end of document (HO)
-Package hobsub Info: Skipping package `atbegshi' (already loaded).
-Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
-Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
-)
-("D:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\auxhook.sty"
-Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
-)
-("D:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
-Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
-)
-\@linkdim=\dimen299
-\Hy@linkcounter=\count313
-\Hy@pagecounter=\count314
-
-("D:\Program Files\MiKTeX 2.9\tex\latex\hyperref\pd1enc.def"
-File: pd1enc.def 2016/06/24 v6.83q Hyperref: PDFDocEncoding definition (HO)
+("C:\Program Files\MiKTeX 2.9\tex/latex/hyperref\pd1enc.def"
+File: pd1enc.def 2020/01/14 v7.00d Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
-\Hy@SavedSpaceFactor=\count315
-Package hyperref Info: Option `unicode' set `true' on input line 3453.
+("C:\Program Files\MiKTeX 2.9\tex/generic/intcalc\intcalc.sty"
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+("C:\Program Files\MiKTeX 2.9\tex/generic/etexcmds\etexcmds.sty"
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+)
+\Hy@SavedSpaceFactor=\count371
+Package hyperref Info: Option `unicode' set `true' on input line 3502.
 
-("D:\Program Files\MiKTeX 2.9\tex\latex\hyperref\puenc.def"
-File: puenc.def 2016/06/24 v6.83q Hyperref: PDF Unicode definition (HO)
+("C:\Program Files\MiKTeX 2.9\tex/latex/hyperref\puenc.def"
+File: puenc.def 2020/01/14 v7.00d Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
 ... no UTF-8 mapping file for font encoding PU
 )
-("D:\Program Files\MiKTeX 2.9\tex\latex\00miktex\hyperref.cfg"
-File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
-)
-Package hyperref Info: Hyper figures OFF on input line 4486.
-Package hyperref Info: Link nesting OFF on input line 4491.
-Package hyperref Info: Hyper index ON on input line 4494.
-Package hyperref Info: Plain pages OFF on input line 4501.
-Package hyperref Info: Backreferencing OFF on input line 4506.
+Package hyperref Info: Hyper figures OFF on input line 4547.
+Package hyperref Info: Link nesting OFF on input line 4552.
+Package hyperref Info: Hyper index ON on input line 4555.
+Package hyperref Info: Plain pages OFF on input line 4562.
+Package hyperref Info: Backreferencing OFF on input line 4567.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4735.
-\c@Hy@tempcnt=\count316
+Package hyperref Info: Bookmarks ON on input line 4800.
+\c@Hy@tempcnt=\count372
 
-("D:\Program Files\MiKTeX 2.9\tex\latex\url\url.sty"
+("C:\Program Files\MiKTeX 2.9\tex/latex/url\url.sty"
 \Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-LaTeX Info: Redefining \url on input line 5088.
-\XeTeXLinkMargin=\dimen300
-\Fld@menulength=\count317
-\Field@Width=\dimen301
-\Fld@charsize=\dimen302
-Package hyperref Info: Hyper figures OFF on input line 6342.
-Package hyperref Info: Link nesting OFF on input line 6347.
-Package hyperref Info: Hyper index ON on input line 6350.
-Package hyperref Info: backreferencing OFF on input line 6357.
-Package hyperref Info: Link coloring OFF on input line 6362.
-Package hyperref Info: Link coloring with OCG OFF on input line 6367.
-Package hyperref Info: PDF/A mode OFF on input line 6372.
-LaTeX Info: Redefining \ref on input line 6412.
-LaTeX Info: Redefining \pageref on input line 6416.
-\Hy@abspage=\count318
-\c@Item=\count319
-\c@Hfootnote=\count320
+LaTeX Info: Redefining \url on input line 5159.
+\XeTeXLinkMargin=\dimen305
+
+("C:\Program Files\MiKTeX 2.9\tex/generic/bitset\bitset.sty"
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+("C:\Program Files\MiKTeX 2.9\tex/generic/bigintcalc\bigintcalc.sty"
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
+))
+\Fld@menulength=\count373
+\Field@Width=\dimen306
+\Fld@charsize=\dimen307
+Package hyperref Info: Hyper figures OFF on input line 6430.
+Package hyperref Info: Link nesting OFF on input line 6435.
+Package hyperref Info: Hyper index ON on input line 6438.
+Package hyperref Info: backreferencing OFF on input line 6445.
+Package hyperref Info: Link coloring OFF on input line 6450.
+Package hyperref Info: Link coloring with OCG OFF on input line 6455.
+Package hyperref Info: PDF/A mode OFF on input line 6460.
+LaTeX Info: Redefining \ref on input line 6500.
+LaTeX Info: Redefining \pageref on input line 6504.
+\Hy@abspage=\count374
+\c@Item=\count375
+\c@Hfootnote=\count376
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
 
-Package hyperref Message: Driver (autodetected): hpdftex.
+("C:\Program Files\MiKTeX 2.9\tex/latex/hyperref\hpdftex.def"
+File: hpdftex.def 2020/01/14 v7.00d Hyperref driver for pdfTeX
 
-("D:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hpdftex.def"
-File: hpdftex.def 2016/06/24 v6.83q Hyperref driver for pdfTeX
-\Fld@listcount=\count321
-\c@bookmark@seq@number=\count322
+("C:\Program Files\MiKTeX 2.9\tex/latex/atveryend\atveryend.sty"
+Package: atveryend 2019-12-11 v1.11 Hooks at the very end of document (HO)
+)
+\Fld@listcount=\count377
+\c@bookmark@seq@number=\count378
 
-("D:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\rerunfilecheck.sty"
-Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
+("C:\Program Files\MiKTeX 2.9\tex/latex/rerunfilecheck\rerunfilecheck.sty"
+Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
+
+("C:\Program Files\MiKTeX 2.9\tex/generic/uniquecounter\uniquecounter.sty"
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
-82.
+86.
 )
 \Hy@SectionHShift=\skip122
 )
-("D:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
-Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
+("C:\Program Files\MiKTeX 2.9\tex/latex/hyperref\nameref.sty"
+Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
 
-("D:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
-Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
+("C:\Program Files\MiKTeX 2.9\tex/latex/refcount\refcount.sty"
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 )
-\c@section@level=\count323
+("C:\Program Files\MiKTeX 2.9\tex/generic/gettitlestring\gettitlestring.sty"
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+)
+\c@section@level=\count379
 )
 Package hyperref Info: Option `colorlinks' set `true' on input line 184.
 
-("D:\Program Files\MiKTeX 2.9\tex\latex\enumitem\enumitem.sty"
-Package: enumitem 2011/09/28 v3.5.2 Customized lists
+("C:\Program Files\MiKTeX 2.9\tex/latex/enumitem\enumitem.sty"
+Package: enumitem 2019/06/20 v3.9 Customized lists
 \labelindent=\skip123
-\enit@outerparindent=\dimen303
-\enit@toks=\toks54
-\enit@inbox=\box107
-\enitdp@description=\count324
+\enit@outerparindent=\dimen308
+\enit@toks=\toks55
+\enit@inbox=\box133
+\enit@count@id=\count380
+\enitdp@description=\count381
 )
-("D:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.sty"
-Package: geometry 2010/09/12 v5.6 Page Geometry
-\Gm@cnth=\count325
-\Gm@cntv=\count326
-\c@Gm@tempcnt=\count327
-\Gm@bindingoffset=\dimen304
-\Gm@wd@mp=\dimen305
-\Gm@odd@mp=\dimen306
-\Gm@even@mp=\dimen307
-\Gm@layoutwidth=\dimen308
-\Gm@layoutheight=\dimen309
-\Gm@layouthoffset=\dimen310
-\Gm@layoutvoffset=\dimen311
-\Gm@dimlist=\toks55
+("C:\Program Files\MiKTeX 2.9\tex/latex/geometry\geometry.sty"
+Package: geometry 2020/01/02 v5.9 Page Geometry
 
-("D:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.cfg"))
-("D:\Program Files\MiKTeX 2.9\tex\latex\svn\svn.sty"
+("C:\Program Files\MiKTeX 2.9\tex/generic/iftex\ifvtex.sty"
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+)
+\Gm@cnth=\count382
+\Gm@cntv=\count383
+\c@Gm@tempcnt=\count384
+\Gm@bindingoffset=\dimen309
+\Gm@wd@mp=\dimen310
+\Gm@odd@mp=\dimen311
+\Gm@even@mp=\dimen312
+\Gm@layoutwidth=\dimen313
+\Gm@layoutheight=\dimen314
+\Gm@layouthoffset=\dimen315
+\Gm@layoutvoffset=\dimen316
+\Gm@dimlist=\toks56
+
+("C:\Program Files\MiKTeX 2.9\tex/latex/geometry\geometry.cfg"))
+("C:\Program Files\MiKTeX 2.9\tex/latex/svn\svn.sty"
 Package: svn 2007/09/25 r43 Typeset Subversion keywords.
 )
-("D:\Program Files\MiKTeX 2.9\tex\latex\chappg\chappg.sty"
+("C:\Program Files\MiKTeX 2.9\tex/latex/chappg\chappg.sty"
 Package: chappg 2006/05/09 v2.1b page numbering by chapter number pages by chap
 ter (or other unit)
 )
-("D:\Program Files\MiKTeX 2.9\tex\latex\titlepic\titlepic.sty"
+("C:\Program Files\MiKTeX 2.9\tex/latex/titlepic\titlepic.sty"
 Package: titlepic 2017/03/14 1.2 Package to display a picture on the title page
 
 )
 \algboxsp=\skip124
-\algbox=\box108
+\algbox=\box134
 
-("D:\Program Files\MiKTeX 2.9\tex\latex\todonotes\todonotes.sty"
-Package: todonotes 2015/07/09 .dtx Todonotes source and documentation.
-Package: todonotes 2012/07/25
+("C:\Program Files\MiKTeX 2.9\tex/latex/todonotes\todonotes.sty"
+Package: todonotes 2019/01/24 v1.1.2 Todonotes source and documentation.
+Package: todonotes 2018/11/22
 
-("D:\Program Files\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikz
+("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/frontendlayer/tikz/libraries\tikz
 librarypositioning.code.tex"
-File: tikzlibrarypositioning.code.tex 2008/10/06 v3.0.1a (rcs-revision 1.7)
+File: tikzlibrarypositioning.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 )
-\c@@todonotes@numberoftodonotes=\count328
+("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/frontendlayer/tikz/libraries\tikz
+libraryshadows.code.tex"
+File: tikzlibraryshadows.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 )
-("D:\Program Files\MiKTeX 2.9\tex\latex\snotez\snotez.sty"
+\c@@todonotes@numberoftodonotes=\count385
+)
+("C:\Program Files\MiKTeX 2.9\tex/latex/snotez\snotez.sty"
 Package: snotez 2013/04/21 v0.3 sidenote support for LaTeX 2e (CN)
 
-("D:\Program Files\MiKTeX 2.9\tex\latex\pgfopts\pgfopts.sty"
+("C:\Program Files\MiKTeX 2.9\tex/latex/pgfopts\pgfopts.sty"
 Package: pgfopts 2014/07/10 v2.1a LaTeX package options with pgfkeys
-\pgfopts@list@add@a@toks=\toks56
-\pgfopts@list@add@b@toks=\toks57
+\pgfopts@list@add@a@toks=\toks57
+\pgfopts@list@add@b@toks=\toks58
 )
-("D:\Program Files\MiKTeX 2.9\tex\latex\marginnote\marginnote.sty"
-Package: marginnote 2016/10/21 v1.2a non floating margin notes for LaTeX
-\c@mn@abspage=\count329
+("C:\Program Files\MiKTeX 2.9\tex/latex/marginnote\marginnote.sty"
+Package: marginnote 2018/08/09 v1.4b non floating margin notes for LaTeX
+\c@mn@abspage=\count386
 )
-\c@sidenote=\count330
+\c@sidenote=\count387
 )
-("D:\Program Files\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikz
+("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/frontendlayer/tikz/libraries\tikz
 librarycalc.code.tex"
-File: tikzlibrarycalc.code.tex 2013/07/15 v3.0.1a (rcs-revision 1.9)
+File: tikzlibrarycalc.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 )
-("D:\Program Files\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikz
+("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/frontendlayer/tikz/libraries\tikz
 librarybackgrounds.code.tex"
-File: tikzlibrarybackgrounds.code.tex 2013/07/18 v3.0.1a (rcs-revision 1.3)
-\pgf@layerbox@background=\box109
-\pgf@layerboxsaved@background=\box110
+File: tikzlibrarybackgrounds.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@layerbox@background=\box135
+\pgf@layerboxsaved@background=\box136
 )
-("D:\Program Files\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikz
+("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/frontendlayer/tikz/libraries\tikz
 libraryfit.code.tex"
-File: tikzlibraryfit.code.tex 2013/07/12 v3.0.1a (rcs-revision 1.5)
+File: tikzlibraryfit.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 )
-("D:\Program Files\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikz
+("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/frontendlayer/tikz/libraries\tikz
 librarydecorations.pathmorphing.code.tex"
-("D:\Program Files\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikz
+("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/frontendlayer/tikz/libraries\tikz
 librarydecorations.code.tex"
-("D:\Program Files\MiKTeX 2.9\tex\generic\pgf\modules\pgfmoduledecorations.code
+("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/modules\pgfmoduledecorations.code
 .tex"
-\pgfdecoratedcompleteddistance=\dimen312
-\pgfdecoratedremainingdistance=\dimen313
-\pgfdecoratedinputsegmentcompleteddistance=\dimen314
-\pgfdecoratedinputsegmentremainingdistance=\dimen315
-\pgf@decorate@distancetomove=\dimen316
-\pgf@decorate@repeatstate=\count331
-\pgfdecorationsegmentamplitude=\dimen317
-\pgfdecorationsegmentlength=\dimen318
+\pgfdecoratedcompleteddistance=\dimen317
+\pgfdecoratedremainingdistance=\dimen318
+\pgfdecoratedinputsegmentcompleteddistance=\dimen319
+\pgfdecoratedinputsegmentremainingdistance=\dimen320
+\pgf@decorate@distancetomove=\dimen321
+\pgf@decorate@repeatstate=\count388
+\pgfdecorationsegmentamplitude=\dimen322
+\pgfdecorationsegmentlength=\dimen323
 )
-\tikz@lib@dec@box=\box111
+\tikz@lib@dec@box=\box137
 )
-("D:\Program Files\MiKTeX 2.9\tex\generic\pgf\libraries\decorations\pgflibraryd
+("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/libraries/decorations\pgflibraryd
 ecorations.pathmorphing.code.tex"))
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \CommentPar with sig. 'O{}O{}O{}m m m ' on line 501.
-.................................................
-
-("D:\Program Files\MiKTeX 2.9\tex\latex\menukeys\menukeys.sty"
+("C:\Program Files\MiKTeX 2.9\tex/latex/menukeys\menukeys.sty"
 Package: menukeys 2016/08/08 v1.5 -- A package to format menus, paths and short
 cuts
 
-("D:\Program Files\MiKTeX 2.9\tex\latex\xstring\xstring.sty"
-("D:\Program Files\MiKTeX 2.9\tex\generic\xstring\xstring.tex"
-\@xs@message=\write8
-\integerpart=\count332
-\decimalpart=\count333
+("C:\Program Files\MiKTeX 2.9\tex/latex/xstring\xstring.sty"
+("C:\Program Files\MiKTeX 2.9\tex/generic/xstring\xstring.tex"
+\integerpart=\count389
+\decimalpart=\count390
 )
-Package: xstring 2013/10/13  v1.7c  String manipulations (C Tellechea)
+Package: xstring 2019/02/06 v1.83 String manipulations (CT)
 )
-("D:\Program Files\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikz
+("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/frontendlayer/tikz/libraries\tikz
 libraryshapes.symbols.code.tex"
-File: tikzlibraryshapes.symbols.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
+File: tikzlibraryshapes.symbols.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 
-("D:\Program Files\MiKTeX 2.9\tex\generic\pgf\libraries\shapes\pgflibraryshapes
+("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/libraries/shapes\pgflibraryshapes
 .symbols.code.tex"
-File: pgflibraryshapes.symbols.code.tex 2013/09/11 v3.0.1a (rcs-revision 1.6)
+File: pgflibraryshapes.symbols.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 ))
-("D:\Program Files\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikz
-libraryshadows.code.tex"
-File: tikzlibraryshadows.code.tex 2008/01/13 v3.0.1a (rcs-revision 1.3)
-)
-("D:\Program Files\MiKTeX 2.9\tex\latex\adjustbox\adjustbox.sty"
-Package: adjustbox 2012/05/21 v1.0 Adjusting TeX boxes (trim, clip, ...)
+("C:\Program Files\MiKTeX 2.9\tex/latex/adjustbox\adjustbox.sty"
+Package: adjustbox 2019/01/04 v1.2 Adjusting TeX boxes (trim, clip, ...)
 
-("D:\Program Files\MiKTeX 2.9\tex\latex\adjustbox\adjcalc.sty"
+("C:\Program Files\MiKTeX 2.9\tex/latex/adjustbox\adjcalc.sty"
 Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back
 -ends (calc, etex, pgfmath)
 )
-("D:\Program Files\MiKTeX 2.9\tex\latex\adjustbox\trimclip.sty"
-Package: trimclip 2012/05/16 v1.0 Trim and clip general TeX material
+("C:\Program Files\MiKTeX 2.9\tex/latex/adjustbox\trimclip.sty"
+Package: trimclip 2018/04/08 v1.1 Trim and clip general TeX material
 
-("D:\Program Files\MiKTeX 2.9\tex\latex\collectbox\collectbox.sty"
+("C:\Program Files\MiKTeX 2.9\tex/latex/collectbox\collectbox.sty"
 Package: collectbox 2012/05/17 v0.4b Collect macro arguments as boxes
-\collectedbox=\box112
+\collectedbox=\box138
 )
-\tc@llx=\dimen319
-\tc@lly=\dimen320
-\tc@urx=\dimen321
-\tc@ury=\dimen322
+\tc@llx=\dimen324
+\tc@lly=\dimen325
+\tc@urx=\dimen326
+\tc@ury=\dimen327
 Package trimclip Info: Using driver 'tc-pdftex.def'.
 
-("D:\Program Files\MiKTeX 2.9\tex\latex\adjustbox\tc-pdftex.def"
-File: tc-pdftex.def 2012/05/13 v1.0 Clipping driver for pdftex
+("C:\Program Files\MiKTeX 2.9\tex/latex/adjustbox\tc-pdftex.def"
+File: tc-pdftex.def 2019/01/04 v2.2 Clipping driver for pdftex
 ))
-\adjbox@Width=\dimen323
-\adjbox@Height=\dimen324
-\adjbox@Depth=\dimen325
-\adjbox@Totalheight=\dimen326
+\adjbox@Width=\dimen328
+\adjbox@Height=\dimen329
+\adjbox@Depth=\dimen330
+\adjbox@Totalheight=\dimen331
+\adjbox@pwidth=\dimen332
+\adjbox@pheight=\dimen333
+\adjbox@pdepth=\dimen334
+\adjbox@ptotalheight=\dimen335
 
-("D:\Program Files\MiKTeX 2.9\tex\latex\ifoddpage\ifoddpage.sty"
+("C:\Program Files\MiKTeX 2.9\tex/latex/ifoddpage\ifoddpage.sty"
 Package: ifoddpage 2016/04/23 v1.1 Conditionals for odd/even page detection
-\c@checkoddpage=\count334
+\c@checkoddpage=\count391
 )
-("D:\Program Files\MiKTeX 2.9\tex\latex\ltxmisc\varwidth.sty"
+("C:\Program Files\MiKTeX 2.9\tex/latex/varwidth\varwidth.sty"
 Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
-\@vwid@box=\box113
-\sift@deathcycles=\count335
-\@vwid@loff=\dimen327
-\@vwid@roff=\dimen328
+\@vwid@box=\box139
+\sift@deathcycles=\count392
+\@vwid@loff=\dimen336
+\@vwid@roff=\dimen337
 ))
-("D:\Program Files\MiKTeX 2.9\tex\latex\ltxmisc\relsize.sty"
-Package: relsize 2003/07/04 ver 3.1
+("C:\Program Files\MiKTeX 2.9\tex/latex/relsize\relsize.sty"
+Package: relsize 2013/03/29 ver 4.1
 )
-("D:\Program Files\MiKTeX 2.9\tex\latex\catoptions\catoptions.sty"
-\m@one=\count336
-\z@pt=\dimen329
+("C:\Program Files\MiKTeX 2.9\tex/latex/catoptions\catoptions.sty"
+\m@one=\count393
+\z@pt=\dimen338
 Package: catoptions 2014/08/29 v0.2.7h Securing catcodes and parsing options (A
 M)
-\cpt@csvdepth=\count337
-\cpt@optdepth=\count338
-\cpt@cnta=\count339
-\indrisdepth=\count340
-\cpt@foreachdepth=\count341
-\cpt@exprcnt=\count342
+\cpt@csvdepth=\count394
+\cpt@optdepth=\count395
+\cpt@cnta=\count396
+\indrisdepth=\count397
+\cpt@foreachdepth=\count398
+\cpt@exprcnt=\count399
 )
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \tw@mk@gobble@args with sig. 'm' on line 50.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \newmenucolortheme with sig. ' m m m m m O{##3} O{##4}
-. O{##5} ' on line 97.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \renewmenucolortheme with sig. ' m m m m m O{##3} O{##4}
-. O{##5} ' on line 100.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \tw@declare@style@simple with sig. 's m O{\tw@default@pre }
-. m O{\tw@default@sep } O{\tw@default@post } m ' on line 170.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \tw@declare@sytle@extra@args with sig. 'O{\tw@default@post
-. } m ' on line 176.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \tw@declare@style with sig. 's m O{\tw@default@pre } m
-. O{\tw@default@sep } m m m ' on line 203.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \newmenustylesimple with sig. 's m' on line 216.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \renewmenustylesimple with sig. 's m' on line 223.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \providemenustylesimple with sig. 's m' on line 237.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \newmenustyle with sig. 's m' on line 251.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \renewmenustyle with sig. 's m' on line 258.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \providemenustyle with sig. 's m' on line 272.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \changemenuelement with sig. 's m m m' on line 310.
-.................................................
-\c@tw@hyphen@char@num=\count343
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \drawtikzfolder with sig. 'O{white} O{black}' on line 566.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \tw@define@menu@macro with sig. 'm O{\tw@default@input@sep
-. } m ' on line 640.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \newmenumacro with sig. 'm O{\tw@default@input@sep } m' on
-. line 650.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \renewmenumacro with sig. 'm O{\tw@default@input@sep } m'
-. on line 654.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \providemenumacro with sig. 'm O{\tw@default@input@sep } m'
-. on line 662.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \tw@make@key@box with sig. 'm m' on line 673.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \tw@make@key@macro with sig. 's m' on line 698.
-.................................................
+\c@tw@hyphen@char@num=\count400
 )
-("D:\Program Files\MiKTeX 2.9\tex\latex\newunicodechar\newunicodechar.sty"
-
-LaTeX Warning: You have requested release `2018/04/01' of LaTeX,
-               but only release `2016/03/31' is available.
-
+("C:\Program Files\MiKTeX 2.9\tex/latex/newunicodechar\newunicodechar.sty"
 Package: newunicodechar 2018/04/08 v1.2 Defining Unicode characters
-) ("D:\Program Files\MiKTeX 2.9\tex\latex\blindtext\blindtext.sty"
+)
+("C:\Program Files\MiKTeX 2.9\tex/latex/blindtext\blindtext.sty"
 Package: blindtext 2012/01/06 V2.0 blindtext-Package
 
-("D:\Program Files\MiKTeX 2.9\tex\latex\tools\xspace.sty"
+("C:\Program Files\MiKTeX 2.9\tex/latex/tools\xspace.sty"
 Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 )
-\c@blindtext=\count344
-\c@Blindtext=\count345
-\c@blind@countparstart=\count346
-\blind@countxx=\count347
-\blindtext@numBlindtext=\count348
-\blind@countyy=\count349
-\c@blindlist=\count350
-\c@blindlistlevel=\count351
-\c@blindlist@level=\count352
-\blind@listitem=\count353
-\c@blind@listcount=\count354
-\c@blind@levelcount=\count355
-\blind@mathformula=\count356
-\blind@Mathformula=\count357
-\c@blind@randomcount=\count358
-\c@blind@randommax=\count359
-\c@blind@pangramcount=\count360
-\c@blind@pangrammax=\count361
+\c@blindtext=\count401
+\c@Blindtext=\count402
+\c@blind@countparstart=\count403
+\blind@countxx=\count404
+\blindtext@numBlindtext=\count405
+\blind@countyy=\count406
+\c@blindlist=\count407
+\c@blindlistlevel=\count408
+\c@blindlist@level=\count409
+\blind@listitem=\count410
+\c@blind@listcount=\count411
+\c@blind@levelcount=\count412
+\blind@mathformula=\count413
+\blind@Mathformula=\count414
+\c@blind@randomcount=\count415
+\c@blind@randommax=\count416
+\c@blind@pangramcount=\count417
+\c@blind@pangrammax=\count418
 )
-("D:\Program Files\MiKTeX 2.9\tex\latex\psnfss\pifont.sty"
-Package: pifont 2005/04/12 PSNFSS-v9.2a Pi font support (SPQR) 
-LaTeX Font Info:    Try loading font information for U+pzd on input line 63.
+("C:\Program Files\MiKTeX 2.9\tex/latex/psnfss\pifont.sty"
+Package: pifont 2020/03/25 PSNFSS-v9.3 Pi font support (SPQR) 
+LaTeX Font Info:    Trying to load font information for U+pzd on input line 63.
 
-("D:\Program Files\MiKTeX 2.9\tex\latex\psnfss\upzd.fd"
+
+("C:\Program Files\MiKTeX 2.9\tex/latex/psnfss\upzd.fd"
 File: upzd.fd 2001/06/04 font definitions for U/pzd.
 )
-LaTeX Font Info:    Try loading font information for U+psy on input line 64.
+LaTeX Font Info:    Trying to load font information for U+psy on input line 64.
 
-("D:\Program Files\MiKTeX 2.9\tex\latex\psnfss\upsy.fd"
+
+("C:\Program Files\MiKTeX 2.9\tex/latex/psnfss\upsy.fd"
 File: upsy.fd 2001/06/04 font definitions for U/psy.
 ))
-("D:\Program Files\MiKTeX 2.9\tex\latex\mdframed\mdframed.sty"
+("C:\Program Files\MiKTeX 2.9\tex/latex/mdframed\mdframed.sty"
 Package: mdframed 2013/07/01 1.9b: mdframed
 
-("D:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\zref-abspage.sty"
-Package: zref-abspage 2016/05/21 v2.26 Module abspage for zref (HO)
+("C:\Program Files\MiKTeX 2.9\tex/latex/zref\zref-abspage.sty"
+Package: zref-abspage 2020-03-03 v2.29 Module abspage for zref (HO)
 
-("D:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\zref-base.sty"
-Package: zref-base 2016/05/21 v2.26 Module base for zref (HO)
-Package zref Info: New property list: main on input line 759.
-Package zref Info: New property: default on input line 760.
-Package zref Info: New property: page on input line 761.
+("C:\Program Files\MiKTeX 2.9\tex/latex/zref\zref-base.sty"
+Package: zref-base 2020-03-03 v2.29 Module base for zref (HO)
+Package zref Info: New property list: main on input line 763.
+Package zref Info: New property: default on input line 764.
+Package zref Info: New property: page on input line 765.
 )
-\c@abspage=\count362
-Package zref Info: New property: abspage on input line 62.
+\c@abspage=\count419
+Package zref Info: New property: abspage on input line 66.
 )
-("D:\Program Files\MiKTeX 2.9\tex\latex\needspace\needspace.sty"
+("C:\Program Files\MiKTeX 2.9\tex/latex/needspace\needspace.sty"
 Package: needspace 2010/09/12 v1.3d reserve vertical space
 )
 \mdf@templength=\skip125
-\c@mdf@globalstyle@cnt=\count363
+\c@mdf@globalstyle@cnt=\count420
 \mdf@skipabove@length=\skip126
 \mdf@skipbelow@length=\skip127
 \mdf@leftmargin@length=\skip128
@@ -2292,14 +1668,14 @@ Package: needspace 2010/09/12 v1.3d reserve vertical space
 \mdf@subsubtitleinneraboveskip@length=\skip163
 \mdf@subsubtitleinnerbelowskip@length=\skip164
 
-("D:\Program Files\MiKTeX 2.9\tex\latex\mdframed\md-frame-0.mdf"
+("C:\Program Files\MiKTeX 2.9\tex/latex/mdframed\md-frame-0.mdf"
 File: md-frame-0.mdf 2013/07/01\ 1.9b: md-frame-0
 )
-\mdf@frametitlebox=\box114
-\mdf@footnotebox=\box115
-\mdf@splitbox@one=\box116
-\mdf@splitbox@two=\box117
-\mdf@splitbox@save=\box118
+\mdf@frametitlebox=\box140
+\mdf@footnotebox=\box141
+\mdf@splitbox@one=\box142
+\mdf@splitbox@two=\box143
+\mdf@splitbox@save=\box144
 \mdfsplitboxwidth=\skip165
 \mdfsplitboxtotalwidth=\skip166
 \mdfsplitboxheight=\skip167
@@ -2327,68 +1703,60 @@ File: md-frame-0.mdf 2013/07/01\ 1.9b: md-frame-0
 \mdf@horizontalspaceofbox=\skip189
 \mdfsubtitleheight=\skip190
 \mdfsubsubtitleheight=\skip191
-\c@mdfcountframes=\count364
+\c@mdfcountframes=\count421
 
 ****** mdframed patching \endmdf@trivlist
 
 ****** -- success******
 
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \newmdtheoremenv with sig. 'O{} m o m o ' on line 601.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \mdtheorem with sig. ' O{} m o m o ' on line 701.
-.................................................
-\mdf@envdepth=\count365
-\c@mdf@env@i=\count366
-\c@mdf@env@ii=\count367
-\c@mdf@zref@counter=\count368
+\mdf@envdepth=\count422
+\c@mdf@env@i=\count423
+\c@mdf@env@ii=\count424
+\c@mdf@zref@counter=\count425
 Package zref Info: New property: mdf@pagevalue on input line 895.
 )
-("D:\Program Files\MiKTeX 2.9\tex\latex\booktabs\booktabs.sty"
-Package: booktabs 2005/04/14 v1.61803 publication quality tables
-\heavyrulewidth=\dimen330
-\lightrulewidth=\dimen331
-\cmidrulewidth=\dimen332
-\belowrulesep=\dimen333
-\belowbottomsep=\dimen334
-\aboverulesep=\dimen335
-\abovetopsep=\dimen336
-\cmidrulesep=\dimen337
-\cmidrulekern=\dimen338
-\defaultaddspace=\dimen339
-\@cmidla=\count369
-\@cmidlb=\count370
-\@aboverulesep=\dimen340
-\@belowrulesep=\dimen341
-\@thisruleclass=\count371
-\@lastruleclass=\count372
-\@thisrulewidth=\dimen342
+("C:\Program Files\MiKTeX 2.9\tex/latex/booktabs\booktabs.sty"
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen339
+\lightrulewidth=\dimen340
+\cmidrulewidth=\dimen341
+\belowrulesep=\dimen342
+\belowbottomsep=\dimen343
+\aboverulesep=\dimen344
+\abovetopsep=\dimen345
+\cmidrulesep=\dimen346
+\cmidrulekern=\dimen347
+\defaultaddspace=\dimen348
+\@cmidla=\count426
+\@cmidlb=\count427
+\@aboverulesep=\dimen349
+\@belowrulesep=\dimen350
+\@thisruleclass=\count428
+\@lastruleclass=\count429
+\@thisrulewidth=\dimen351
 ))
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'russian'.
 
-("D:\Program Files\MiKTeX 2.9\tex\latex\bigfoot\perpage.sty"
+("C:\Program Files\MiKTeX 2.9\tex/latex/bigfoot\perpage.sty"
 Package: perpage 2014/10/25 2.0 Reset/sort counters per page
 )
-\c@pp@a@sidenote=\count373
+\c@pp@a@sidenote=\count430
 
 ("–û–ø–∏—Å–∞–Ω–∏–µ –±–∏–∑–Ω–µ—Å –ø—Ä–æ—Ü–µ—Å—Å–æ–≤.aux")
 \openout1 = `"–û–ø–∏—Å–∞–Ω–∏–µ –±–∏–∑–Ω–µ—Å –ø—Ä–æ—Ü–µ—Å—Å–æ–≤.aux"'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 2.
 LaTeX Font Info:    ... okay on input line 2.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 2.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 2.
 LaTeX Font Info:    ... okay on input line 2.
 LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 2.
 LaTeX Font Info:    ... okay on input line 2.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 2.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 2.
 LaTeX Font Info:    ... okay on input line 2.
 LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 2.
 LaTeX Font Info:    ... okay on input line 2.
@@ -2396,55 +1764,41 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 2.
 LaTeX Font Info:    ... okay on input line 2.
 LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 2.
 LaTeX Font Info:    ... okay on input line 2.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 2.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 2.
-
-("D:\Program Files\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
-File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    ... okay on input line 2.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 2.
 LaTeX Font Info:    ... okay on input line 2.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 2.
 LaTeX Font Info:    ... okay on input line 2.
-LaTeX Font Info:    Try loading font information for T2A+ftx on input line 2.
+LaTeX Font Info:    Trying to load font information for T2A+ftx on input line 2
+.
 
-("D:\Program Files\MiKTeX 2.9\tex\latex\pscyr\t2aftx.fd"
+("C:\Program Files\MiKTeX 2.9\tex/latex/pscyr\t2aftx.fd"
 File: t2aftx.fd 2004/09/23 Fontinst v1.914 font definitions for T2A/ftx.
 )
-("D:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+("C:\Program Files\MiKTeX 2.9\tex/context/base/mkii\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count374
-\scratchdimen=\dimen343
-\scratchbox=\box119
-\nofMPsegments=\count375
-\nofMParguments=\count376
-\everyMPshowfont=\toks58
-\MPscratchCnt=\count377
-\MPscratchDim=\dimen344
-\MPnumerator=\count378
-\makeMPintoPDFobject=\count379
-\everyMPtoPDFconversion=\toks59
-) ("D:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
-Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
-
-("D:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty"
-Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
-)
+\scratchcounter=\count431
+\scratchdimen=\dimen352
+\scratchbox=\box145
+\nofMPsegments=\count432
+\nofMParguments=\count433
+\everyMPshowfont=\toks59
+\MPscratchCnt=\count434
+\MPscratchDim=\dimen353
+\MPnumerator=\count435
+\makeMPintoPDFobject=\count436
+\everyMPtoPDFconversion=\toks60
+) ("C:\Program Files\MiKTeX 2.9\tex/latex/epstopdf-pkg\epstopdf-base.sty"
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
-38.
-Package grfext Info: Graphics extension search list:
-(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
-G,.JBIG2,.JB2,.eps]
-(grfext)             \AppendGraphicsExtensions on input line 456.
+85.
 )
-\c@lstlisting=\count380
+\c@lstlisting=\count437
 
 ABD: EveryShipout initializing macros
-("D:\Program Files\MiKTeX 2.9\tex\latex\ms\ragged2e.sty"
-Package: ragged2e 2009/05/21 v2.1 ragged2e Package (MS)
+("C:\Program Files\MiKTeX 2.9\tex/latex/ragged2e\ragged2e.sty"
+Package: ragged2e 2019/07/28 v2.2 ragged2e Package (MS)
 
-("D:\Program Files\MiKTeX 2.9\tex\latex\ms\everysel.sty"
+("C:\Program Files\MiKTeX 2.9\tex/latex/ms\everysel.sty"
 Package: everysel 2011/10/28 v1.2 EverySelectfont Package (MS)
 
 ABD: EverySelectfont initializing macros
@@ -2465,25 +1819,25 @@ LaTeX Info: Redefining \selectfont on input line 126.
 \RaggedRightParindent=\skip260
 \JustifyingParindent=\skip261
 )
-\AtBeginShipoutBox=\box120
+\AtBeginShipoutBox=\box146
 
-("D:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\pdflscape.sty"
-Package: pdflscape 2016/05/14 v0.11 Display of landscape pages in PDF (HO)
+("C:\Program Files\MiKTeX 2.9\tex/latex/pdflscape\pdflscape.sty"
+Package: pdflscape 2019/12/05 v0.12 Display of landscape pages in PDF (HO)
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 )
 Package caption Info: Begin \AtBeginDocument code.
-Package caption Info: floatrow package is loaded.
 Package caption Info: float package is loaded.
 Package caption Info: floatrow package is loaded.
 Package caption Info: hyperref package is loaded.
+Package caption Info: Fixing longtable code of `floatrow' package.
 Package caption Info: End \AtBeginDocument code.
 
-("D:\Program Files\MiKTeX 2.9\tex\latex\floatrow\fr-longtable.sty"
+("C:\Program Files\MiKTeX 2.9\tex/latex/floatrow\fr-longtable.sty"
 Package: fr-longtable 2007/11/28 v0.1b (beta) floatrow: additions for longtable
 
-\flrow@LT@lasthead=\box121
-\flrow@LT@prelastfoot=\box122
-\c@FBLTpage=\count381
+\flrow@LT@lasthead=\box147
+\flrow@LT@prelastfoot=\box148
+\c@FBLTpage=\count438
 )
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
@@ -2495,8 +1849,8 @@ LaTeX Info: Redefining \nameref on input line 2.
 
 ("–û–ø–∏—Å–∞–Ω–∏–µ –±–∏–∑–Ω–µ—Å –ø—Ä–æ—Ü–µ—Å—Å–æ–≤.out")
 ("–û–ø–∏—Å–∞–Ω–∏–µ –±–∏–∑–Ω–µ—Å –ø—Ä–æ—Ü–µ—Å—Å–æ–≤.out")
-\@outlinefile=\write9
-\openout9 = `"–û–ø–∏—Å–∞–Ω–∏–µ –±–∏–∑–Ω–µ—Å –ø—Ä–æ—Ü–µ—Å—Å–æ–≤.out"'.
+\@outlinefile=\write8
+\openout8 = `"–û–ø–∏—Å–∞–Ω–∏–µ –±–∏–∑–Ω–µ—Å –ø—Ä–æ—Ü–µ—Å—Å–æ–≤.out"'.
 
 
 *geometry* driver: auto-detecting
@@ -2533,25 +1887,28 @@ LaTeX Info: Redefining \nameref on input line 2.
 * \@reversemargintrue
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package marginnote Info: \pdfoutput not 0 or unimportant and
-(marginnote)             \pdflastxpos or \lastxpos available.
-(marginnote)             Extended position detection mode activated.
-(title.tex <images/logo.png, id=366, 139.27031pt x 135.50626pt>
+(title.tex
+LaTeX Font Info:    Font shape `T2A/ftx/b/n' in size <12> not available
+(Font)              Font shape `T2A/ftx/bx/n' tried instead on input line 9.
+<images/logo.png, id=370, 139.27031pt x 135.50626pt>
 File: images/logo.png Graphic file (type png)
-
 <use images/logo.png>
-Package pdftex.def Info: images/logo.png used on input line 14.
+Package pdftex.def Info: images/logo.png  used on input line 14.
 (pdftex.def)             Requested size: 142.26378pt x 138.4213pt.
 \ML=\skip262
-LaTeX Font Info:    Try loading font information for U+msa on input line 20.
- ("D:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
+LaTeX Font Info:    Trying to load font information for U+msa on input line 20.
+
+ ("C:\Program Files\MiKTeX 2.9\tex/latex/amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 20.
- ("D:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
+LaTeX Font Info:    Trying to load font information for U+msb on input line 20.
+
+
+("C:\Program Files\MiKTeX 2.9\tex/latex/amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for TS1+ftx on input line 26.
+LaTeX Font Info:    Trying to load font information for TS1+ftx on input line 2
+6.
 LaTeX Font Info:    No file TS1ftx.fd. on input line 26.
 
 
@@ -2559,99 +1916,59 @@ LaTeX Font Warning: Font shape `TS1/ftx/m/n' undefined
 (Font)              using `TS1/cmr/m/n' instead
 (Font)              for symbol `textcopyright' on input line 26.
 
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 26.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 26.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 26.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 26.
 [1{C:/Users/PashkovKV/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
 
- <./images/logo.png>]) ("–û–ø–∏—Å–∞–Ω–∏–µ –±–∏–∑–Ω–µ—Å –ø—Ä–æ—Ü–µ—Å—Å–æ–≤.toc"
-LaTeX Font Info:    Try loading font information for OT1+ftx on input line 1.
+ <./images/logo.png>])
+LaTeX Font Info:    Font shape `T2A/ftx/b/n' in size <24.88> not available
+(Font)              Font shape `T2A/ftx/bx/n' tried instead on input line 20.
+ ("–û–ø–∏—Å–∞–Ω–∏–µ –±–∏–∑–Ω–µ—Å –ø—Ä–æ—Ü–µ—Å—Å–æ–≤.toc"
+LaTeX Font Info:    Trying to load font information for OT1+ftx on input line 1
+.
 
-("D:\Program Files\MiKTeX 2.9\tex\latex\pscyr\ot1ftx.fd"
+("C:\Program Files\MiKTeX 2.9\tex/latex/pscyr\ot1ftx.fd"
 File: ot1ftx.fd 2001/12/09 Fontinst v1.914 font definitions for OT1/ftx.
 )
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 43.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 43.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 43.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 43.
- [1])
-\tf@toc=\write10
-\openout10 = `"–û–ø–∏—Å–∞–Ω–∏–µ –±–∏–∑–Ω–µ—Å –ø—Ä–æ—Ü–µ—Å—Å–æ–≤.toc"'.
+LaTeX Font Info:    Font shape `T2A/ftx/b/n' in size <10.95> not available
+(Font)              Font shape `T2A/ftx/bx/n' tried instead on input line 2.
+ [1]
+
+Package marginnote Warning: Consecutive odd pages found.
+(marginnote)                Note, it is not recommended to use consecutive
+(marginnote)                odd pages in a double-ended document.
+(marginnote)                The pages of your document should always
+(marginnote)                be a sequence: odd-even-odd-even-...
+(marginnote)                Maybe you've forgotten a \cleardoublepage before
+(marginnote)                changing the page numbering on page .
+
+Package marginnote Info: Using workaround for absolute page number on input lin
+e 43.
+)
+\tf@toc=\write9
+\openout9 = `"–û–ø–∏—Å–∞–Ω–∏–µ –±–∏–∑–Ω–µ—Å –ø—Ä–æ—Ü–µ—Å—Å–æ–≤.toc"'.
 
 
 
 Package Fancyhdr Warning: \headheight is too small (4.0pt): 
- Make it at least 11.05003pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
+Make it at least 11.05003pt.
+We now make it that large for the rest of the document.
+This may cause the page layout to be inconsistent, however.
 
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 23.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 23.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 23.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 23.
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.23 \cleardoublepage
                       [2] (begin.tex
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 2.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 2.
-)
-
-Package Fancyhdr Warning: \headheight is too small (4.0pt): 
- Make it at least 11.05003pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 28.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 28.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 28.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 28.
-pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
-been already used, duplicate ignored
+LaTeX Font Info:    Font shape `T2A/ftx/b/n' in size <14.4> not available
+(Font)              Font shape `T2A/ftx/bx/n' tried instead on input line 2.
+)pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
+ been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.28 \newpage
-              [1
+             	 [1
 
 ] (m1.tex
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 1.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 1.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 3.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 3.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 4.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 4.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 21.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 21.
-
 Overfull \hbox (41.39543pt too wide) in paragraph at lines 30--31
 \T2A/ftx/m/n/10.95 ‚‡-ÌËË ¬ıÓ-‰ˇ-˘Û˛ ““Õ ≈√¿-»—, ÚÓ ‰Ó-ÍÛ-ÏÂÌÚ ÌÂ ÔÓ-‚Ó-‰ËÚ-Òˇ
  (‡Ò¯.)<<[][]–Â‰‡ÍÚËÓ‚‡ÌËÂœ“Ë”»ÚÓ„—Õ‡ÒÚÓÈÍÓÈ[][]>>
@@ -2663,884 +1980,86 @@ Overfull \hbox (13.24942pt too wide) in paragraph at lines 33--35
 ¯.)<<[][]–Â‰‡ÍÚËÓ‚‡ÌËÂœ“Ë”»ÚÓ„—Õ‡ÒÚÓÈÍÓÈ[][]>>
  []
 
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 37.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 37.
 
 Overfull \hbox (3.22469pt too wide) in paragraph at lines 39--43
 []\T2A/ftx/m/n/10.95 —Û˘ÂÒÚ‚ÛÂÚ ÍÓÌ-ÒÚ‡Ì-Ú‡ <<Í˛-ƒ‡-Ú‡-«‡-ÔÂ-Ú‡-œÓ-‚Â-‰Â-ÌË-
 ˇƒÓ-ÍÛ-ÏÂÌ-ÚÓ‚-¡ÂÁ“‡ÌÒ-ÔÓÚ-ÌÓÈ-“‡-˚>> ÔË ‚ÍÎ˛-
  []
 
-
-Package Fancyhdr Warning: \headheight is too small (4.0pt): 
- Make it at least 11.05003pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 43.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 43.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 43.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 43.
 [2]
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 50.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 50.
-
 Overfull \hbox (12.45549pt too wide) in paragraph at lines 57--60
 \T2A/ftx/m/n/10.95 ‚Ë-ÁË-Ú‡ "Í˛-¬˚-„Û-Ê‡Ú¸¬-¡Ûı-„‡Î-ÚÂ-Ë-˛‘"Ë "Í˛-Õ≈-¬˚-„Û
 -Ê‡Ú¸¬-¡Ûı-„‡Î-ÚÂ-Ë-˛‘"ÔË "‚ÍÎ˛-˜Â-ÌËË"Ó‰ÌÓ„Ó
  []
 
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 66.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 66.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 80.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 80.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 89.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 89.
-
-Package Fancyhdr Warning: \headheight is too small (4.0pt): 
- Make it at least 11.05003pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 96.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 96.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 96.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 96.
-[3])
-
-Package Fancyhdr Warning: \headheight is too small (4.0pt): 
- Make it at least 11.05003pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 30.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 30.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 30.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 30.
-[4] (m2.tex
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 1.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 1.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 3.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 3.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 19.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 19.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 26.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 26.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 34.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 34.
-)
-
-Package Fancyhdr Warning: \headheight is too small (4.0pt): 
- Make it at least 11.05003pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 32.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 32.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 32.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 32.
-[5] (m3.tex
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 1.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 1.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 3.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 3.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 19.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 19.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 32.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 32.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 38.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 38.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 46.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 46.
-
-
-Package Fancyhdr Warning: \headheight is too small (4.0pt): 
- Make it at least 11.05003pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 53.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 53.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 53.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 53.
-[6]
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 56.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 56.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 66.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 66.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 77.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 77.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 90.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 90.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 96.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 96.
-)
-
-Package Fancyhdr Warning: \headheight is too small (4.0pt): 
- Make it at least 11.05003pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 35.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 35.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 35.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 35.
-[7] (m4.tex
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 1.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 1.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 3.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 3.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 15.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 15.
-
+[3]) [4] (m2.tex) [5] (m3.tex [6]) [7] (m4.tex
 Overfull \hbox (12.45549pt too wide) in paragraph at lines 18--21
 \T2A/ftx/m/n/10.95 ‚Ë-ÁË-Ú‡ "Í˛-¬˚-„Û-Ê‡Ú¸¬-¡Ûı-„‡Î-ÚÂ-Ë-˛‘"Ë "Í˛-Õ≈-¬˚-„Û
 -Ê‡Ú¸¬-¡Ûı-„‡Î-ÚÂ-Ë-˛‘"ÔË "‚ÍÎ˛-˜Â-ÌËË"Ó‰ÌÓ„Ó
  []
 
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 40.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 40.
+[8]) [9] (m5.tex) [10] (m6.tex [11]
+Overfull \hbox (19.9127pt too wide) in paragraph at lines 27--64
+[]$[]$  $[]$ 
+ []
 
-Package Fancyhdr Warning: \headheight is too small (4.0pt): 
- Make it at least 11.05003pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 44.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 44.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 44.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 44.
-[8])
-
-Package Fancyhdr Warning: \headheight is too small (4.0pt): 
- Make it at least 11.05003pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 38.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 38.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 38.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 38.
-[9] (m5.tex
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 1.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 1.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 3.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 3.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 11.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 11.
-)
-
-Package Fancyhdr Warning: \headheight is too small (4.0pt): 
- Make it at least 11.05003pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 40.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 40.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 40.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 40.
-[10] (m6.tex
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 1.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 1.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 3.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 3.
-)
-
-Package Fancyhdr Warning: \headheight is too small (4.0pt): 
- Make it at least 11.05003pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 42.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 42.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 42.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 42.
-[11] (m12.tex
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 1.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 1.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 3.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 3.
-)
-
-Package Fancyhdr Warning: \headheight is too small (4.0pt): 
- Make it at least 11.05003pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 44.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 44.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 44.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 44.
-[12] (m7.tex
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 1.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 1.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 3.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 3.
-)
-
-Package Fancyhdr Warning: \headheight is too small (4.0pt): 
- Make it at least 11.05003pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 46.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 46.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 46.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 46.
-[13] (m8.tex
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 1.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 1.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 3.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 3.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 11.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 11.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 20.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 20.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 28.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 28.
-)
-
-Package Fancyhdr Warning: \headheight is too small (4.0pt): 
- Make it at least 11.05003pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 48.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 48.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 48.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 48.
-[14] (m11.tex
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 1.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 1.
-)
-
-Package Fancyhdr Warning: \headheight is too small (4.0pt): 
- Make it at least 11.05003pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 50.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 50.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 50.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 50.
-[15] (m9.tex
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 1.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 1.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 3.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 3.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 4.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 4.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 15.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 15.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 16.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 16.
-
+) [12] (m12.tex) [13] (m7.tex) [14] (m8.tex) [15] (m11.tex) [16] (m9.tex
 Overfull \hbox (99.19487pt too wide) in paragraph at lines 19--20
 \T2A/ftx/m/n/10.95 Ì‡-ÍÎ‡‰-Ì‡ˇ ≈√¿-»— (‚ıÓ-‰ˇ-˘‡ˇ)>>. –Â-‡-ÎË-ÁÓ-‚‡-ÌÓ ‚ ÔÓ-ˆÂ
 -‰Û-Â <<–‡Ò-¯«‡-ÔÎ‡Ú-ÍË-≈√¿—_œË—ÓÁ‰‡ÌËËÕ‡—Â‚ÂÂœÂÂ‰(ŒÚÍ‡Á,
  []
 
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 25.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 25.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 26.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 26.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 27.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 27.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 28.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 28.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 29.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 29.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 30.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 30.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 31.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 31.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 32.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 32.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 33.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 33.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 34.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 34.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 35.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 35.
-
-Package Fancyhdr Warning: \headheight is too small (4.0pt): 
- Make it at least 11.05003pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 36.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 36.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 36.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 36.
-[16]
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 36.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 36.
-)
-
-Package Fancyhdr Warning: \headheight is too small (4.0pt): 
- Make it at least 11.05003pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 52.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 52.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 52.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 52.
-[17] (m10.tex
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 1.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 1.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 3.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 3.
-
+[17]) [18] (m10.tex
 Overfull \hbox (5.49138pt too wide) in paragraph at lines 6--8
 \T2A/ftx/m/n/10.95 ÍÓÌ-ÒÚ‡Ì-Ú˚ "Í˛-»Ò-ÔÓÎ¸-ÁÓ-‚‡Ú¸-¡ÎÓ-ÍË-Ó‚-ÍÛ-ÕÓ-ÏÂÌ-ÍÎ‡-ÚÛ
 -˚"Ë ÛÒÚ‡-ÌÓ‚-ÍË Ô‡‚ ‚ –Â-„Ë-ÒÚ-—‚Â-‰Â-ÌËÈ "Í˛-
  []
 
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 15.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 15.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 25.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 25.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 35.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 35.
-)
-
-Package Fancyhdr Warning: \headheight is too small (4.0pt): 
- Make it at least 11.05003pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 54.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 54.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 54.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 54.
-[18] (r001.tex
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 4.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 4.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 6.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 6.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 77.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 77.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 90.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 90.
-
-
-Package Fancyhdr Warning: \headheight is too small (4.0pt): 
- Make it at least 11.05003pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 94.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 94.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 94.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 94.
-[19]
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 112.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 112.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 121.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 121.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 138.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 138.
-
-
-Package Fancyhdr Warning: \headheight is too small (4.0pt): 
- Make it at least 11.05003pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 146.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 146.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 146.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 146.
-[20]
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 166.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 166.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 172.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 172.
-
+) [19] (r001.tex [20] [21]
 Overfull \hbox (12.88147pt too wide) in paragraph at lines 174--176
 \T2A/ftx/m/n/10.95 ≈ÒÎË ‰Ó-ÍÛ-ÏÂÌÚ <<“Ó‚‡ÌÓ-Ú‡ÌÒÔÓÚÌ‡ˇ Ì‡-ÍÎ‡‰-Ì‡ˇ ≈√¿-»— (Ë
 Ò-ıÓ-‰ˇ-˘‡ˇ)>> ÒÓ-Á‰‡-ÂÚ-Òˇ Ì‡ ÓÒ-ÌÓ-‚‡-ÌËË<<¬ÓÁ‚‡Ú‡
  []
 
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 177.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 177.
-
-Package Fancyhdr Warning: \headheight is too small (4.0pt): 
- Make it at least 11.05003pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 184.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 184.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 184.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 184.
-[21]
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 191.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 191.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 197.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 197.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 200.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 200.
-)
-
-Package Fancyhdr Warning: \headheight is too small (4.0pt): 
- Make it at least 11.05003pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 57.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 57.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 57.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 57.
-[22] (apdx.tex
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 11.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 11.
+[22]) [23] (apdx.tex
+LaTeX Font Info:    Font shape `T2A/ftx/b/it' in size <10.95> not available
+(Font)              Font shape `T2A/ftx/bx/it' tried instead on input line 16.
 LaTeX Font Info:    Font shape `T2A/ftx/bx/it' in size <10.95> not available
 (Font)              Font shape `T2A/ftx/bx/sl' tried instead on input line 16.
-
-
-Package Fancyhdr Warning: \headheight is too small (4.0pt): 
- Make it at least 11.05003pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 74.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 74.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 74.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 74.
-[23]
-
-Package Fancyhdr Warning: \headheight is too small (4.0pt): 
- Make it at least 11.05003pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 135.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 135.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 135.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 135.
-[24]
-
-Package Fancyhdr Warning: \headheight is too small (4.0pt): 
- Make it at least 11.05003pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 196.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 196.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 196.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 196.
-[25]
-
-Package Fancyhdr Warning: \headheight is too small (4.0pt): 
- Make it at least 11.05003pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 255.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 255.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 255.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 255.
-[26]
-
-Package Fancyhdr Warning: \headheight is too small (4.0pt): 
- Make it at least 11.05003pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 314.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 314.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 314.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 314.
-[27]
-
-Package Fancyhdr Warning: \headheight is too small (4.0pt): 
- Make it at least 11.05003pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 371.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 371.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 371.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 371.
-[28]
-
-Package Fancyhdr Warning: \headheight is too small (4.0pt): 
- Make it at least 11.05003pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 428.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 428.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 428.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 428.
-[29]
+ [24] [25] [26] [27] [28] [29] [30]
 Overfull \hbox (3.96106pt too wide) in paragraph at lines 434--435
 []\T2A/ftx/m/n/10.95 : —‚ˇ-Á‡-Ì‡ Ò ÍÓÌ-ÒÚ‡Ì-ÚÓÈ <<Í˛¬-ÍÎ˛-˜ËÚ¸-¡ÎÓ-ÍË-Ó‚-ÍÛ-œ
 ‡-‡Î-ÎÂÎ¸-ÌÓÈ-Œ-ÔÎ‡-Ú˚-›Í-‚‡È-ËÌ„>> 
  []
 
-
-Package Fancyhdr Warning: \headheight is too small (4.0pt): 
- Make it at least 11.05003pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 482.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 482.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 482.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 482.
-[30]
-
-Package Fancyhdr Warning: \headheight is too small (4.0pt): 
- Make it at least 11.05003pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 539.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 539.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 539.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 539.
-[31]) (revs.tex
+[31] [32]) (revs.tex
 \openout3 = `"–û–ø–∏—Å–∞–Ω–∏–µ –±–∏–∑–Ω–µ—Å –ø—Ä–æ—Ü–µ—Å—Å–æ–≤.ver"'.
 
-
-
-Package Fancyhdr Warning: \headheight is too small (4.0pt): 
- Make it at least 11.05003pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 2.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 2.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 2.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 2.
-[32]
+ [33]
+LaTeX Font Info:    Font shape `T2A/ftx/b/it' in size <14.4> not available
+(Font)              Font shape `T2A/ftx/bx/it' tried instead on input line 2.
 LaTeX Font Info:    Font shape `T2A/ftx/bx/it' in size <14.4> not available
 (Font)              Font shape `T2A/ftx/bx/sl' tried instead on input line 2.
-\vh@hstfile=\write11
-\openout11 = `"–û–ø–∏—Å–∞–Ω–∏–µ –±–∏–∑–Ω–µ—Å –ø—Ä–æ—Ü–µ—Å—Å–æ–≤.hst"'.
+\vh@hstfile=\write10
+\openout10 = `"–û–ø–∏—Å–∞–Ω–∏–µ –±–∏–∑–Ω–µ—Å –ø—Ä–æ—Ü–µ—Å—Å–æ–≤.hst"'.
 
- ("–û–ø–∏—Å–∞–Ω–∏–µ –±–∏–∑–Ω–µ—Å –ø—Ä–æ—Ü–µ—Å—Å–æ–≤.ver")
-("–û–ø–∏—Å–∞–Ω–∏–µ –±–∏–∑–Ω–µ—Å –ø—Ä–æ—Ü–µ—Å—Å–æ–≤.ver")
+ ("–û–ø–∏—Å–∞–Ω–∏–µ –±–∏–∑–Ω–µ—Å –ø—Ä–æ—Ü–µ—Å—Å–æ–≤.ver") ("–û–ø–∏—Å–∞–Ω–∏–µ –±
+–∏–∑–Ω–µ—Å –ø—Ä–æ—Ü–µ—Å—Å–æ–≤.ver")
 ("–û–ø–∏—Å–∞–Ω–∏–µ –±–∏–∑–Ω–µ—Å –ø—Ä–æ—Ü–µ—Å—Å–æ–≤.ver"
 Underfull \hbox (badness 10000) in alignment at lines 1--82
 [] [] [] []
  []
 
 
-Underfull \hbox (badness 10000) in alignment at lines 82--106
+Underfull \hbox (badness 10000) in alignment at lines 82--110
 [] [] [] []
  []
 
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 106.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 106.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 106.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 106.
-[33
+[34
 
 ])) 
 AED: lastpage setting LastPage
-
-Package Fancyhdr Warning: \headheight is too small (4.0pt): 
- Make it at least 11.05003pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 74.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 74.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 74.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 74.
-[34]
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 74.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 74.
+[35]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 74.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 74.
  ("–û–ø–∏—Å–∞–Ω–∏–µ –±–∏–∑–Ω–µ—Å –ø—Ä–æ—Ü–µ—Å—Å–æ–≤.aux")
@@ -3548,31 +2067,31 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 74.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 74.
 Package rerunfilecheck Info: File `"–û–ø–∏—Å–∞–Ω–∏–µ –±–∏–∑–Ω–µ—Å –ø—Ä–æ—Ü–µ—Å—
 Å–æ–≤".out' has not changed.
-(rerunfilecheck)             Checksum: C91D419D1B7C537118B26BD1A02E2162;19413.
+(rerunfilecheck)             Checksum: 70149DC7759268CF60421C8271514887;19626.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 46240 strings out of 493333
- 863550 string characters out of 3139183
- 1142104 words of memory out of 3000000
- 48719 multiletter control sequences out of 15000+200000
- 28782 words of font info for 73 fonts, out of 3000000 for 9000
+ 40475 strings out of 480930
+ 758897 string characters out of 2909535
+ 1236715 words of memory out of 3000000
+ 55276 multiletter control sequences out of 15000+200000
+ 559765 words of font info for 85 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 65i,15n,101p,10634b,880s stack positions out of 5000i,500n,10000p,200000b,50000s
-{D:/Program Files/MiKTeX 2.9/fonts/enc/t2/t2a.enc} <C:\Users\PashkovKV\AppDat
-a\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1095.pk> <C:\Users\Pa
-shkovKV\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm0600.pk
-><D:/Program Files/MiKTeX 2.9/fonts/type1/public/pscyr/textb18.pfb><D:/Program 
-Files/MiKTeX 2.9/fonts/type1/public/pscyr/textb19.pfb><D:/Program Files/MiKTeX 
-2.9/fonts/type1/public/pscyr/textb20.pfb><D:/Program Files/MiKTeX 2.9/fonts/typ
-e1/public/pscyr/textb20.pfb>
-Output written on "–û–ø–∏—Å–∞–Ω–∏–µ –±–∏–∑–Ω–µ—Å –ø—Ä–æ—Ü–µ—Å—Å–æ–≤.pdf" (37 pa
-ges, 305988 bytes).
+ 67i,15n,105p,1419b,945s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/t2/t2a.enc} <C:\Users\PashkovKV\
+AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1095.pk> <C:\Us
+ers\PashkovKV\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm0
+600.pk><C:/Program Files/MiKTeX 2.9/fonts/type1/public/pscyr/textb18.pfb><C:/Pr
+ogram Files/MiKTeX 2.9/fonts/type1/public/pscyr/textb19.pfb><C:/Program Files/M
+iKTeX 2.9/fonts/type1/public/pscyr/textb20.pfb><C:/Program Files/MiKTeX 2.9/fon
+ts/type1/public/pscyr/textb20.pfb>
+Output written on "–û–ø–∏—Å–∞–Ω–∏–µ –±–∏–∑–Ω–µ—Å –ø—Ä–æ—Ü–µ—Å—Å–æ–≤.pdf" (38 pa
+ges, 311026 bytes).
 PDF statistics:
- 918 PDF objects out of 1000 (max. 8388607)
- 192 named destinations out of 1000 (max. 500000)
- 810 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 929 PDF objects out of 1000 (max. 8388607)
+ 194 named destinations out of 1000 (max. 500000)
+ 818 words of extra memory for PDF output out of 10000 (max. 10000000)
 

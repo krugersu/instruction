@@ -65,7 +65,7 @@
 %% titleformat определяет стиль
 %\titleformat{\chapter}[hang]{\Huge\bfseries}{\thechapter\hsp\textcolor{gray75}{|}\hsp}{0pt}{\Huge\bfseries}
 
-\usepackage{listings}      % для кусков программ 
+\usepackage{listings}      % для кусков программ
 % (понимает синтаксис некоторых языков, чума просто)
 \usepackage{alltt}         % для того же
 \usepackage{amssymb}       % прикольно для формул
@@ -77,7 +77,7 @@
 
 %********************
 % Набор предоставляет дополнительные математические символы, множество удобных возможностей для оформления математических формул (например, упрощённую работу с многострочными формулами) и используется почти во всех LaTeX-документах, в которых есть сколько-нибудь сложные формулы.
-%******************** 
+%********************
 \usepackage{amsmath}
 
 
@@ -103,6 +103,7 @@
 
 \usepackage{caption}
 \usepackage{subcaption}
+
 
 \usepackage[T2A]{fontenc}
 \usepackage{lscape}
@@ -150,7 +151,7 @@
 %*****************************************************
 
 %*****************************************************
-%Если вас не устраивает вид подрисуночной подписи (например, вместо "Рис. 1:" необходимо "Рис. 1 --- "), используйте пакет caption. В частности, для установки тире в качестве разделителя, вставьте в преамбулу документа следующий код: 
+%Если вас не устраивает вид подрисуночной подписи (например, вместо "Рис. 1:" необходимо "Рис. 1 --- "), используйте пакет caption. В частности, для установки тире в качестве разделителя, вставьте в преамбулу документа следующий код:
 \RequirePackage{caption}
 \DeclareCaptionLabelSeparator{defffis}{ --- }
 \captionsetup{justification=centering,labelsep=defffis}
@@ -161,8 +162,8 @@
 %*****************************************************
 %Как сделать, чтобы уравнения нумеровались независимо по главам в LaTeX?
 %В преамбуле
-\makeatletter \@addtoreset{equation}{section} \makeatother 
-\makeatletter \@addtoreset{figure}{section} \makeatother 
+\makeatletter \@addtoreset{equation}{section} \makeatother
+\makeatletter \@addtoreset{figure}{section} \makeatother
 %*****************************************************
 
 \addto\captionsrussian{
@@ -190,7 +191,7 @@
 \hypersetup{pdfstartview=FitH,  linkcolor=linkcolor,urlcolor=urlcolor, colorlinks=true}
 %*****************************************************
 
-%***************************************************** 
+%*****************************************************
 %Для удаления номеров страниц из \listoffigures
 \makeatletter
 \newcommand{\emptypage}[1]{%
@@ -321,7 +322,7 @@
 
 \newdate{date}{28}{01}{2016}
 \date{\displaydate{date}}
-%Increase the value of tocdepth and secnumdepth. The tocdepth value determines to which level the sectioning commands are printed in the ToC (they are always included in the .toc file but ignored otherwise). The secnumdepth value determines up to what level the sectioning titles are numbered. They are LaTeX counters and you can set them using 
+%Increase the value of tocdepth and secnumdepth. The tocdepth value determines to which level the sectioning commands are printed in the ToC (they are always included in the .toc file but ignored otherwise). The secnumdepth value determines up to what level the sectioning titles are numbered. They are LaTeX counters and you can set them using
 \setcounter{tocdepth}{1}
 \setcounter{secnumdepth}{4}
 
@@ -345,19 +346,19 @@
 \def\captable{table}
 
 \long\def\@makecaption#1#2{%
-	
+
 	\vskip\abovecaptionskip
-	
+
 	\ifx\@captype\capfigure
-	
+
 	\centering #1~--~#2 \par
-	
+
 	\else
-	
+
 	#1~--~#2 \par
-	
+
 	\fi
-	
+
 	\vskip\belowcaptionskip}
 
 \setlength\abovecaptionskip{2\p@}
@@ -387,9 +388,9 @@
 \newenvironment{algorithm}[1]
 {\begin{figure}[btp]\def\algcptn{\caption{#1}}\begin{basealgorithm}}
 		{\end{basealgorithm}\algcptn\end{figure}}
-	
-	
-	
+
+
+
 %**********************************
 % Todo notes - example from http://www.texample.net/tikz/examples/todo-notes/
 \usepackage{verbatim}
@@ -436,13 +437,13 @@
 
 
 
-	
+
 \renewcommand{\cftchapfont}{\scshape}
 \renewcommand{\cftsecfont}{\bfseries}
 %\renewcommand{\cftfigfont}{Figure }
 %\renewcommand{\cfttabfont}{Table }
-	
-\usepackage{eso-pic}	
+
+\usepackage{eso-pic}
 
 
 \AddToShipoutPicture{%
@@ -461,7 +462,7 @@
 }%
 
 %How can I put real notes in the margin?
-%**********************************************************	
+%**********************************************************
 \usepackage{xparse}
 \usepackage{tikz}
 \usetikzlibrary{calc,fit, decorations.pathmorphing}
@@ -482,7 +483,7 @@
 				{\pgfmathresult\pgfdecorationsegmentamplitude}
 			}
 		}
-		{%TO 
+		{%TO
 			\pgfpointadd{\pgfpointdecoratedinputsegmentlast}{\pgfpoint{1pt}{1pt}}
 		}
 	}
@@ -510,14 +511,14 @@
 \usepackage[os=win]{menukeys}
 % меняестся стиль, тени у кнопок
 %**********************************************************
-%\changemenucolor{gray}{txt}{named}{red} %Изменение цвета 
+%\changemenucolor{gray}{txt}{named}{red} %Изменение цвета
 \renewmenumacro{\keys}[>]{shadowedroundedkeys}
 \renewmenumacro{\menu}{roundedmenus} % default: menus
 %\newmenumacro{\button}
 %**********************************************************
 
 
-% белые кнопки вызов \keystroke{Ctrl} 
+% белые кнопки вызов \keystroke{Ctrl}
 \newcommand*\keystroke[1]{%
 	\tikz[baseline=(key.base)]
 	\node[%
@@ -630,3 +631,58 @@
 
 
 \usepackage{booktabs}
+
+\usepackage{lastpage} % Allows referencing of the last page to allow footer to read: "Page [Current page] of [Total number of pages]."
+
+%*****************************************************
+% Начинать subсекции с новой страницы
+
+\newcommand{\subsectionbreak}{\clearpage}
+%*****************************************************
+
+%\usepackage{tikz}
+
+%\usetikzlibrary{ arrows}
+%\usetikzlibrary{mindmap,trees} % библиотеки TikZ
+%\usetikzlibrary{chains, shapes.misc}
+%\usetikzlibrary{positioning}
+%
+%\tikzset{
+%    nonterminal/.style={
+%        rectangle,
+%        minimum size=6mm,
+%        very thick,
+%        draw=red!50!black!50,
+%        top color=white,
+%        bottom color=red!50!black!20,
+%        font=\itshape},
+%    terminal/.style={
+%        rounded rectangle,
+%        minimum size=6mm,
+%        very thick,draw=black!50,
+%        top color=white,bottom color=black!20,
+%        font=\ttfamily}
+%}
+%\usetikzlibrary{mindmap}
+%\pagestyle{empty}
+%\usetikzlibrary{trees}
+%\usepackage{verbatim}
+%
+%\usetikzlibrary{%
+%    arrows, % стрелки
+%    shapes.misc, % фигуры
+%    chains, % цепочки
+%    positioning, % позиционирование элементов
+%    scopes, % создание дополнительных веток
+%    shadows % тени
+%}
+%% указание цветов
+%\definecolor{Gray}{RGB}{102,102,102}
+%\definecolor{LightGray}{RGB}{178,178,178}
+%\definecolor{Red}{RGB}{204,0,0}
+%\definecolor{Pink}{RGB}{255,102,102}
+
+
+
+
+%\usetikzlibrary{graphs}
