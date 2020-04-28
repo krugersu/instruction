@@ -4,17 +4,24 @@
 %	 \begin{landscape}
 %	 	\begin{center}
 \newcommand{\PK}{Pashkov}
-% Расшифровка сокращений для обозначения авторов 
-\renewcommand{\vhhistoryname}{Журнал изменений} 
-\renewcommand{\vhversionname}{Версия} 
-\renewcommand{\vhdatename}{Дата} 
-\renewcommand{\vhauthorname}{Автор(ы)} 
-\renewcommand{\vhchangename}{Изменения} 
+% Расшифровка сокращений для обозначения авторов
+\renewcommand{\vhhistoryname}{Журнал изменений}
+\renewcommand{\vhversionname}{Версия}
+\renewcommand{\vhdatename}{Дата}
+\renewcommand{\vhauthorname}{Автор(ы)}
+\renewcommand{\vhchangename}{Изменения}
+% Для автоматической нумерации строк в таблице
+\newcounter{rownum}
+\setcounter{rownum}{0}
+\newcommand{\Rownum}{\stepcounter{rownum}%
+    \arabic{rownum}}
+
+%*********************************************
 
 %\layout
-\input{title}	
-%\newpage	
-\setcounter{tocdepth}{3}% Include \subsubsection in ToC 
+\input{title}
+%\newpage
+\setcounter{tocdepth}{3}% Include \subsubsection in ToC
 %## убрали номер страницы с содержания
 \let\cleardoublepage\clearpage
 \pagenumbering{gobble}
@@ -26,14 +33,14 @@
 \cleardoublepage
 \pagenumbering{arabic}
 %#############################
-%\newpage	
+%\newpage
 %\input{begin}
-%\newpage	
+%\newpage
 \input{m1}% Закупки
-\newpage	
+\newpage
 \input{m2}% Продажи
 \newpage
-\input{m3}% Склад	
+\input{m3}% Склад
 
 \newpage
 \input{m4}% Финансы
@@ -43,9 +50,9 @@
 %\newpage
 %\input{m6}% ЕГАИС
 %\newpage
-%\input{m12}% РМК	
+%\input{m12}% РМК
 %\newpage
-%\input{m7}% Табак	
+%\input{m7}% Табак
 %\newpage
 %\input{m8}% Сервис
 %\newpage
@@ -61,10 +68,10 @@
 %\input{other_changes} % Описание прочих изменений
 %\newpage
 
-%\listoffigures	
+%\listoffigures
 %\newpage
 
-%\addcontentsline{toc}{chapter}{Index}	
+%\addcontentsline{toc}{chapter}{Index}
 
 %\newpage
 \input{revs}
