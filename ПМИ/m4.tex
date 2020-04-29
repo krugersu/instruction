@@ -65,15 +65,16 @@
 \vspace{\baselineskip}
 \newpage
 \subsection{Формирование документа Поступление товаров}
-
+\renewcommand{\arraystretch}{1.8} %% расстояние между строками таблицы
 %\begin{landscape}
 \begin{longtable}{|p{0.02\linewidth}|p{0.3\linewidth}|p{0.3\linewidth}|p{0.3\linewidth}|}
   %  {|c|c|l|c|}
 	\hline
 	№ & \textbf{Действие} & \textbf{Ожидаемый результат} & \textbf{Фактический результат} \\
+
 	\hline
     \hline
-    \endfirsthead
+    \endhead
     \multicolumn{4}{|c|}{\textbf{\textit{Проверка на номенклатуру помеченную на удаление}}} \\
     \hline
     \hline
@@ -101,6 +102,10 @@
 	\hline
     \Rownum	& Нажать кнопку \keys{Провести и закрыть} & 1. Программа выдает сообщение о неудачи проведения документа;\par 2. При закрытии окна сообщения в строке сообщений появляется текст ошибке с информацией, что документ содержит удаленную номенклатуру с указанием номеров строк и наименований &  \\
     \hline
+    \hline
+    \multicolumn{4}{|c|}{\textbf{\textit{Проверка на корректное заполнение реквизита поставщик}}} \\
+    \hline
+    \hline
 \Rownum	& test & resr &  \\
 \hline
 \Rownum	& test &  &  \\
@@ -126,12 +131,12 @@
 \hline
 \Rownum	& test111 &  &  \\
 \hline
-\Rownum	& test &  &  \\
+\Rownum	& test &  &  \\ %\nopagebreak Для запрещения разбиения страниц применяется команда \nopagebreak сразу после двух слешей в конце строчки.
 \hline
 \end{longtable}
 %\end{landscape}
 
-
+%\todo[inline]{The original todo note withouth changed colours.\newline Here's another line.}
 
 %\begin{tikzpicture}
 %\path[mindmap,concept color=black,text=white]

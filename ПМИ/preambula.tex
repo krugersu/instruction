@@ -17,11 +17,9 @@
 \usepackage[utf8]{inputenc}
 \renewcommand{\rmdefault}{CMR}
 \usepackage[russian]{babel}
-\usepackage[dvipsnames]{xcolor}
+%\usepackage[dvipsnames]{xcolor}
 \usepackage{lscape}
 \usepackage[landscape,margin=1in]{geometry}
-
-
 
 
 
@@ -337,8 +335,12 @@
 
 \newunicodechar{⚠}{\Warning}
 
-\renewcommand{\arraystretch}{1.8} %% расстояние между строками таблицы
+%\renewcommand{\arraystretch}{1.8} %% расстояние между строками таблицы
 % объявляем новую команду для переноса строки внутри ячейки таблицы
 \newcommand{\specialcell}[2][c]{%
     \begin{tabular}[#1]{@{}c@{}}#2\end{tabular}}
 %\renewcommand{\arraystretch}{1.8} %% increase table row spacing
+
+%\usepackage{todonotes}
+\usepackage[colorinlistoftodos,prependcaption,textsize=tiny]{todonotes}
+\usepackage{blindtext}

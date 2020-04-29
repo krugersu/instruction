@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7380 64-bit) (preloaded format=pdflatex 2020.4.17)  27 APR 2020 16:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7380 64-bit) (preloaded format=pdflatex 2020.4.17)  29 APR 2020 11:23
 entering extended mode
 **"./Описание бизнес процессов.tex"
 ("Описание бизнес процессов.tex"
@@ -1999,7 +1999,7 @@ Overfull \hbox (12.45549pt too wide) in paragraph at lines 18--21
  []
 
 [8]) [9] (m5.tex) [10] (m6.tex [11]
-Overfull \hbox (19.9127pt too wide) in paragraph at lines 27--64
+Overfull \hbox (19.9127pt too wide) in paragraph at lines 32--69
 []$[]$  $[]$ 
  []
 
@@ -2051,7 +2051,7 @@ Underfull \hbox (badness 10000) in alignment at lines 1--82
  []
 
 
-Underfull \hbox (badness 10000) in alignment at lines 82--110
+Underfull \hbox (badness 10000) in alignment at lines 82--114
 [] [] [] []
  []
 
@@ -2074,24 +2074,25 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 40475 strings out of 480930
- 758897 string characters out of 2909535
+ 40490 strings out of 480930
+ 759054 string characters out of 2909535
  1236715 words of memory out of 3000000
- 55276 multiletter control sequences out of 15000+200000
- 559765 words of font info for 85 fonts, out of 3000000 for 9000
+ 55284 multiletter control sequences out of 15000+200000
+ 562236 words of font info for 93 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  67i,15n,105p,1419b,945s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/t2/t2a.enc} <C:\Users\PashkovKV\
 AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1095.pk> <C:\Us
 ers\PashkovKV\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm0
-600.pk><C:/Program Files/MiKTeX 2.9/fonts/type1/public/pscyr/textb18.pfb><C:/Pr
-ogram Files/MiKTeX 2.9/fonts/type1/public/pscyr/textb19.pfb><C:/Program Files/M
-iKTeX 2.9/fonts/type1/public/pscyr/textb20.pfb><C:/Program Files/MiKTeX 2.9/fon
-ts/type1/public/pscyr/textb20.pfb>
+600.pk><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C
+:/Program Files/MiKTeX 2.9/fonts/type1/public/pscyr/textb18.pfb><C:/Program Fil
+es/MiKTeX 2.9/fonts/type1/public/pscyr/textb19.pfb><C:/Program Files/MiKTeX 2.9
+/fonts/type1/public/pscyr/textb20.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
+public/pscyr/textb20.pfb>
 Output written on "Описание бизнес процессов.pdf" (38 pa
-ges, 311026 bytes).
+ges, 318697 bytes).
 PDF statistics:
- 929 PDF objects out of 1000 (max. 8388607)
+ 933 PDF objects out of 1000 (max. 8388607)
  194 named destinations out of 1000 (max. 500000)
  818 words of extra memory for PDF output out of 10000 (max. 10000000)
 
