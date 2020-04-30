@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7380 64-bit) (preloaded format=pdflatex 2020.4.17)  29 APR 2020 11:23
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7380 64-bit) (preloaded format=pdflatex 2020.4.17)  30 APR 2020 10:16
 entering extended mode
 **"./Описание бизнес процессов.tex"
 ("Описание бизнес процессов.tex"
@@ -1890,7 +1890,7 @@ LaTeX Info: Redefining \nameref on input line 2.
 (title.tex
 LaTeX Font Info:    Font shape `T2A/ftx/b/n' in size <12> not available
 (Font)              Font shape `T2A/ftx/bx/n' tried instead on input line 9.
-<images/logo.png, id=370, 139.27031pt x 135.50626pt>
+<images/logo.png, id=374, 139.27031pt x 135.50626pt>
 File: images/logo.png Graphic file (type png)
 <use images/logo.png>
 Package pdftex.def Info: images/logo.png  used on input line 14.
@@ -2051,7 +2051,7 @@ Underfull \hbox (badness 10000) in alignment at lines 1--82
  []
 
 
-Underfull \hbox (badness 10000) in alignment at lines 82--114
+Underfull \hbox (badness 10000) in alignment at lines 82--118
 [] [] [] []
  []
 
@@ -2067,17 +2067,17 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 74.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 74.
 Package rerunfilecheck Info: File `"Описание бизнес процес�
 �ов".out' has not changed.
-(rerunfilecheck)             Checksum: 70149DC7759268CF60421C8271514887;19626.
+(rerunfilecheck)             Checksum: 6481FFD5B25C27C19C5002FC788B3C04;19999.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 40490 strings out of 480930
- 759054 string characters out of 2909535
- 1236715 words of memory out of 3000000
- 55284 multiletter control sequences out of 15000+200000
+ 40493 strings out of 480930
+ 759098 string characters out of 2909535
+ 1236824 words of memory out of 3000000
+ 55286 multiletter control sequences out of 15000+200000
  562236 words of font info for 93 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  67i,15n,105p,1419b,945s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -2090,9 +2090,9 @@ es/MiKTeX 2.9/fonts/type1/public/pscyr/textb19.pfb><C:/Program Files/MiKTeX 2.9
 /fonts/type1/public/pscyr/textb20.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
 public/pscyr/textb20.pfb>
 Output written on "Описание бизнес процессов.pdf" (38 pa
-ges, 318697 bytes).
+ges, 320421 bytes).
 PDF statistics:
- 933 PDF objects out of 1000 (max. 8388607)
- 194 named destinations out of 1000 (max. 500000)
- 818 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 940 PDF objects out of 1000 (max. 8388607)
+ 195 named destinations out of 1000 (max. 500000)
+ 826 words of extra memory for PDF output out of 10000 (max. 10000000)
 

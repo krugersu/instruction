@@ -81,4 +81,5 @@
 \contentsline {subsection}{\numberline {14.10}Акт списания, перезаполнение на основании ОРП}{23}{subsection.0.14.10}%
 \contentsline {subsection}{\numberline {14.11}Документ <<Зарплата к выплате организаций>>}{23}{subsection.0.14.11}%
 \contentsline {subsection}{\numberline {14.12}Цены в документе <<Установка цен номенклатуры>>}{23}{subsection.0.14.12}%
+\contentsline {subsection}{\numberline {14.13}Цены в документе <<Перемещение товаров>>}{23}{subsection.0.14.13}%
 \contentsline {section}{\numberline {\CYRA }Приложение: Константы и их описание}{24}{section.Alph0.1}%
