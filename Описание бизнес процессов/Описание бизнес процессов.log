@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7380 64-bit) (preloaded format=pdflatex 2020.4.17)  30 APR 2020 10:16
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7380 64-bit) (preloaded format=pdflatex 2020.4.17)  4 MAY 2020 23:42
 entering extended mode
 **"./Описание бизнес процессов.tex"
 ("Описание бизнес процессов.tex"
@@ -2051,7 +2051,7 @@ Underfull \hbox (badness 10000) in alignment at lines 1--82
  []
 
 
-Underfull \hbox (badness 10000) in alignment at lines 82--118
+Underfull \hbox (badness 10000) in alignment at lines 82--122
 [] [] [] []
  []
 
@@ -2074,13 +2074,13 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 40493 strings out of 480930
- 759098 string characters out of 2909535
+ 40494 strings out of 480930
+ 759125 string characters out of 2909535
  1236824 words of memory out of 3000000
- 55286 multiletter control sequences out of 15000+200000
+ 55287 multiletter control sequences out of 15000+200000
  562236 words of font info for 93 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 67i,15n,105p,1419b,945s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 67i,15n,105p,1419b,961s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/t2/t2a.enc} <C:\Users\PashkovKV\
 AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1095.pk> <C:\Us
 ers\PashkovKV\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm0
@@ -2090,7 +2090,7 @@ es/MiKTeX 2.9/fonts/type1/public/pscyr/textb19.pfb><C:/Program Files/MiKTeX 2.9
 /fonts/type1/public/pscyr/textb20.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
 public/pscyr/textb20.pfb>
 Output written on "Описание бизнес процессов.pdf" (38 pa
-ges, 320421 bytes).
+ges, 321043 bytes).
 PDF statistics:
  940 PDF objects out of 1000 (max. 8388607)
  195 named destinations out of 1000 (max. 500000)
