@@ -83,3 +83,5 @@
 \contentsline {subsection}{\numberline {14.12}Цены в документе <<Установка цен номенклатуры>>}{23}{subsection.0.14.12}%
 \contentsline {subsection}{\numberline {14.13}Цены в документе <<Перемещение товаров>>}{23}{subsection.0.14.13}%
 \contentsline {section}{\numberline {\CYRA }Приложение: Константы и их описание}{24}{section.Alph0.1}%
+\contentsline {section}{\numberline {\CYRB }Приложение: Места с изменениями}{34}{section.Alph0.2}%
+\contentsline {paragraph}{\numberline {\CYRB .0.0.1}При открытии документа корректно заполняется значение глобальной переменной НомерДокументаКассыККМ}{34}{paragraph.Alph0.2.0.0.1}%
