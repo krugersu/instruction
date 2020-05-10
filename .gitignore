@@ -285,3 +285,20 @@ TSWLatexianTemp*
 Описание бизнес процессов/Описание бизнес процессов.log
 Описание бизнес процессов/Описание бизнес процессов.synctex.gz
 *.gz
+Doc_IP/build/html/_static/basic.css
+Doc_IP/build/html/_static/_stemmer.js
+*.css
+*.js
+*.woff2
+*.woff
+*.ttf
+*.svg
+*.template
+*.map
+*.pickle
+*.doctree
+Doc_IP/build/html/.buildinfo
+*.eot
+*.html
+*.inv
+*.xml
