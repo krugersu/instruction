@@ -63,6 +63,7 @@
 \contentsline {subsection}{\numberline {12.12}ЗаплаткиМОТП}{18}{subsection.0.12.12}%
 \contentsline {subsection}{\numberline {12.13}ВесыДобавлениеPLU}{18}{subsection.0.12.13}%
 \contentsline {subsection}{\numberline {12.14}Халва\_В\_РМК}{18}{subsection.0.12.14}%
+\contentsline {subsection}{\numberline {12.15}ДоработкаПоДисконту}{18}{subsection.0.12.15}%
 \contentsline {section}{\numberline {13}Справочники}{19}{section.0.13}%
 \contentsline {subsection}{\numberline {13.1}Номенклатура}{19}{subsection.0.13.1}%
 \contentsline {subsection}{\numberline {13.2}Организации}{19}{subsection.0.13.2}%
