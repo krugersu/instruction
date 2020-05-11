@@ -61,7 +61,7 @@
 %% titleformat определяет стиль
 %\titleformat{\chapter}[hang]{\Huge\bfseries}{\thechapter\hsp\textcolor{gray75}{|}\hsp}{0pt}{\Huge\bfseries}
 
-\usepackage{listings}      % для кусков программ 
+\usepackage{listings}      % для кусков программ
 % (понимает синтаксис некоторых языков, чума просто)
 \usepackage{alltt}         % для того же
 \usepackage{amssymb}       % прикольно для формул
@@ -73,7 +73,7 @@
 
 %********************
 % Набор предоставляет дополнительные математические символы, множество удобных возможностей для оформления математических формул (например, упрощённую работу с многострочными формулами) и используется почти во всех LaTeX-документах, в которых есть сколько-нибудь сложные формулы.
-%******************** 
+%********************
 \usepackage{amsmath}
 
 
@@ -151,7 +151,7 @@
 %*****************************************************
 
 %*****************************************************
-%Если вас не устраивает вид подрисуночной подписи (например, вместо "Рис. 1:" необходимо "Рис. 1 --- "), используйте пакет caption. В частности, для установки тире в качестве разделителя, вставьте в преамбулу документа следующий код: 
+%Если вас не устраивает вид подрисуночной подписи (например, вместо "Рис. 1:" необходимо "Рис. 1 --- "), используйте пакет caption. В частности, для установки тире в качестве разделителя, вставьте в преамбулу документа следующий код:
 \RequirePackage{caption}
 \DeclareCaptionLabelSeparator{defffis}{ --- }
 \captionsetup{justification=centering,labelsep=defffis}
@@ -162,8 +162,8 @@
 %*****************************************************
 %Как сделать, чтобы уравнения нумеровались независимо по главам в LaTeX?
 %В преамбуле
-\makeatletter \@addtoreset{equation}{section} \makeatother 
-\makeatletter \@addtoreset{figure}{section} \makeatother 
+\makeatletter \@addtoreset{equation}{section} \makeatother
+\makeatletter \@addtoreset{figure}{section} \makeatother
 %*****************************************************
 
 \addto\captionsrussian{
@@ -189,7 +189,7 @@
 \hypersetup{pdfstartview=FitH,  linkcolor=linkcolor,urlcolor=urlcolor, colorlinks=true}
 %*****************************************************
 
-%***************************************************** 
+%*****************************************************
 %Для удаления номеров страниц из \listoffigures
 \makeatletter
 \newcommand{\emptypage}[1]{%
@@ -320,7 +320,7 @@
 
 \newdate{date}{28}{01}{2016}
 \date{\displaydate{date}}
-%Increase the value of tocdepth and secnumdepth. The tocdepth value determines to which level the sectioning commands are printed in the ToC (they are always included in the .toc file but ignored otherwise). The secnumdepth value determines up to what level the sectioning titles are numbered. They are LaTeX counters and you can set them using 
+%Increase the value of tocdepth and secnumdepth. The tocdepth value determines to which level the sectioning commands are printed in the ToC (they are always included in the .toc file but ignored otherwise). The secnumdepth value determines up to what level the sectioning titles are numbered. They are LaTeX counters and you can set them using
 \setcounter{tocdepth}{1}
 \setcounter{secnumdepth}{4}
 
@@ -344,19 +344,19 @@
 \def\captable{table}
 
 \long\def\@makecaption#1#2{%
-	
+
 	\vskip\abovecaptionskip
-	
+
 	\ifx\@captype\capfigure
-	
+
 	\centering #1~--~#2 \par
-	
+
 	\else
-	
+
 	#1~--~#2 \par
-	
+
 	\fi
-	
+
 	\vskip\belowcaptionskip}
 
 \setlength\abovecaptionskip{2\p@}
@@ -386,9 +386,9 @@
 \newenvironment{algorithm}[1]
 {\begin{figure}[btp]\def\algcptn{\caption{#1}}\begin{basealgorithm}}
 		{\end{basealgorithm}\algcptn\end{figure}}
-	
-	
-	
+
+
+
 %**********************************
 % Todo notes - example from http://www.texample.net/tikz/examples/todo-notes/
 \usepackage{verbatim}
@@ -435,13 +435,13 @@
 
 
 
-	
+
 \renewcommand{\cftchapfont}{\scshape}
 \renewcommand{\cftsecfont}{\bfseries}
 %\renewcommand{\cftfigfont}{Figure }
 %\renewcommand{\cfttabfont}{Table }
-	
-\usepackage{eso-pic}	
+
+\usepackage{eso-pic}
 
 
 \AddToShipoutPicture{%
@@ -460,7 +460,7 @@
 }%
 
 %How can I put real notes in the margin?
-%**********************************************************	
+%**********************************************************
 \usepackage{xparse}
 \usepackage{tikz}
 \usetikzlibrary{calc,fit, decorations.pathmorphing}
@@ -481,7 +481,7 @@
 				{\pgfmathresult\pgfdecorationsegmentamplitude}
 			}
 		}
-		{%TO 
+		{%TO
 			\pgfpointadd{\pgfpointdecoratedinputsegmentlast}{\pgfpoint{1pt}{1pt}}
 		}
 	}
@@ -509,14 +509,14 @@
 \usepackage[os=win]{menukeys}
 % меняестся стиль, тени у кнопок
 %**********************************************************
-%\changemenucolor{gray}{txt}{named}{red} %Изменение цвета 
+%\changemenucolor{gray}{txt}{named}{red} %Изменение цвета
 \renewmenumacro{\keys}[>]{shadowedroundedkeys}
 \renewmenumacro{\menu}{roundedmenus} % default: menus
 %\newmenumacro{\button}
 %**********************************************************
 
 
-% белые кнопки вызов \keystroke{Ctrl} 
+% белые кнопки вызов \keystroke{Ctrl}
 \newcommand*\keystroke[1]{%
 	\tikz[baseline=(key.base)]
 	\node[%
@@ -613,3 +613,17 @@
 %\setlength{\textfloatsep}{10pt plus 1.0pt minus 2.0pt}
 %\setlength{\floatsep}{5pt plus 1.0pt minus 1.0pt}
 %\setlength{\intextsep}{5pt plus 1.0pt minus 1.0pt}
+
+
+%************************************************************
+%иЧекбокс лист
+%************************************************************
+\usepackage{amssymb}
+\newlist{todolist}{itemize}{2}
+\setlist[todolist]{label=$\square$}
+\usepackage{pifont}
+\newcommand{\cmark}{\ding{51}}%
+\newcommand{\xmark}{\ding{55}}%
+\newcommand{\done}{\rlap{$\square$}{\raisebox{2pt}{\large\hspace{1pt}\cmark}}%
+    \hspace{-2.5pt}}
+\newcommand{\wontfix}{\rlap{$\square$}{\large\hspace{1pt}\xmark}}
