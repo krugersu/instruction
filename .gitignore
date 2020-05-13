@@ -302,3 +302,7 @@ Doc_IP/build/html/.buildinfo
 *.html
 *.inv
 *.xml
+*.aux
+*.log
+*.log
+Описание бизнес процессов/Описание бизнес процессов.aux

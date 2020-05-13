@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7380 64-bit) (preloaded format=pdflatex 2020.4.17)  10 MAY 2020 14:06
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7420 64-bit) (preloaded format=pdflatex 2020.5.13)  13 MAY 2020 13:53
 entering extended mode
 **"./Описание бизнес процессов.tex"
 ("Описание бизнес процессов.tex"
 LaTeX2e <2020-02-02> patch level 5
-L3 programming layer <2020-04-06> (preambula.tex
+L3 programming layer <2020-05-11> (preambula.tex
 ("C:\Program Files\MiKTeX 2.9\tex/latex/base\report.cls"
 Document Class: report 2019/12/20 v1.4l Standard LaTeX document class
 ("C:\Program Files\MiKTeX 2.9\tex/latex/base\size11.clo"
@@ -244,11 +244,18 @@ Package: inputenc 2018/08/11 v1.3c Input encoding file
 \inpenc@posthook=\toks16
 )
 ("C:\Program Files\MiKTeX 2.9\tex/generic/babel\babel.sty"
-Package: babel 2020/03/22 3.42 The Babel package
+Package: babel 2020/04/28 3.43 The Babel package
 
-("C:\Program Files\MiKTeX 2.9\tex/generic/babel\switch.def"
-File: switch.def 2020/03/22 3.42 Babel switching mechanism
+("C:\Program Files\MiKTeX 2.9\tex/generic/babel\babel.def"
+File: babel.def 2020/04/28 3.43 Babel common definitions
+\babel@savecnt=\count176
+\U@D=\dimen135
+
+("C:\Program Files\MiKTeX 2.9\tex/generic/babel\txtbabel.def")
+\bbl@readstream=\read2
 )
+\bbl@dirlevel=\count177
+
 *************************************
 * Local config file bblopts.cfg used
 *
@@ -258,16 +265,6 @@ File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
 )
 ("C:\Program Files\MiKTeX 2.9\tex/latex/babel-russian\russianb.ldf"
 Language: russian 2017/08/12 1.3j Russian support for the Babel system
-
-("C:\Program Files\MiKTeX 2.9\tex/generic/babel\babel.def"
-File: babel.def 2020/03/22 3.42 Babel common definitions
-\babel@savecnt=\count176
-\U@D=\dimen135
-
-("C:\Program Files\MiKTeX 2.9\tex/generic/babel\txtbabel.def")
-\bbl@readstream=\read2
-\bbl@dirlevel=\count177
-)
 Package babel Info: Making " an active character on input line 120.
 Package babel Info: Default for \cyrdash is provided on input line 157.
 ))
@@ -378,7 +375,7 @@ Reading file "Описание бизнес процессов".hst...
 \vh@verfile=\write3
 )
 ("C:\Program Files\MiKTeX 2.9\tex/latex/tcolorbox\tcolorbox.sty"
-Package: tcolorbox 2019/11/15 version 4.22 text color boxes
+Package: tcolorbox 2020/04/28 version 4.30 text color boxes
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/pgf/basiclayer\pgf.sty"
 ("C:\Program Files\MiKTeX 2.9\tex/latex/pgf/utilities\pgfrcs.sty"
@@ -638,7 +635,7 @@ Package: etoolbox 2019/09/21 v2.5h e-TeX tools for LaTeX (JAW)
 \tcb@phantombox=\box63
 \c@tcbbreakpart=\count272
 \c@tcblayer=\count273
-\tcolorbox@number=\count274
+\c@tcolorbox@number=\count274
 \tcb@temp=\box64
 \tcb@temp=\box65
 \tcb@temp=\box66
@@ -647,12 +644,12 @@ Package: etoolbox 2019/09/21 v2.5h e-TeX tools for LaTeX (JAW)
 \tcb@record@out=\write6
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/tcolorbox\tcbraster.code.tex"
-Library (tcolorbox): 'tcbraster.code.tex' version '4.22'
+Library (tcolorbox): 'tcbraster.code.tex' version '4.30'
 \c@tcbrastercolumn=\count275
 \c@tcbrasterrow=\count276
 \c@tcbraster=\count277
 ) ("C:\Program Files\MiKTeX 2.9\tex/latex/tcolorbox\tcbskins.code.tex"
-Library (tcolorbox): 'tcbskins.code.tex' version '4.22'
+Library (tcolorbox): 'tcbskins.code.tex' version '4.30'
 ("C:\Program Files\MiKTeX 2.9\tex/latex/pgf/frontendlayer\tikz.sty"
 ("C:\Program Files\MiKTeX 2.9\tex/latex/pgf/utilities\pgffor.sty"
 ("C:\Program Files\MiKTeX 2.9\tex/latex/pgf/utilities\pgfkeys.sty"
@@ -709,16 +706,16 @@ File: tikzlibrarytopaths.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 \tcb@waterbox=\box72
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/tcolorbox\tcbskinsjigsaw.code.tex"
-Library (tcolorbox): 'tcbskinsjigsaw.code.tex' version '4.22'
+Library (tcolorbox): 'tcbskinsjigsaw.code.tex' version '4.30'
 )) ("C:\Program Files\MiKTeX 2.9\tex/latex/tcolorbox\tcbbreakable.code.tex"
-Library (tcolorbox): 'tcbbreakable.code.tex' version '4.22'
+Library (tcolorbox): 'tcbbreakable.code.tex' version '4.30'
 \tcb@testbox=\box73
 \tcb@totalupperbox=\box74
 \tcb@totallowerbox=\box75
 ) ("C:\Program Files\MiKTeX 2.9\tex/latex/tcolorbox\tcbhooks.code.tex"
-Library (tcolorbox): 'tcbhooks.code.tex' version '4.22'
+Library (tcolorbox): 'tcbhooks.code.tex' version '4.30'
 ) ("C:\Program Files\MiKTeX 2.9\tex/latex/tcolorbox\tcbtheorems.code.tex"
-Library (tcolorbox): 'tcbtheorems.code.tex' version '4.22'
+Library (tcolorbox): 'tcbtheorems.code.tex' version '4.30'
 ("C:\Program Files\MiKTeX 2.9\tex/latex/amsmath\amsmath.sty"
 Package: amsmath 2020/01/20 v2.17e AMS math features
 \@mathmargin=\skip55
@@ -778,19 +775,19 @@ LaTeX Info: Redefining \[ on input line 2859.
 LaTeX Info: Redefining \] on input line 2860.
 ))
 ("C:\Program Files\MiKTeX 2.9\tex/latex/tcolorbox\tcbfitting.code.tex"
-Library (tcolorbox): 'tcbfitting.code.tex' version '4.22'
+Library (tcolorbox): 'tcbfitting.code.tex' version '4.30'
 \tcbfitdim=\dimen265
 \tcb@lowerfitdim=\dimen266
 \tcb@upperfitdim=\dimen267
 \tcb@cur@hbadness=\count299
 ) ("C:\Program Files\MiKTeX 2.9\tex/latex/tcolorbox\tcbxparse.code.tex"
-Library (tcolorbox): 'tcbxparse.code.tex' version '4.22'
+Library (tcolorbox): 'tcbxparse.code.tex' version '4.30'
 ("C:\Program Files\MiKTeX 2.9\tex/latex/l3packages/xparse\xparse.sty"
 ("C:\Program Files\MiKTeX 2.9\tex/latex/l3kernel\expl3.sty"
-Package: expl3 2020-04-06 L3 programming layer (loader) 
+Package: expl3 2020-05-11 L3 programming layer (loader) 
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/l3backend\l3backend-pdfmode.def"
-File: l3backend-pdfmode.def 2020-03-12 L3 backend support: PDF mode
+File: l3backend-pdfmode.def 2020-05-05 L3 backend support: PDF mode
 \l__kernel_color_stack_int=\count300
 \l__pdf_internal_box=\box78
 ))
@@ -801,10 +798,13 @@ Package: xparse 2020-03-06 L3 Experimental document command parser
 \l__xparse_v_nesting_int=\count304
 ))
 ("C:\Program Files\MiKTeX 2.9\tex/latex/tcolorbox\tcblistingsutf8.code.tex"
-Library (tcolorbox): 'tcblistingsutf8.code.tex' version '4.22'
-("C:\Program Files\MiKTeX 2.9\tex/latex/listingsutf8\listingsutf8.sty"
-Package: listingsutf8 2019-12-10 v1.5 Allow UTF-8 in listings input (HO)
-
+Library (tcolorbox): 'tcblistingsutf8.code.tex' version '4.30'
+("C:\Program Files\MiKTeX 2.9\tex/latex/tcolorbox\tcblistings.code.tex"
+Library (tcolorbox): 'tcblistings.code.tex' version '4.30'
+("C:\Program Files\MiKTeX 2.9\tex/latex/tcolorbox\tcblistingscore.code.tex"
+Library (tcolorbox): 'tcblistingscore.code.tex' version '4.30'
+("C:\Program Files\MiKTeX 2.9\tex/latex/tcolorbox\tcbprocessing.code.tex"
+Library (tcolorbox): 'tcbprocessing.code.tex' version '4.30'
 ("C:\Program Files\MiKTeX 2.9\tex/latex/pdftexcmds\pdftexcmds.sty"
 Package: pdftexcmds 2019/11/24 v0.31 Utility functions of pdfTeX for LuaTeX (HO
 )
@@ -822,31 +822,28 @@ Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
 )
+("C:\Program Files\MiKTeX 2.9\tex/latex/tools\shellesc.sty"
+Package: shellesc 2019/11/08 v1.0c unified shell escape interface for LaTeX
+Package shellesc Info: Restricted shell escape enabled on input line 77.
+))
+\c@tcblisting=\count305
+))
+("C:\Program Files\MiKTeX 2.9\tex/latex/listingsutf8\listingsutf8.sty"
+Package: listingsutf8 2019-12-10 v1.5 Allow UTF-8 in listings input (HO)
+
 ("C:\Program Files\MiKTeX 2.9\tex/generic/stringenc\stringenc.sty"
 Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
 )
 
 ("C:\Program Files\MiKTeX 2.9\tex/generic/pdfescape\pdfescape.sty"
 Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
-)))
-("C:\Program Files\MiKTeX 2.9\tex/latex/tcolorbox\tcblistings.code.tex"
-Library (tcolorbox): 'tcblistings.code.tex' version '4.22'
-("C:\Program Files\MiKTeX 2.9\tex/latex/tcolorbox\tcblistingscore.code.tex"
-Library (tcolorbox): 'tcblistingscore.code.tex' version '4.22'
-("C:\Program Files\MiKTeX 2.9\tex/latex/tcolorbox\tcbprocessing.code.tex"
-Library (tcolorbox): 'tcbprocessing.code.tex' version '4.22'
-("C:\Program Files\MiKTeX 2.9\tex/latex/tools\shellesc.sty"
-Package: shellesc 2019/11/08 v1.0c unified shell escape interface for LaTeX
-Package shellesc Info: Restricted shell escape enabled on input line 77.
-))
-\c@tcblisting=\count305
-)))
+))))
 ("C:\Program Files\MiKTeX 2.9\tex/latex/tcolorbox\tcbexternal.code.tex"
-Library (tcolorbox): 'tcbexternal.code.tex' version '4.22'
+Library (tcolorbox): 'tcbexternal.code.tex' version '4.30'
 ) ("C:\Program Files\MiKTeX 2.9\tex/latex/tcolorbox\tcbmagazine.code.tex"
-Library (tcolorbox): 'tcbmagazine.code.tex' version '4.22'
+Library (tcolorbox): 'tcbmagazine.code.tex' version '4.30'
 ) ("C:\Program Files\MiKTeX 2.9\tex/latex/tcolorbox\tcbvignette.code.tex"
-Library (tcolorbox): 'tcbvignette.code.tex' version '4.22'
+Library (tcolorbox): 'tcbvignette.code.tex' version '4.30'
 
 ("C:\Program Files\MiKTeX 2.9\tex/generic/pgf/frontendlayer/tikz/libraries\tikz
 libraryfadings.code.tex"
@@ -856,7 +853,7 @@ File: tikzlibraryfadings.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 tex"
 File: pgflibraryfadings.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 ))) ("C:\Program Files\MiKTeX 2.9\tex/latex/tcolorbox\tcbposter.code.tex"
-Library (tcolorbox): 'tcbposter.code.tex' version '4.22'
+Library (tcolorbox): 'tcbposter.code.tex' version '4.30'
 )) ("C:\Program Files\MiKTeX 2.9\tex/latex/shorttoc\shorttoc.sty"
 Package: shorttoc 2002/08/20 v1.3 Short table of contents (JPFD)
 )
@@ -1103,10 +1100,10 @@ LaTeX Info: Redefining \daterussian on input line 64.
 \dt@b=\toks50
 )
 ("C:\Program Files\MiKTeX 2.9\tex/latex/caption\caption.sty"
-Package: caption 2020/01/03 v3.4h Customizing captions (AR)
+Package: caption 2020/05/10 v3.4j Customizing captions (AR)
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/caption\caption3.sty"
-Package: caption3 2020/01/03 v1.8h caption3 kernel (AR)
+Package: caption3 2020/05/10 v1.11 caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 61.
 \captionmargin=\dimen283
 \captionmargin@=\dimen284
@@ -2093,13 +2090,13 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 40505 strings out of 480930
- 759339 string characters out of 2909535
- 1238132 words of memory out of 3000000
- 55292 multiletter control sequences out of 15000+200000
+ 40646 strings out of 480811
+ 761873 string characters out of 2905895
+ 1242306 words of memory out of 3000000
+ 55557 multiletter control sequences out of 15000+200000
  562236 words of font info for 93 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 67i,15n,105p,1419b,961s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 69i,15n,105p,1419b,961s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/t2/t2a.enc} <C:\Users\PashkovKV\
 AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1095.pk> <C:\Us
 ers\PashkovKV\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm0
