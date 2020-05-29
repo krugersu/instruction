@@ -335,6 +335,17 @@
 
 \newunicodechar{⚠}{\Warning}
 
+
+\usepackage{blindtext}
+\usepackage{pifont,mdframed}
+
+\newenvironment{warning}
+{\par\begin{mdframed}[linewidth=2pt,linecolor=red]%
+        \begin{list}{}{\leftmargin=1cm
+                \labelwidth=\leftmargin}\item[\Large \Warning]} %				\labelwidth=\leftmargin}\item[\Large\ding{43}]}
+        {\end{list}\end{mdframed}\par}
+
+
 %\renewcommand{\arraystretch}{1.8} %% расстояние между строками таблицы
 % объявляем новую команду для переноса строки внутри ячейки таблицы
 \newcommand{\specialcell}[2][c]{%
