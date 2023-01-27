@@ -1,39 +1,88 @@
-\subsection{Сумма по эквайрингу меньше суммы б/н в Z-отчете}
+\section{Описание алгоритма}
 
-
-\begin{itemize}	
-	\item Ситуация возникает, когда при проведении платежа, обмен с банком и списание денег с карты клиента не происходит, а чек через фискальный регистратор пробивается. Или при <<лишнем>> отложенном чеке.
+\begin{itemize}
 	
-	
+\item Структура проекта
 
-	
-	\begin{figure}[H]
-		\includegraphics[width=1.0\textwidth]{27.jpg}
-		\caption{<<Безнал>>.}
-		\label{ris:27.jpg}
-	\end{figure}
-	Здесь видно, что сумма по безналу на 100 р. больше суммы по эквайрингу.  (Рис.~\ref{ris:27.jpg})
-	\item Необходимо создать чек на компьютере товароведа, со следующими особенностями:
-	\begin{itemize}[label={--}]
-		\item Вид операции <<Возврат>>
-		\item Вид оплаты <<Платежная карта>>
-		\item На необходимую сумму
-		\item Сегодняшним днем
-	    \item Используя для этого тот товар, который \textbf{продавался сегодня по этой кассе, по безналу!} 
-	\end{itemize}
+\begin{figure}[H]
+	\includegraphics[width=0.95\textwidth]{code.png}
+	\caption{<<Структура проекта>>.}
+	\label{ris:code.png}
+\end{figure}
 
-%	\begin{myquote}
+\subsection{Алгоритм}
+\item При запуске программы происходит чтение настроек. Если чтение удачно, запускается функция <<main()>>, в противном случае программа завершает свою работу.
 
-%	\end{myquote}
+%\begin{figure}[H]
+%	\includegraphics[width=0.65\textwidth]{code1.png}
+%	\caption{<<Структура проекта>>.}
+%	\label{ris:code1.png}
+%\end{figure}
 
-	\begin{warning}
-	\textbf{Внимание!!! Нельзя использовать для чеков коррекции алкоголь!!!}
-	\end{warning}
-	
-	\item Чек записать
-	\item Перейти на кассовый компьютер 	
-	\item Пробить его согласно «инструкции для кассиров п2.1 параграф <<Г>>
-		
-    
-	
+
+\begin{tcolorbox}
+	\begin{lstlisting}[language=Python,ndkeywordstyle=\color{darkgray}\bfseries,identifierstyle=\color{black},stringstyle=\color{red}\ttfamily,showstringspaces=false,keepspaces=true,extendedchars=\true]
+if __name__ == "__main__":
+
+	# Чтение настроек
+	m_conf = m_config.m_Config()   
+	rc =  m_conf.loadConfig()
+	if not rc == None:
+		main()
+	else:
+		logger.info(u'Программа завершила работу') 
+	\end{lstlisting}
+\end{tcolorbox}
+
+\par
+
+\item При запуске функции <<main()>> происходит соединение с базой данных и создается объект для работы с ней, так же создается объект для работы с Http запросами.
+
+\begin{tcolorbox}
+	\begin{lstlisting}[language=Python,ndkeywordstyle=\color{darkgray}\bfseries,identifierstyle=\color{black},stringstyle=\color{red}\ttfamily,showstringspaces=false,keepspaces=true,extendedchars=\true]
+    tData = db.workDb(rc)
+	rec_con = m_request.req1C(rc)
+	\end{lstlisting}
+\end{tcolorbox}
+
+
+\item Получаем список смен которые были открыты с последней зафиксированной даты, если появились новые открытые смены, тогда формируем и отправляем Http запрос в 1С. 
+Если код возврата был успешным (\textbf{200}), тогда меняем дату в файле, на дату открытия последней смены.
+
+\begin{tcolorbox}
+	\begin{lstlisting}[language=Python,ndkeywordstyle=\color{darkgray}\bfseries,identifierstyle=\color{black},stringstyle=\color{red}\ttfamily,showstringspaces=false,keepspaces=true,extendedchars=\true]
+ # Список открытых смен от последнего зафиксированного времени
+	l_workshift_open = tData.get_last_workshift_open()
+	# Если нечего отправлять, то не отправляем
+	if len(l_workshift_open) > 0:
+		status_code = rec_con.post_workshift_open(l_workshift_open)
+	# Меняем дату в файле только в случае успешного результата работы 1C
+		if status_code == 200:
+			tData.save_new_date_open()
+		else:
+			logger.info(u'status_code_open - ' + str(status_code ))
+	\end{lstlisting}
+\end{tcolorbox}
+
+
+\item Получаем список смен которые были закрыты с последней зафиксированной даты, если появились новые закрытые смены, тогда формируем и отправляем Http запрос в 1С. 
+Если код возврата был успешным (\textbf{200}), тогда меняем дату в файле, на дату закрытия последней смены.
+
+\begin{tcolorbox}
+	\begin{lstlisting}[language=Python,ndkeywordstyle=\color{darkgray}\bfseries,identifierstyle=\color{black},stringstyle=\color{red}\ttfamily,showstringspaces=false,keepspaces=true,extendedchars=\true]
+	# Список закрытых смен от последнего зафиксированного времени
+	l_workshift = tData.get_last_workshift()
+	# Если нечего отправлять, то и  не отправляем
+	if len(l_workshift) > 0:
+		status_code = rec_con.post_workshift(l_workshift)
+	# Меняем дату в файле только в случае успешного результата работы 1С
+		if status_code == 200:
+			tData.save_new_date()
+		else:
+			logger.info(u'status_code - ' + str(status_code ))
+	\end{lstlisting}
+\end{tcolorbox}
+
+\item Завершаем работу программы.
+
 \end{itemize}

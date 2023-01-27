@@ -12,7 +12,8 @@
 
 \makeatletter
 \newcommand*{\toccontents}{\@starttoc{toc}}
-\usepackage{pscyr}
+%\usepackage{pscyr}
+
 \usepackage[T2A]{fontenc}
 \usepackage[utf8]{inputenc}
 \renewcommand{\rmdefault}{CMR}
@@ -424,7 +425,12 @@
 
 
 
-
+\lstset{tabsize=4,
+	breaklines,
+	columns=fullflexible,
+	flexiblecolumns,
+	extendedchars=\true
+}
 
 	
 \renewcommand{\cftchapfont}{\scshape}
@@ -443,7 +449,7 @@
 			\begin{minipage}{\paperheight}
 				\fontsize{6}{6}\selectfont
 				%				\centering\textcopyright~\today{} ТД Крюгер
-					\textcopyright~ ТД Крюгер
+					\textcopyright~ ООО "КРЮГЕР ХАУС"
 	%				\textcopyright~ ТД Крюгер тел.техподдержки 8-913 016 0854
 			\end{minipage} %
 		}
