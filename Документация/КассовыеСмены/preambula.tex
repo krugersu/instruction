@@ -106,6 +106,8 @@
 \usepackage{caption}
 \usepackage{lastpage} % Allows referencing of the last page to allow footer to read: "Page [Current page] of [Total number of pages]."
 
+\usepackage{dirtree}
+
 \renewcommand{\familydefault}{\sfdefault} %Изменит стандартный шрифт документа на сансерифный.
 
 \definecolor{MSBlue}{rgb}{.204,.353,.541}
@@ -113,6 +115,37 @@
 %\titleformat*{\section}{\Large\bfseries\sffamily\color{MSBlue}}
 %\titleformat*{\subsection}{\large\bfseries\sffamily\color{MSLightBlue}}
 %\titleformat*{\subsubsection}{\itshape\subsubsectionfont}
+
+\newcommand{\shellcmd}[1]{\\\indent\indent\texttt{\footnotesize\# #1}\\}
+
+
+\lstdefinestyle{DOS}
+{
+	backgroundcolor=\color{black},
+	basicstyle=\scriptsize\color{white}\ttfamily
+}
+
+\lstdefinestyle{BashInputStyle}{
+	language=bash,
+	basicstyle=\small\sffamily,
+	numbers=left,
+	numberstyle=\tiny,
+	numbersep=3pt,
+	frame=tb,
+	columns=fullflexible,
+	backgroundcolor=\color{yellow!20},
+	linewidth=0.9\linewidth,
+	xleftmargin=0.1\linewidth
+}
+
+\newcommand*{\Package}[1]{\texttt{#1}}%
+
+\DeclareTotalTCBox{\commandbox}{ s v }
+{verbatim,colupper=white,colback=black!75!white,colframe=black}
+{\IfBooleanT{#1}%
+	\lstinline[language=command.com,keywordstyle=\color{blue!35!white}\bfseries]^#2^}
+
+
 
 \titleformat
 {\chapter} % command
