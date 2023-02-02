@@ -18,18 +18,26 @@
 \usepackage[utf8]{inputenc}
 \renewcommand{\rmdefault}{CMR}
 \usepackage[russian]{babel}
+
 \usepackage[dvipsnames]{xcolor}
 
-
+\usepackage[]{drawio}
 
 \usepackage{listings,newtxtt}
 \lstloadlanguages{Python}
+
+
 
 
 \definecolor{codegreen}{rgb}{0,0.6,0}
 \definecolor{codegray}{rgb}{0.5,0.5,0.5}
 \definecolor{codepurple}{rgb}{0.58,0,0.82}
 \definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+
+%\usepackage{caption}
+%\DeclareCaptionFont{white}{\color{white}}
+%\DeclareCaptionFormat{listing}{\colorbox{gray}{\parbox{\textwidth}{#1#2#3}}}
+%\captionsetup[lstlisting]{format=listing,labelfont=white,textfont=white}
 
 \lstdefinestyle{mystyle}{
 	backgroundcolor=\color{backcolour},   
@@ -660,7 +668,8 @@
 %\renewcommand{\textfraction}{10}
 
 
-
+%\renewcommand{\listingscaption}{Code}
+%\renewcommand{\listoflistingscaption}{List of source code examples}
 
 \setlength{\abovecaptionskip}{-1pt}
 \setlength{\belowcaptionskip}{-1pt}
