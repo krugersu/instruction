@@ -1,0 +1,49 @@
+\section{Установка и подготовка к использованию}
+\subsection{Начальные (текущие) системные требования}
+
+\begin{itemize}[label=$\ast$]
+	\item	Процессор - Intel(R) Atom(TM) CPU D2500 @ 1.86GHz, 2 ядра
+	\item	ОЗУ - 2 Гб 
+	\item	SSD - 120 ГБ
+	\item	Операционная система (не ниже)  - Ubuntu 22.04 jammy
+\end{itemize}	
+
+
+\subsection{Установленные пакеты}
+
+\begin{itemize}[label=$\ast$]
+	\item	Python версии >= 3.11
+	\item	Webmin (не обязательно) - панель для администрирования сервера 
+	\item	OpenSSH (установка \ref{itm:first})
+	\item	редактор Nano (установка \ref{itm:second} )
+\end{itemize}	
+
+
+%\marginnote{\Date{Пт.}{27}{Янв.}{2023}}[-40pt]
+%\setlist[1]{itemsep=-1pt}
+
+
+\subsection{Установка}
+
+\begin{itemize}
+	\item Копируем каталог <<Artix\_gen>> с программой на рабочий сервер
+	\item  Заходим в каталог <<src>> и выполняем команду
+	
+	\commandbox*{chmod +x artix\_gen.py} 
+	
+	Для того, что бы сделать файл скрипта исполняемым, в противном случае он не будет запускаться.  
+
+	\item Переходим в корневой каталог
+	
+	\commandbox*{cd ..} 
+ 
+	\item В корневом каталоге выполняем команду для создания виртуального окружения
+	
+	\commandbox*{python3.11 -m venv .venv} 
+
+   
+	\item  Выполняем команду для установки нужных пакетов
+	
+	\commandbox*{pip install -r requirements.txt} 
+	
+\end{itemize}
