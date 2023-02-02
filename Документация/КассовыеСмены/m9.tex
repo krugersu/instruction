@@ -54,7 +54,7 @@
 \newline
 
 
-	\begin{lstlisting}[language=Python, caption=Python example]
+	\begin{lstlisting}[language=Python, caption=Инициализация файлов с датами]
 def init_pr():
 
 	filename = '/home/administrator/Workshift_load/src/last_date.txt'
@@ -81,7 +81,7 @@ def init_pr():
 
 
 
-	\begin{lstlisting}[language=Python, caption=Python example]
+	\begin{lstlisting}[language=Python, caption=Начало работы]
 if __name__ == "__main__":
 
 	# Чтение настроек
@@ -113,7 +113,7 @@ exchange_cat = //192.168.0.239/obmen/dict/
 \item При запуске функции <<main()>> происходит соединение с базой данных и создается объект для работы с ней. Работа с БД осуществляется в файле <<db.py>>
 Создаем экземпляр класса "<workDb"> для работы с базой данных предавая в качестве параметра при инициализации объект содержащий текущие настройки программы полученные из "<ini"> файла.
 \newline
-	\begin{lstlisting}[language=Python, caption=Python example]
+	\begin{lstlisting}[language=Python, caption=Создание объекта БД]
     tData = db.workDb(rc)
 	\end{lstlisting}
 
@@ -121,7 +121,7 @@ exchange_cat = //192.168.0.239/obmen/dict/
 При инициализации происходит подключение к БД и возвращается текущий курсор.
 В качестве параметров строка подключения содержит: IP-адрес сервера, имя БД, имя и пароль пользователя.
 \newline
-	\begin{lstlisting}[language=Python, caption=Python example]
+	\begin{lstlisting}[language=Python, caption=Соединение с БД]
 self.mydb = pymysql.connect(host=rc._sections.artix.server_ip,......"IP-адрес сервера"
 							database=rc._sections.artix.database,............"имя БД"
 							user=rc._sections.artix.user,.........................."имя пользователя"
@@ -136,14 +136,14 @@ self._mycursor = self.mydb.cursor()  # cursor created
 Так же создается объект для работы с Http запросами.
 
 
-	\begin{lstlisting}[language=Python, caption=Python example]
+	\begin{lstlisting}[language=Python, caption=Объект запрос]
 	rec_con = m_request.req1C(rc)
 		\end{lstlisting}
 
 
 \item Получаем список смен которые были открыты с последней зафиксированной даты.
 
-	\begin{lstlisting}[language=Python, caption=Python example]
+	\begin{lstlisting}[language=Python, caption=Список открытых смен]
 	# Список открытых смен от последнего зафиксированного времени
 	l_workshift_open = tData.get_last_workshift_open()
 	\end{lstlisting}
@@ -151,15 +151,17 @@ self._mycursor = self.mydb.cursor()  # cursor created
 \newpage
 Получение списка открытых смен с момента последнего обращения к БД
 \newline
-	\begin{lstlisting}[language=Python, caption=Python example]
+	\begin{lstlisting}[language=Python, caption=Смены из БД]
 	# Читаем из файла дату открытия последней отправленной в УНФ смены
-	l_date = self.load_last_date_open()
+	l_date = self.load_last_date_open()
+
 	# Выполняем запрос с отбором по дате
 	# Текст запроса хранится в файле "diff_data.py"
 	
 	# "'SELECT shiftnum ,cashcode,CAST(time_beg AS char),shopcode  FROM workshift WHERE time_end IS NULL AND time_beg >%s  '"
 	
-	self._mycursor.execute(diff_data.qrSelect_workshift_open, [l_date])
+	self._mycursor.execute(diff_data.qrSelect_workshift_open, [l_date])
+
 	# Результат выполнения запроса
 	l_workshift = self._mycursor.fetchall()
 		\end{lstlisting}
@@ -184,7 +186,7 @@ self._mycursor = self.mydb.cursor()  # cursor created
 Если код возврата был успешным (\textbf{200}), тогда меняем дату в файле, на дату открытия последней смены.
 \newline
 
-	\begin{lstlisting}[language=Python, caption=Python example]
+	\begin{lstlisting}[language=Python, caption=Обработка результата]
  # Список открытых смен от последнего зафиксированного времени
 	l_workshift_open = tData.get_last_workshift_open()
 	# Если нечего отправлять, то не отправляем
@@ -202,7 +204,7 @@ self._mycursor = self.mydb.cursor()  # cursor created
 \item Получаем список смен которые были закрыты с последней зафиксированной даты, если появились новые закрытые смены, тогда формируем и отправляем Http запрос в 1С. 
 Если код возврата был успешным (\textbf{200}), тогда меняем дату в файле, на дату закрытия последней смены.
 \newline
-	\begin{lstlisting}[language=Python, caption=Python example]
+	\begin{lstlisting}[language=Python, caption=Закрытые смены]
 	# Список закрытых смен от последнего зафиксированного времени
 	l_workshift = tData.get_last_workshift()
 	# Если нечего отправлять, то и  не отправляем
