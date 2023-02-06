@@ -98,17 +98,15 @@ if __name__ == "__main__":
 
 Настройки хранятся в файле \path{/config/config.ini} . Примерный вариант файла настроек:
 
-\begin{tcolorbox}
-	\begin{verbatim}
-[artix]
-path = world
-tPriceQR = 1
-server_ip = 192.168.0.239
-exchange_cat = //192.168.0.239/obmen/dict/
-\end{verbatim}
-\end{tcolorbox}
 
-
+   \begin{lstlisting}[language={Ini}]
+	; comment1
+	[artix]
+	path = world
+	tPriceQR = 1
+	server_ip = 192.168.0.239
+	exchange_cat = //192.168.0.239/obmen/dict/
+\end{lstlisting}
 
 \item При запуске функции <<main()>> происходит соединение с базой данных и создается объект для работы с ней. Работа с БД осуществляется в файле <<db.py>>
 Создаем экземпляр класса "<workDb"> для работы с базой данных предавая в качестве параметра при инициализации объект содержащий текущие настройки программы полученные из "<ini"> файла.
@@ -182,6 +180,24 @@ self._mycursor = self.mydb.cursor()  # cursor created
 						 data=None, json = l_workshift_open)................................... Данные смен ККМ
 	return (r.status_code)
 \end{lstlisting} 
+ 
+В 1С данные отправляются в формате json. Пример файла:
+
+\begin{lstlisting}[language=json,firstnumber=1]
+	{"menu": {
+			"id": "file",
+			"value": "File",
+			"popup": {
+				"menuitem": [
+				{"value": "New", "onclick": "CreateNewDoc()"},
+				{"value": "Open", "onclick": "OpenDoc()"},
+				{"value": "Close", "onclick": "CloseDoc()"}
+				]
+			}
+	}}
+	0123456789
+\end{lstlisting}
+ 
  
 Если код возврата был успешным (\textbf{200}), тогда меняем дату в файле, на дату открытия последней смены.
 \newline
